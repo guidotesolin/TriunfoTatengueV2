@@ -1,0 +1,38 @@
+#divNavbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background: rgba(255, 0, 0, 0.8);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+
+.navbarElement {
+  transition: 0.4s;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.navbarElement:hover {
+  background-color: white;
+  color: red;
+  padding: 24px 10px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbarElement:hover {
+    background-color: white;
+    color: red;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+}

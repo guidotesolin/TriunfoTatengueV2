@@ -1,0 +1,102 @@
+#socialNetworks {
+  background-color: rgba(255, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#brandLogo {
+  height: 80px;
+  width: 80px;
+}
+
+#networks {
+  padding: 0;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.socialIcons {
+  color: red;
+}
+
+.socialIcons {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  border-radius: 30%;
+  box-shadow: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  position: relative;
+}
+.socialIcons i {
+  line-height: 60px;
+  font-size: 26px;
+  transition: 0.2s linear;
+}
+.socialIcons:hover i {
+  transform: scale(1.3);
+  color: #f1f1f1;
+}
+
+.socialIcons::before {
+  background: red;
+}
+.socialIcons::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+.socialIcons:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+@keyframes aaa {
+  0% {
+    top: -110%;
+    left: 90%;
+  }
+  50% {
+    top: 10%;
+    left: -30%;
+  }
+  100% {
+    top: -10%;
+    left: -10%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  #brandLogo {
+    height: 50px;
+    width: 50px;
+  }
+  #networks {
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  #brandLogo {
+    height: 50px;
+    width: 50px;
+  }
+  #networks {
+    padding: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: center;
+  }
+}
