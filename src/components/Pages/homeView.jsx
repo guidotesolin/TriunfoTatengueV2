@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Grid, List, ListItem } from "@material-ui/core";
-import styles from "../../assets/styles/homePageStyles";
+import styles from "../../assets/styles/homeViewStyles";
 
 export default function Homepage(props) {
   //const { } = props;
