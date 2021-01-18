@@ -6,6 +6,7 @@ import {
   Divider,
   Button,
   MobileStepper,
+  Link,
 } from "@material-ui/core";
 import styles from "../../assets/styles/prensaStyles";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
@@ -76,7 +77,16 @@ export default function PrensaMainPage() {
           <Grid
             style={{ marginTop: "5px", display: "flex", alignItems: "center" }}
           >
-            <Button className={classes.button}>Noticia completa</Button>
+            <Button className={classes.button}>
+              <Link
+                rel="noopener noreferrer"
+                target="_blank"
+                href={noticia.link}
+                className={classes.link}
+              >
+                Noticia completa
+              </Link>
+            </Button>
             <Typography className={classes.addedText}>
               <em>{dateToString(noticia.date)}</em>
             </Typography>
@@ -88,7 +98,7 @@ export default function PrensaMainPage() {
   };
 
   return (
-    <Grid container alignItems="center">
+    <Grid container style={{ justifyContent: "center" }} alignItems="center">
       <Grid item>
         <Typography className={classes.tituloSeccion}>PRENSA</Typography>
       </Grid>
@@ -108,27 +118,29 @@ export default function PrensaMainPage() {
       </Grid>
       <Grid item>
         <MobileStepper
+          className={classes.pagination}
           variant="dots"
           steps={avalaiblePages}
           position="static"
           activeStep={pageNumber}
           nextButton={
             <Button
+              className={classes.paginationButton}
               size="small"
               onClick={handleNext}
               disabled={pageNumber === avalaiblePages}
             >
-              Siguiente <KeyboardArrowRight />
+              <KeyboardArrowRight />
             </Button>
           }
           backButton={
             <Button
+              className={classes.paginationButton}
               size="small"
               onClick={handleBack}
               disabled={pageNumber === 0}
             >
               <KeyboardArrowLeft />
-              Anterior
             </Button>
           }
         />

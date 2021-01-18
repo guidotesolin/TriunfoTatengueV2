@@ -17,15 +17,29 @@ const PrensaStyles = makeStyles((theme) => {
     button: {
       borderRadius: "18px",
       backgroundColor: "#FF0000",
-      color: "#FFFFFF",
-      textTransform: "none",
       marginRight: "15px",
       "&:hover": {
         backgroundColor: "#FFFFFF",
+      },
+    },
+    link: {
+      paddingRight: "5px",
+      paddingLeft: "5px",
+      textTransform: "none",
+      textDecoration: "none",
+      color: "#FFFFFF",
+      "&:hover": {
         color: "#FF0000",
       },
     },
     addedText: { fontSize: "12px" },
+    pagination: {
+      background: "none",
+      dotActive: {
+        backgroundColor: "#FF0000",
+      },
+    },
+    paginationButton: { color: "#FF0000" },
   };
 });
 
