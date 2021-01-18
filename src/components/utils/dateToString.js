@@ -1,46 +1,30 @@
-const dateToString = (date) => {
-  const msPerDay = 1000 * 60 * 60 * 24;
-  const actualDate = new Date();
-  actualDate.setHours(0, 0, 0);
-  const added = Date.UTC(
-    date.getFullYear(),
-    date.getMonth(),
-    date.getDate()
-  );
-  const diffInDays = parseInt((actualDate - added) / msPerDay);
-  var TiempoTranscurrido;
-  var UnidadTranscurrido;
-  let today = false;
-  if (diffInDays < 30) {
-    TiempoTranscurrido = diffInDays;
-    if (diffInDays === 1) {
-      today = true;
+const dateToString = (addedDate) => {
+  const actualDateInt = parseInt(Date.now());
+  const dateAux = Date.parse(addedDate);
+  const difInMs = actualDateInt - dateAux;
+  const msPerDay = 24 * 60 * 60 * 1000;
+  const difInDays = Math.ceil(difInMs / msPerDay);
+  let difAsString;
+  if (difInDays < 30) {
+    if (difInDays === 1) {
+      difAsString = "Añadido hoy";
     } else {
-      UnidadTranscurrido = "días";
+      difAsString = `Añadido hace ${difInDays} días`;
     }
-  } else if (diffInDays < 365) {
-    TiempoTranscurrido = parseInt(diffInDays / 30);
-    if (diffInDays < 60) {
-      UnidadTranscurrido = "mes";
+  } else if (difInDays < 365) {
+    const months = parseInt(difInDays / 30);
+    if (difInDays < 60) {
+      difAsString = "Añadido hace un mes";
     } else {
-      UnidadTranscurrido = "meses";
+      difAsString = `Añadido hace ${months} meses`;
     }
-  } else if (diffInDays < 730) {
-    TiempoTranscurrido = 1;
-    UnidadTranscurrido = "año";
+  } else if (difInDays < 730) {
+    difAsString = "Añadido hace un año";
   } else {
-    TiempoTranscurrido = parseInt(diffInDays / 365);
-    UnidadTranscurrido = "años";
+    const years = parseInt(difInDays / 365);
+    difAsString = `Añadido hace ${years} años`;
   }
-  if (today) {
-    return <p>Añadido hoy</p>;
-  } else {
-    return (
-      <p>
-        Añadido hace {TiempoTranscurrido} {UnidadTranscurrido}
-      </p>
-    );
-  }
+  return difAsString;
 };
 
 export default dateToString;

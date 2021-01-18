@@ -7,10 +7,11 @@ import {
   Button,
   MobileStepper,
 } from "@material-ui/core";
-import styles from "../../assets/styles/agrupacionStyles";
+import styles from "../../assets/styles/prensaStyles";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 import Database from "../Prensa/database";
+import dateToString from "../utils/dateToString";
 
 export default function PrensaMainPage() {
   const classes = styles();
@@ -58,54 +59,80 @@ export default function PrensaMainPage() {
 
   const renderNoticia = (noticia) => {
     const gridNoticia = (
-      <Grid>
-        <Typography>{noticia.title}</Typography>
-        <Typography>{noticia.epigraph}</Typography>
-        <Typography>{noticia.text}</Typography>
+      <Grid className={classes.gridNoticia}>
+        <Grid>
+          <img
+            src={noticia.image}
+            alt={noticia.imageAlt}
+            className={classes.preview}
+          />
+        </Grid>
+        <Grid>
+          <Typography className={classes.title}>{noticia.title}</Typography>
+          <Typography className={classes.epigraph}>
+            {noticia.epigraph}
+          </Typography>
+          <Typography className={classes.text}>{noticia.text}</Typography>
+          <Grid
+            style={{ marginTop: "5px", display: "flex", alignItems: "center" }}
+          >
+            <Button className={classes.button}>Noticia completa</Button>
+            <Typography className={classes.addedText}>
+              <em>{dateToString(noticia.date)}</em>
+            </Typography>
+          </Grid>
+        </Grid>
       </Grid>
     );
     return gridNoticia;
   };
 
   return (
-    <Grid container>
-      <p>
-        Noticias: {prensa.length}, paginas disponibles: {avalaiblePages},
-        paginaActual: {pageNumber}{" "}
-      </p>
-      {pagination.length === 0 ? (
-        <CircularProgress />
-      ) : (
-        pagination.map((noticia, index) => {
-          return (
-            <Grid key={index}>
-              {renderNoticia(noticia)}
-              <Divider />
-            </Grid>
-          );
-        })
-      )}
-      <MobileStepper
-        variant="dots"
-        steps={avalaiblePages}
-        position="static"
-        activeStep={pageNumber}
-        nextButton={
-          <Button
-            size="small"
-            onClick={handleNext}
-            disabled={pageNumber === avalaiblePages}
-          >
-            Siguiente <KeyboardArrowRight />
-          </Button>
-        }
-        backButton={
-          <Button size="small" onClick={handleBack} disabled={pageNumber === 0}>
-            <KeyboardArrowLeft />
-            Anterior
-          </Button>
-        }
-      />
+    <Grid container alignItems="center">
+      <Grid item>
+        <Typography className={classes.tituloSeccion}>PRENSA</Typography>
+      </Grid>
+      <Grid item>
+        {pagination.length === 0 ? (
+          <CircularProgress />
+        ) : (
+          pagination.map((noticia, index) => {
+            return (
+              <Grid key={index}>
+                {renderNoticia(noticia)}
+                <Divider className={classes.divider} />
+              </Grid>
+            );
+          })
+        )}
+      </Grid>
+      <Grid item>
+        <MobileStepper
+          variant="dots"
+          steps={avalaiblePages}
+          position="static"
+          activeStep={pageNumber}
+          nextButton={
+            <Button
+              size="small"
+              onClick={handleNext}
+              disabled={pageNumber === avalaiblePages}
+            >
+              Siguiente <KeyboardArrowRight />
+            </Button>
+          }
+          backButton={
+            <Button
+              size="small"
+              onClick={handleBack}
+              disabled={pageNumber === 0}
+            >
+              <KeyboardArrowLeft />
+              Anterior
+            </Button>
+          }
+        />
+      </Grid>
     </Grid>
   );
 }
