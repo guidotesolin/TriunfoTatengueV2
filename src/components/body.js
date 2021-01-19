@@ -11,7 +11,8 @@ import Prensa from "./Pages/prensaView";
 import Opinion from "./Pages/opinionView";
 import Contacto from "./Pages/contactoView";
 import NotFound from "./NotFound/404";
-
+// Propuestas
+import Estatuto from "../components/Propuestas/estatutoView";
 export default function BodyPage() {
   return (
     <Container id="divBody">
@@ -23,6 +24,8 @@ export default function BodyPage() {
           <Route path="/prensa" component={Prensa} />
           <Route path="/opinion" component={Opinion} />
           <Route path="/contacto" component={Contacto} />
+          {/*Propuestas */}
+          <Route path="/propuestas_estatuto" component={Estatuto} />
           <Route component={NotFound} />
         </Switch>
       </HashRouter>

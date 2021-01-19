@@ -288,6 +288,20 @@ const getPrensa = () => {
       imageAlt: "Rodrigo villarreal",
       date: "2020-12-19",
     },
+    {
+      id: 21,
+      title: `"En Unión hay una falta de transparencia alarmante"`,
+      epigraph:
+        "Luis Rodríguez Peragallo, de Triunfo Tatengue, salió al cruce de las declaraciones de Luis Spahn, quien hace días atrás reconoció que sacó dinero de Unión.",
+      text: [
+        `En los últimos días Luis Spahn, presidente de Unión, le brindó una entrevista a Cablevideo Santo Tomé, donde reveló: "Retiré algo de fondo en enero y diciembre, cuando estuvo disponible. Después vino la pandemia y no retiré más porque empezamos a tener una economía incierta. El Covid nos robó 40 millones de pesos por falta de asistencia de público en los partidos internacionales. Trabajábamos en un predio con varios dueños pero con la inestabilidad cambiara decidieron no vender". Esto derivó en que Luis Rodríguez Peragallo, uno de los referentes de Triunfo Tatengue, salga a plasmar la postura de su agrupación ante estas declaraciones.`,
+      ],
+      link:
+        "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
+      image: "https://i.imgur.com/7agj8TE.jpg",
+      imageAlt: "Rodriguez Peragallo",
+      date: "2020-12-24",
+    },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
 
