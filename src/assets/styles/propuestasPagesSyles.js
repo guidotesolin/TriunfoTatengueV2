@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const PropuestasPageStyles = makeStyles((theme) => {
   return {
+    centerText: { textAlign: "center" },
     tituloSeccion: { color: "#364d84", marginBottom: "30px", fontSize: "30px" },
     downloadButton: {
       borderRadius: "18px",
@@ -15,6 +16,12 @@ const PropuestasPageStyles = makeStyles((theme) => {
       maxWidth: "60vh",
       marginTop: "10px",
       marginBottom: "10px",
+    },
+    pdfViewer: {
+      marginTop: "20px",
+      marginBottom: "20px",
+      height: "500px",
+      width: "80vh",
     },
     textButton: {
       paddingRight: "5px",

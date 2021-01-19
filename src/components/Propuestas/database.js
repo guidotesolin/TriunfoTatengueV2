@@ -16,9 +16,9 @@ const getPropuestas = () => {
     },
     {
       id: 1,
-      title: "Protocolo asamblea",
+      title: "Protocolo para la realización de la asamblea",
       epigraph:
-        "El objetivo del presente es el de efectuar recomendaciones generales para la realización de la ASAMBLEA GENERAL de la AGRUPACIÓN TRIUNFO TATENGUE, en un ámbito de seguridad colectiva, siguiendo las indicaciones desarrolladas",
+        "El objetivo del presente es la propuesta de la Agrupación Triunfo Tatengue con recomendaciones generales para la realización de la ASAMBLEA GENERAL, en un ámbito de seguridad colectiva, siguiendo las indicaciones desarrolladas",
       text: [
         "Las Asambleas de socios, en el marco del Estatuto vigente, deben realizarse en forma presencial, y es objetivo del presente documento definir las acciones necesarias para prevenir y gestionar de manera adecuada los riesgos generales del COVID-19 respecto de todos los participantes del presente evento.",
       ],

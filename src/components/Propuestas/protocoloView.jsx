@@ -1,15 +1,21 @@
 import React from "react";
-import { Grid, Typography, Button, Link } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import styles from "../../assets/styles/propuestasPagesSyles";
+import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
+import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
+import ProtocoloFile from "../../assets/documents/Protocolo.pdf";
 
-export default function Protocolo() {
+
+export default function ProtocoloView() {
   const classes = styles();
+  const workerUrl =
+    "https://unpkg.com/pdfjs-dist@2.4.456/build/pdf.worker.min.js";
 
   return (
     <Grid container direction="column" alignItems="center" justify="center">
-      <Grid item>
+      <Grid item className={classes.centerText}>
         <Typography className={classes.tituloSeccion}>
-          Protocolo para la realización de la asamblea general ordinaria
+          PROTOCOLO PARA LA REALIZACIÓN DE LA ASAMBLEA GENERAL ORDINARIA
         </Typography>
       </Grid>
       <Grid item>
@@ -28,10 +34,17 @@ export default function Protocolo() {
         </Typography>
       </Grid>
       <Grid item>
+        <Worker workerUrl={workerUrl}>
+          <Grid className={classes.pdfViewer}>
+            <Viewer fileUrl={ProtocoloFile} />
+          </Grid>
+        </Worker>
+      </Grid>
+      <Grid item>
         <Typography>
-          Esta nota ya ha sido presentada en el club el día 4 de enero de 2021 y
-          al día de hoy todavía no hemos tenido respuesta alguna de parte de la
-          dirigencia.
+          El protocolo junto con la correspondiente nota ya ha sido presentada
+          en el club el día 4 de enero de 2021 y al día de hoy todavía no hemos
+          tenido respuesta alguna de parte de la dirigencia.
         </Typography>
       </Grid>
       <Grid item>
@@ -40,19 +53,6 @@ export default function Protocolo() {
           alt="Nota presentada al club"
           className={classes.asambleaImages}
         />
-      </Grid>
-
-      <Grid item>
-        <Button className={classes.downloadButton}>
-          <Link
-            rel="noopener noreferrer"
-            target="_blank"
-            // href={linkEstatuto}
-            className={classes.textButton}
-          >
-            Descargar proyecto completo
-          </Link>
-        </Button>
       </Grid>
     </Grid>
   );

@@ -1,20 +1,32 @@
 import React from "react";
 import { Grid, Typography, Button, Link } from "@material-ui/core";
 import styles from "../../assets/styles/propuestasPagesSyles";
+import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
+import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
+import EstatutoFile from "../../assets/documents/Estatuto.pdf";
 
-export default function Estatuto() {
+export default function EstatutoView() {
   const classes = styles();
-
+  const workerUrl =
+    "https://unpkg.com/pdfjs-dist@2.4.456/build/pdf.worker.min.js";
   const linkEstatuto =
     "https://drive.google.com/file/d/18MIA5aZ4NDLFCgCbjU7yFLpdloC_mI9B/view?usp=sharing";
 
   return (
-    <Grid container justify="center">
+    <Grid container alignItems="center" direction="column" justify="center">
       <Grid item>
         <Typography className={classes.tituloSeccion}>
-          Nuestro anteproyecto de reforma de estatuto
+          NUESTRO ANTE PROYECTO DE REFORMA DE ESTATUTO
         </Typography>
       </Grid>
+      <Grid item>
+        <img
+          style={{ maxWidth: "60vh", marginBottom: "20px" }}
+          src="https://i.imgur.com/X2kULgl.png"
+          alt="Reforma de estatuto"
+        />
+      </Grid>
+
       <Grid item style={{ marginBottom: "10px" }}>
         <Typography>
           Hinchas y socios de <strong>UNIÓN</strong>, desde Triunfo Tatengue
@@ -121,6 +133,13 @@ export default function Estatuto() {
         </li>
         <br />
       </ul>
+      <Grid item>
+        <Worker workerUrl={workerUrl}>
+          <Grid className={classes.pdfViewer}>
+            <Viewer fileUrl={EstatutoFile} />
+          </Grid>
+        </Worker>
+      </Grid>
       <Grid item>
         <Button className={classes.downloadButton}>
           <Link
