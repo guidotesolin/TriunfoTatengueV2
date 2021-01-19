@@ -13,6 +13,8 @@ import Contacto from "./Pages/contactoView";
 import NotFound from "./NotFound/404";
 // Propuestas
 import Estatuto from "../components/Propuestas/estatutoView";
+import Protocolo from "../components/Propuestas/protocoloView";
+
 export default function BodyPage() {
   return (
     <Container id="divBody">
@@ -26,6 +28,8 @@ export default function BodyPage() {
           <Route path="/contacto" component={Contacto} />
           {/*Propuestas */}
           <Route path="/propuestas_estatuto" component={Estatuto} />
+          <Route path="/propuestas_protocolo" component={Protocolo} />
+
           <Route component={NotFound} />
         </Switch>
       </HashRouter>

@@ -20,9 +20,9 @@ const getPropuestas = () => {
       epigraph:
         "El objetivo del presente es el de efectuar recomendaciones generales para la realización de la ASAMBLEA GENERAL de la AGRUPACIÓN TRIUNFO TATENGUE, en un ámbito de seguridad colectiva, siguiendo las indicaciones desarrolladas",
       text: [
-        "Triunfo Tatengue redobla la apuesta y a un año de las elecciones en las que resultó electo el actual presidente, Luis Spahn, formula críticas a la gestión y señala: “Pasó un año y estamos peor. Se vendió por mucho dinero, se desvalorizó el plantel, no se sabe si se achicó la deuda con los acreedores, especialmente con el presidente, no hubo obras y se fue la figura más importante que era nuestro técnico”, señala Leonardo Simonutti, el presidente de este grupo político que resultó segundo en las elecciones del 1 de junio pasado.",
+        "Las Asambleas de socios, en el marco del Estatuto vigente, deben realizarse en forma presencial, y es objetivo del presente documento definir las acciones necesarias para prevenir y gestionar de manera adecuada los riesgos generales del COVID-19 respecto de todos los participantes del presente evento.",
       ],
-      link: "/propuestas/protocolo",
+      link: "/propuestas_protocolo",
       image: "https://i.imgur.com/gDLdxV8.jpg",
       imageAlt: "Protocolo asamblea",
       date: "2021-01-04",

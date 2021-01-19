@@ -11,6 +11,11 @@ const PropuestasPageStyles = makeStyles((theme) => {
         backgroundColor: "#FFFFFF",
       },
     },
+    asambleaImages: {
+      maxWidth: "60vh",
+      marginTop: "10px",
+      marginBottom: "10px",
+    },
     textButton: {
       paddingRight: "5px",
       paddingLeft: "5px",
