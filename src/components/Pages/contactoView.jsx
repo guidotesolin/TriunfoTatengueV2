@@ -7,9 +7,12 @@ import {
   Snackbar,
   CircularProgress,
 } from "@material-ui/core";
+import emailjs from "emailjs-com";
 import styles from "../../assets/styles/contactoStyles";
 import MuiAlert from "@material-ui/lab/Alert";
-import emailjs from "emailjs-com";
+import ValidateEmpty from "../utils/validateEmpty";
+import ValidateMail from "../utils/validateEmail";
+import ValidatePhone from "../utils/validatePhone";
 
 export default function Contacto() {
   const classes = styles();
@@ -19,7 +22,7 @@ export default function Contacto() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [text, setText] = useState("");
+  const [message, setMessage] = useState("");
   const [loader, setLoader] = useState(false);
 
   const handleChangeName = (event) => {
@@ -40,33 +43,26 @@ export default function Contacto() {
   const handleChangeText = (event) => {
     const newText = event.target.value;
     if (newText.length < 1501) {
-      setText(newText);
+      setMessage(newText);
     }
-  };
-
-  const emptyValidation = (text) => {
-    let validation = false;
-    for (var i = 0; i < text.length; i++) {
-      const character = text[i];
-      if (character !== "") {
-        validation = true;
-      }
-    }
-    return validation;
   };
 
   const handleSend = () => {
+    const validationName = ValidateEmpty(name);
+    const validationEmail = ValidateEmpty(email);
+    const validationEmailFormat = ValidateMail(email);
+    const validationPhone = ValidateEmpty(phone);
+    const validationPhoneFormat = ValidatePhone(phone);
+    const validationMesagge = ValidateEmpty(message);
     if (
-      !emptyValidation(name) &&
-      !emptyValidation(email) &&
-      !emptyValidation(phone)
+      !validationName &&
+      !validationEmail &&
+      !validationEmailFormat &&
+      !validationMesagge
     ) {
       setSnackbarErrorMsg("Todos los campos son obligatorios");
       setSnackbarError(true);
     } else {
-      const validationName = emptyValidation(name);
-      const validationEmail = emptyValidation(email);
-      const validationPhone = emptyValidation(phone);
       if (!validationName) {
         setSnackbarErrorMsg("El nombre no puede estar vacío");
         setSnackbarError(true);
@@ -75,11 +71,33 @@ export default function Contacto() {
         setSnackbarErrorMsg("El mail no puede estar vacío");
         setSnackbarError(true);
       }
+      if (!validationEmailFormat) {
+        setSnackbarErrorMsg("Ingrese un formato de email válido");
+        setSnackbarError(true);
+      }
+      if (!validationPhoneFormat) {
+        setSnackbarErrorMsg(
+          "El teléfono solo debe estar compuesto por numeros. No deje espacios en blanco"
+        );
+        setSnackbarError(true);
+      }
       if (!validationPhone) {
         setSnackbarErrorMsg("El teléfono no puede estar vacío");
         setSnackbarError(true);
       }
-      if (validationName && validationEmail && validationPhone) {
+
+      if (!validationMesagge) {
+        setSnackbarErrorMsg("Ingrese su consulta por favor");
+        setSnackbarError(true);
+      }
+      if (
+        validationName &&
+        validationEmail &&
+        validationEmailFormat &&
+        validationPhone &&
+        validationPhoneFormat &&
+        validationMesagge
+      ) {
         sendMail();
       }
     }
@@ -96,7 +114,7 @@ export default function Contacto() {
     params.nombre = name;
     params.mail = email;
     params.telefono = phone;
-    params.mensaje = text;
+    params.mensaje = message;
     emailjs.send(serviceID, templateID, params, userID).then(
       () => {
         setSnackbarSuccess(true);
@@ -108,7 +126,7 @@ export default function Contacto() {
           "Un error ha ocurrido cuando el mensaje se estaba enviando. Por favor comuniquese directamente con cualquiera nuestras redes sociales"
         );
         setSnackbarError(true);
-        console.log(err.text);
+        console.log(err.message);
         setLoader(false);
       }
     );
@@ -118,7 +136,7 @@ export default function Contacto() {
     setName("");
     setEmail("");
     setPhone("");
-    setText("");
+    setMessage("");
   };
 
   const closeSuccessSnackbar = () => {
@@ -184,7 +202,7 @@ export default function Contacto() {
         </div>
         <div style={{ marginTop: "15px", marginBottom: "15px" }}>
           <TextField
-            value={text}
+            value={message}
             fullWidth
             label="Comentario libre"
             multiline
@@ -193,10 +211,12 @@ export default function Contacto() {
           />
           <Grid container direction="row-reverse">
             <Grid item>
-              {text.length < 1500 ? (
-                <small>{text.length}/1500</small>
+              {message.length < 1500 ? (
+                <small>{message.length}/1500</small>
               ) : (
-                <small style={{ color: "#FF0000" }}>{text.length}/1500</small>
+                <small style={{ color: "#FF0000" }}>
+                  {message.length}/1500
+                </small>
               )}
             </Grid>
           </Grid>
@@ -226,7 +246,8 @@ export default function Contacto() {
         onClose={closeSuccessSnackbar}
       >
         <Alert onClose={closeSuccessSnackbar} severity="success">
-          This is a success message!
+          ¡Gracias por ponerte en contacto con nuestra agrupación! Su consulta
+          ha sido enviada. A la brevedad nos estaremos comunicando
         </Alert>
       </Snackbar>
     </Grid>
