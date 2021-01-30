@@ -128,7 +128,7 @@ const getPrensa = () => {
       title:
         "Triunfo Tatengue tiene terminado el anteproyecto de reforma del estatuto",
       epigraph:
-        "El socio tatengue va a tener la posibilidad de interiorizarse de cuáles son las reformas que se proponen a partir de la idea de modernizar el estatuto.\r\n",
+        "El socio tatengue va a tener la posibilidad de interiorizarse de cuáles son las reformas que se proponen a partir de la idea de modernizar el estatuto.",
       text: [
         "Hace algunas semanas, en una entrevista a El Litoral, Alejandro Simonutti —hoy presidente de Triunfo Tatengue, la agrupación que propició la candidatura de Rodrigo Villarreal en las elecciones del año pasado— adelantaba el trabajo que se venía realizando en la conformación del anteproyecto de reforma del estatuto de Unión, algo que fue una promesa electoral de esa agrupación y que ahora materializa para ser presentada a la actual comisión directiva para que se convoque a una asamblea extraordinaria a fin de modernizar el estatuto del club.",
       ],
@@ -167,9 +167,9 @@ const getPrensa = () => {
     },
     {
       id: 12,
-      title: "Siguen las reuniones por el estatuto\r\n\r\n",
+      title: "Siguen las reuniones por el estatuto",
       epigraph:
-        "Los participantes en el encuentro llevado a cabo este sábado entre las dos agrupaciones políticas que se siguen moviendo para realizar aportes a la institución. \r\n",
+        "Los participantes en el encuentro llevado a cabo este sábado entre las dos agrupaciones políticas que se siguen moviendo para realizar aportes a la institución. ",
       text: [
         "Las dos agrupaciones que fueron listas opositoras en las elecciones llevadas a cabo el año pasado en Unión, volvieron a reunirse. Tanto Triunfo Tatengue como Glorioso ‘89 siguen avanzando en el trabajo conjunto de cara a la reforma del estatuto de Unión.",
       ],
@@ -183,7 +183,7 @@ const getPrensa = () => {
       id: 13,
       title: "Nota a Leo Simonutti en Asado con fútbol",
       epigraph:
-        "Entrevista realizada al presidente de nuestra Agrupación el día 23 de agosto por LT9\r\n",
+        "Entrevista realizada al presidente de nuestra Agrupación el día 23 de agosto por LT9",
       text: [],
       link: "https://www.youtube.com/watch?v=0n6opPfgXmg&feature=youtu.be",
       image: "https://i.imgur.com/9A36WYG.png",
@@ -192,9 +192,9 @@ const getPrensa = () => {
     },
     {
       id: 14,
-      title: "Entrevista a Rodrigo Villarreal en Radio Gol (22/09/2020)\r\n",
+      title: "Entrevista a Rodrigo Villarreal en Radio Gol (22/09/2020)",
       epigraph:
-        "Extensa nota realizada al ex presidente de nuestra Agrupación.\r\n",
+        "Extensa nota realizada al ex presidente de nuestra Agrupación.",
       text: [
         "Quiero que sea claro el presidente de Unión, ya no sabemos cuanto dinero le debemos a Spahn. Hay dos balances que no fueron aprobados y que fueron objetados, por la IGPJ, entonces preocupémosnos si eso pasa. Me llama la atención que la Justicia sea tan rápida para algunas cosas con Spahn y tan lentas para otras. Ya no sabemos por cuanto vendió, se habla de 6.000.000 de dólares o 7.000.000 de dólares es tan ambigua la información",
       ],
@@ -222,7 +222,7 @@ const getPrensa = () => {
       id: 16,
       title: "La oposición en Unión llegó a un consenso por el Estatuto",
       epigraph:
-        "La Agrupación Glorioso 89 y Triunfo Tatengue llegaron a un acuerdo para la Reforma del Estatuto del club Unión\r\n",
+        "La Agrupación Glorioso 89 y Triunfo Tatengue llegaron a un acuerdo para la Reforma del Estatuto del club Unión",
       text: [
         "Estimados/as periodistas, las Agrupaciones Unionistas Glorioso 89 y Triunfo Tatengue se complacen en informarles a ustedes y a la familia rojiblanca que hemos llegado a un acuerdo en diferentes aspectos relacionados con la reforma del Estatuto de Unión.",
       ],
@@ -304,7 +304,6 @@ const getPrensa = () => {
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
-
   return prensa;
 };
 

@@ -5,11 +5,13 @@
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.57",
     "@phuocng/react-pdf-viewer": "^1.7.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
+    "emailjs-com": "^2.6.4",
     "pdfjs-dist": "^2.4.456",
     "react": "^17.0.1",
     "react-audio-player": "^0.14.0",

@@ -10,7 +10,7 @@ const getPropuestas = () => {
         "En total trabajamos en 154 Artículos. Los cuales se encuentran desarrollados en el link",
       ],
       link: "/propuestas_estatuto",
-      image: "https://i.imgur.com/X2kULgl.png",
+      image: "https://i.imgur.com/rSDEWW9.jpg",
       imageAlt: "Reforma estatuto",
       date: "2020-07-10",
     },

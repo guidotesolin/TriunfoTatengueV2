@@ -22,7 +22,7 @@ export default function EstatutoView() {
       <Grid item>
         <img
           style={{ maxWidth: "60vh", marginBottom: "20px" }}
-          src="https://i.imgur.com/X2kULgl.png"
+          src="https://i.imgur.com/rSDEWW9.jpg"
           alt="Reforma de estatuto"
         />
       </Grid>

@@ -14,6 +14,8 @@ import NotFound from "./NotFound/404";
 // Propuestas
 import Estatuto from "../components/Propuestas/estatutoView";
 import Protocolo from "../components/Propuestas/protocoloView";
+// Opinion
+import EneasInferiores from "../components/Opinion/eneasInferioresView";
 
 export default function BodyPage() {
   return (
@@ -29,7 +31,11 @@ export default function BodyPage() {
           {/*Propuestas */}
           <Route path="/propuestas_estatuto" component={Estatuto} />
           <Route path="/propuestas_protocolo" component={Protocolo} />
-
+          {/*Opinion */}
+          <Route
+            path="/opinion_las_inferiores_y_su_importancia"
+            component={EneasInferiores}
+          />
           <Route component={NotFound} />
         </Switch>
       </HashRouter>
