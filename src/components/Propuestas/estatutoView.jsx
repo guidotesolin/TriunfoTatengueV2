@@ -28,7 +28,7 @@ export default function EstatutoView() {
       </Grid>
 
       <Grid item style={{ marginBottom: "10px" }}>
-        <Typography>
+      <Typography className={classes.textoDesarrollo}>
           Hinchas y socios de <strong>UNIÓN</strong>, desde Triunfo Tatengue
           queremos presentarles nuestro Proyecto de reforma de Estatuto, tal
           como habiamos prometido oportunamente. Es un trabajo hecho a

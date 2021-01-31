@@ -23,6 +23,11 @@ const OpinionStyles = makeStyles((theme) => {
       fontWeight: "600",
       marginTop: "10px",
       marginBottom: "10px",
+      fontFamily: "HelveticaNeueLight",
+    },
+    text:{
+      fontSize: "20x",
+      fontFamily: "HelveticaNeueLight",
     },
     button: {
       borderRadius: "18px",
@@ -50,6 +55,14 @@ const OpinionStyles = makeStyles((theme) => {
       },
     },
     paginationButton: { color: "#FF0000" },
+    textoDesarrollo: {
+      fontSize: "20px",
+      marginBottom: "10px",
+      fontFamily: "HelveticaNeueLight",
+    },
+    textoLista: {
+      fontFamily: "HelveticaNeueBold",
+    },
   };
 });
 

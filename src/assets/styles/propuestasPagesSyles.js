@@ -41,6 +41,14 @@ const PropuestasPageStyles = makeStyles((theme) => {
         textDecoration: "none",
       },
     },
+    textoDesarrollo: {
+      fontSize: "20px",
+      marginBottom: "10px",
+      fontFamily: "HelveticaNeueLight",
+    },
+    textoLista: {
+      fontFamily: "HelveticaNeueBold",
+    },
   };
 });
 

@@ -12,12 +12,22 @@ const PrensaStyles = makeStyles((theme) => {
     gridImage: { minWidth: "160px", textAlign: "center", paddingRight: "15px" },
     preview: { width: "125px", maxHeight: "150px", marginRight: "20px" },
     divider: { marginTop: "15px", marginBottom: "15px" },
-    title: { fontSize: "23px", color: "#085fb6", fontWeight: "600" },
+    title: {
+      fontSize: "23px",
+      color: "#085fb6",
+      fontWeight: "600",
+      fontFamily: "HelveticaNeueBold",
+    },
     epigraph: {
       fontSize: "18px",
       fontWeight: "600",
       marginTop: "10px",
       marginBottom: "10px",
+      fontFamily: "HelveticaNeueLight",
+    },
+    text:{
+      fontSize: "20x",
+      fontFamily: "HelveticaNeueLight",
     },
     button: {
       borderRadius: "18px",

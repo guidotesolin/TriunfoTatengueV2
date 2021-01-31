@@ -5,7 +5,6 @@ import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
 import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
 import ProtocoloFile from "../../assets/documents/Protocolo.pdf";
 
-
 export default function ProtocoloView() {
   const classes = styles();
   const workerUrl =
@@ -26,7 +25,7 @@ export default function ProtocoloView() {
         />
       </Grid>
       <Grid item>
-        <Typography>
+        <Typography className={classes.textoDesarrollo}>
           El objetivo del presente es la propuesta de la Agrupación Triunfo
           Tatengue con recomendaciones generales para la realización de la
           ASAMBLEA GENERAL, en un ámbito de seguridad colectiva, siguiendo las
@@ -41,7 +40,7 @@ export default function ProtocoloView() {
         </Worker>
       </Grid>
       <Grid item>
-        <Typography>
+        <Typography className={classes.textoDesarrollo}>
           El protocolo junto con la correspondiente nota ya ha sido presentada
           en el club el día 4 de enero de 2021 y al día de hoy todavía no hemos
           tenido respuesta alguna de parte de la dirigencia.
