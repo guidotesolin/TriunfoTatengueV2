@@ -2,8 +2,17 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const ContactoStyles = makeStyles((theme) => {
   return {
-    tituloSeccion: { color: "#364d84", marginBottom: "30px", fontSize: "30px" },
-    contactText: { marginBottom: "15px" },
+    tituloSeccion: {
+      color: "#364d84",
+      marginBottom: "30px",
+      fontSize: "30px",
+      fontFamily: "Futura",
+    },
+    contactText: {
+      marginBottom: "15px",
+      fontFamily: "HelveticaNeueLight",
+      fontSize: "20px",
+    },
     contactoGrid: { textAlign: "center" },
     texfield: { marginTop: "15px", marginRigth: "10px", marginLeft: "10px" },
     button: {

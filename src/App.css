@@ -9,13 +9,29 @@ body {
   color: #7b7e88;
 }
 
+@font-face {
+  font-family: "Futura";
+  src: local("Futura"), url(../src/assets/fonts/Futura.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueLight";
+  src: local("HelveticaNeueLight"),
+    url(../src/assets/fonts/HelveticaNeueLight.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeueBold";
+  src: local("HelveticaNeueBold"),
+    url(../src/assets/fonts/HelveticaNeueBold.otf) format("truetype");
+}
+
 #Titulo {
   padding-top: 10px;
   color: #364d84;
   text-align: center;
   text-transform: uppercase;
 }
-
 #Epigrafe {
   color: #686666;
 }

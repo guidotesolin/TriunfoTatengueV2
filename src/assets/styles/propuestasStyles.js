@@ -2,12 +2,22 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const PropuestasStyles = makeStyles((theme) => {
   return {
-    tituloSeccion: { color: "#364d84", marginBottom: "30px", fontSize: "30px" },
+    tituloSeccion: {
+      color: "#364d84",
+      marginBottom: "30px",
+      fontSize: "30px",
+      fontFamily: "Futura",
+    },
     gridPropuesta: { display: "flex" },
     gridImage: { minWidth: "160px", textAlign: "center", paddingRight: "15px" },
     preview: { width: "125px", maxHeight: "150px", marginRight: "20px" },
     divider: { marginTop: "15px", marginBottom: "15px" },
-    title: { fontSize: "23px", color: "#085fb6", fontWeight: "600" },
+    title: {
+      fontSize: "23px",
+      color: "#085fb6",
+      fontWeight: "600",
+      fontFamily: "HelveticaNeueBold",
+    },
     epigraph: {
       fontSize: "18px",
       fontWeight: "600",

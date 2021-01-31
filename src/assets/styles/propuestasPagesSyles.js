@@ -3,7 +3,12 @@ import { makeStyles } from "@material-ui/core/styles";
 const PropuestasPageStyles = makeStyles((theme) => {
   return {
     centerText: { textAlign: "center" },
-    tituloSeccion: { color: "#364d84", marginBottom: "30px", fontSize: "30px" },
+    tituloSeccion: {
+      color: "#364d84",
+      marginBottom: "30px",
+      fontSize: "30px",
+      fontFamily: "Futura",
+    },
     downloadButton: {
       borderRadius: "18px",
       backgroundColor: "#FF0000",
