@@ -4,6 +4,7 @@ import styles from "../../assets/styles/propuestasPagesSyles";
 import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
 import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
 import EstatutoFile from "../../assets/documents/Estatuto.pdf";
+import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
 export default function EstatutoView() {
   const classes = styles();
@@ -28,7 +29,7 @@ export default function EstatutoView() {
       </Grid>
 
       <Grid item style={{ marginBottom: "10px" }}>
-      <Typography className={classes.textoDesarrollo}>
+        <Typography className={classes.textoDesarrollo}>
           Hinchas y socios de <strong>UNIÓN</strong>, desde Triunfo Tatengue
           queremos presentarles nuestro Proyecto de reforma de Estatuto, tal
           como habiamos prometido oportunamente. Es un trabajo hecho a
@@ -152,6 +153,10 @@ export default function EstatutoView() {
           </Link>
         </Button>
       </Grid>
+      <ShareInSocialMedia
+        link="http://www.triunfotatengue.com.ar/#/propuestas_estatuto"
+        title="Nuestra propuesta para la reforma del estatuto"
+      />
     </Grid>
   );
 }

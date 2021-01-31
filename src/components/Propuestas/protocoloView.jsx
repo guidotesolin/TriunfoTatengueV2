@@ -4,6 +4,7 @@ import styles from "../../assets/styles/propuestasPagesSyles";
 import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
 import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
 import ProtocoloFile from "../../assets/documents/Protocolo.pdf";
+import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
 export default function ProtocoloView() {
   const classes = styles();
@@ -51,6 +52,12 @@ export default function ProtocoloView() {
           src="https://i.imgur.com/YdQErCW.jpg"
           alt="Nota presentada al club"
           className={classes.asambleaImages}
+        />
+      </Grid>
+      <Grid item style={{ textAlign: "center" }}>
+        <ShareInSocialMedia
+          link="http://www.triunfotatengue.com.ar/#/propuestas_protocolo"
+          title="Protocolo para la realización de la asamblea"
         />
       </Grid>
     </Grid>

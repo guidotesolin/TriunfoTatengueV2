@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
 import styles from "../../assets/styles/opinionStyles";
+import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
 export default function EneasInferiores() {
   const classes = styles();
@@ -69,6 +70,12 @@ export default function EneasInferiores() {
           crecer como club y como institución.
           <strong> Unidos, juntos por Unión</strong>.
         </Typography>
+        <Grid item>
+          <ShareInSocialMedia
+            link="http://www.triunfotatengue.com.ar/#/opinion_las_inferiores_y_su_importancia"
+            title="Las inferiores y su importancia, por Eneas Cencha"
+          />
+        </Grid>
       </Grid>
     </Grid>
   );
