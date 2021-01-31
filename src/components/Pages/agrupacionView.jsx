@@ -22,7 +22,7 @@ export default function Agrupacion() {
           AGRUPACIÓN TRIUNFO TATENGUE
         </Typography>
       </Grid>
-      <Grid item>
+      <Grid item style={{ textAlign: "center" }}>
         <div>
           <Carousel className={classes.carosuel}>
             <Carousel.Item>
