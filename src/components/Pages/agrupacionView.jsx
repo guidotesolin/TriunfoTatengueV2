@@ -10,7 +10,13 @@ export default function Agrupacion() {
   const classes = styles();
 
   return (
-    <Grid container direction="column" justify="center" alignItems="center">
+    <Grid
+      container
+      direction="column"
+      justify="center"
+      alignItems="center"
+      wrap="nowrap"
+    >
       <Grid item>
         <Typography className={classes.tituloSeccion}>
           AGRUPACIÓN TRIUNFO TATENGUE

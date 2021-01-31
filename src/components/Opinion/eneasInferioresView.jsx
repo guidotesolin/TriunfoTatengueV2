@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Typography, Avatar } from "@material-ui/core";
 import styles from "../../assets/styles/opinionStyles";
 import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
@@ -7,7 +7,13 @@ export default function EneasInferiores() {
   const classes = styles();
 
   return (
-    <Grid container alignItems="center" direction="column" justify="center">
+    <Grid
+      container
+      alignItems="center"
+      direction="column"
+      justify="center"
+      wrap="nowrap"
+    >
       <Grid item>
         <Typography className={classes.tituloSeccion}>
           LAS INFERIORES Y SU IMPORTANCIA
@@ -20,8 +26,17 @@ export default function EneasInferiores() {
           alt="Eneas Cencha"
         />
       </Grid>
-
-      <Grid item style={{ marginBottom: "10px" }}>
+      <Grid container direction="row" justify="flex-start" alignItems="center">
+        <Grid item>
+          <Avatar
+            src={"https://i.imgur.com/PEF0dg6.jpg"}
+            alt={"Eneas cencha"}
+            style={{ height: "50px", width: "50px", marginRight: "15px" }}
+          />
+        </Grid>
+        <Grid item>Por Eneas Cencha</Grid>
+      </Grid>
+      <Grid item style={{ marginTop: "10px", marginBottom: "10px" }}>
         <Typography className={classes.textoDesarrollo}>
           En Triunfo Tatengue sabemos que las divisiones inferiores son el pilar
           de todos los clubes de futbol, por lo que consideramos que deben ser
@@ -70,7 +85,7 @@ export default function EneasInferiores() {
           crecer como club y como institución.
           <strong> Unidos, juntos por Unión</strong>.
         </Typography>
-        <Grid item>
+        <Grid item style={{ textAlign: "center" }}>
           <ShareInSocialMedia
             link="http://www.triunfotatengue.com.ar/#/opinion_las_inferiores_y_su_importancia"
             title="Las inferiores y su importancia, por Eneas Cencha"

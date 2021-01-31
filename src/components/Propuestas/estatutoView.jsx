@@ -14,7 +14,13 @@ export default function EstatutoView() {
     "https://drive.google.com/file/d/18MIA5aZ4NDLFCgCbjU7yFLpdloC_mI9B/view?usp=sharing";
 
   return (
-    <Grid container alignItems="center" direction="column" justify="center">
+    <Grid
+      container
+      alignItems="center"
+      direction="column"
+      justify="center"
+      wrap="nowrap"
+    >
       <Grid item>
         <Typography className={classes.tituloSeccion}>
           NUESTRO ANTE PROYECTO DE REFORMA DE ESTATUTO

@@ -26,6 +26,8 @@ const PropuestasPageStyles = makeStyles((theme) => {
       marginTop: "20px",
       marginBottom: "20px",
       height: "500px",
+      maxHeight: "500px",
+      minWidth: "300px",
       width: "80vh",
     },
     textButton: {

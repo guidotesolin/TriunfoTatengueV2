@@ -78,7 +78,11 @@ export default function OpinionMainPage() {
             style={{ marginTop: "5px", display: "flex", alignItems: "center" }}
           >
             <Button className={classes.button}>
-              <Link to={opinion.link} className={classes.link}>
+              <Link
+                to={opinion.link}
+                className={classes.link}
+                style={{ textDecoration: "none" }}
+              >
                 Continuar leyendo
               </Link>
             </Button>

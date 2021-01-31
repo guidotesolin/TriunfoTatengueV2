@@ -83,6 +83,7 @@ export default function PrensaMainPage() {
                 target="_blank"
                 href={noticia.link}
                 className={classes.link}
+                style={{ textDecoration: "none" }}
               >
                 Noticia completa
               </Link>
@@ -128,7 +129,7 @@ export default function PrensaMainPage() {
               className={classes.paginationButton}
               size="small"
               onClick={handleNext}
-              disabled={pageNumber === avalaiblePages}
+              disabled={pageNumber === avalaiblePages - 1}
             >
               <KeyboardArrowRight />
             </Button>

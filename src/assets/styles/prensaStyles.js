@@ -25,7 +25,7 @@ const PrensaStyles = makeStyles((theme) => {
       marginBottom: "10px",
       fontFamily: "HelveticaNeueLight",
     },
-    text:{
+    text: {
       fontSize: "20x",
       fontFamily: "HelveticaNeueLight",
     },
@@ -46,13 +46,12 @@ const PrensaStyles = makeStyles((theme) => {
       "&:hover": {
         color: "#FF0000",
       },
+      "& .MuiLink-underlineHover:hover": { textDecoration: "none" },
     },
     addedText: { fontSize: "12px" },
     pagination: {
       background: "none",
-      dotActive: {
-        backgroundColor: "#FF0000",
-      },
+      "& .MuiMobileStepper-dotActive": { backgroundColor: "#FF0000" },
     },
     paginationButton: { color: "#FF0000" },
   };

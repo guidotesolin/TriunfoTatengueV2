@@ -78,7 +78,13 @@ export default function PropuestasMainPage() {
             style={{ marginTop: "5px", display: "flex", alignItems: "center" }}
           >
             <Button className={classes.button}>
-              <Link to={propuesta.link} className={classes.link}>Ver completo</Link>
+              <Link
+                to={propuesta.link}
+                className={classes.link}
+                style={{ textDecoration: "none" }}
+              >
+                Ver completo
+              </Link>
             </Button>
             <Typography className={classes.addedText}>
               <em>{dateToString(propuesta.date)}</em>
@@ -91,7 +97,7 @@ export default function PropuestasMainPage() {
   };
 
   return (
-    <Grid container style={{ justifyContent: "center" }} alignItems="center">
+    <Grid container style={{ justifyContent: "center" }} alignItems="center" >
       <Grid item>
         <Typography className={classes.tituloSeccion}>PROPUESTAS</Typography>
       </Grid>

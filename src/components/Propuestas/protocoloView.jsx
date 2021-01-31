@@ -12,7 +12,13 @@ export default function ProtocoloView() {
     "https://unpkg.com/pdfjs-dist@2.4.456/build/pdf.worker.min.js";
 
   return (
-    <Grid container direction="column" alignItems="center" justify="center">
+    <Grid
+      container
+      direction="column"
+      alignItems="center"
+      justify="center"
+      wrap="nowrap"
+    >
       <Grid item className={classes.centerText}>
         <Typography className={classes.tituloSeccion}>
           PROTOCOLO PARA LA REALIZACIÓN DE LA ASAMBLEA GENERAL ORDINARIA

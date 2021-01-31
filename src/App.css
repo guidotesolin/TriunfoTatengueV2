@@ -26,18 +26,3 @@ body {
     url(../src/assets/fonts/HelveticaNeueBold.otf) format("truetype");
 }
 
-#Titulo {
-  padding-top: 10px;
-  color: #364d84;
-  text-align: center;
-  text-transform: uppercase;
-}
-#Epigrafe {
-  color: #686666;
-}
-/*
-@media only screen and (max-width: 767px) {
-  body {
-  }
-}
-*/
