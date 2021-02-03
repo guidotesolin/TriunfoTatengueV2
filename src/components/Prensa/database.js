@@ -1,3 +1,26 @@
+import img0 from "../../assets/images/Prensa/id0.jpg";
+import img1 from "../../assets/images/Prensa/id1.jpg";
+import img2 from "../../assets/images/Prensa/id2.jpg";
+import img3 from "../../assets/images/Prensa/id3.jpg";
+import img4 from "../../assets/images/Prensa/id4.jpg";
+import img5 from "../../assets/images/Prensa/id5.jpg";
+import img6 from "../../assets/images/Prensa/id6.jpg";
+import img7 from "../../assets/images/Prensa/id7.jpg";
+import img8 from "../../assets/images/Prensa/id8.jpg";
+import img9 from "../../assets/images/Prensa/id9.jpg";
+import img10 from "../../assets/images/Prensa/id10.jpg";
+import img11 from "../../assets/images/Prensa/id11.jpg";
+import img12 from "../../assets/images/Prensa/id12.jpg";
+import img13 from "../../assets/images/Prensa/id13.jpg";
+import img14 from "../../assets/images/Prensa/id14.jpg";
+import img15 from "../../assets/images/Prensa/id15.jpg";
+import img16 from "../../assets/images/Prensa/id16.jpg";
+import img17 from "../../assets/images/Prensa/id17.jpg";
+import img18 from "../../assets/images/Prensa/id18.jpg";
+import img19 from "../../assets/images/Prensa/id19.jpg";
+import img20 from "../../assets/images/Prensa/id20.jpg";
+import img21 from "../../assets/images/Prensa/id21.jpg";
+
 const getPrensa = () => {
   const prensa = [
     {
@@ -10,7 +33,7 @@ const getPrensa = () => {
       ],
       link:
         "https://nexodiario.com/leonardo-simonutti-queremos-lograr-un-union-transparente/",
-      image: "https://i.imgur.com/gcWKzDS.jpg",
+      image: img0,
       imageAlt: "Leonardo Simonutti",
       date: "2020-05-30",
     },
@@ -24,7 +47,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.ellitoral.com/index.php/id_um/242119-paso-un-ano-y-estamos-peor-leonardo-simonutti-y-la-voz-de-triunfo-tatengue-a-365-dias-de-las-elecciones-actualidad-tatengue.html",
-      image: "https://i.imgur.com/kAtQe1h.jpg",
+      image: img1,
       imageAlt: "Leonardo Simonutti",
       date: "2020-05-31",
     },
@@ -36,7 +59,7 @@ const getPrensa = () => {
         "A un año de las ultimas elecciones en UNIÓN contamos novedades sobre los proyectos en los cuales estamos trabajando, entre los cuales destaca la propuesta para reformar el estatuto de nuestro querido club.",
       ],
       link: "https://www.youtube.com/watch?v=qDVk_40WtWw",
-      image: "https://i.imgur.com/C8MXNhn.jpg",
+      image: img2,
       imageAlt: "Leonardo Simonutti",
       date: "2020-06-01",
     },
@@ -50,7 +73,7 @@ const getPrensa = () => {
         "Leonardo Simonutti es el actual referente de la agrupación Triunfo Tatengue, que viene realizando una importante tarea en los últimos tiempos, ya que se transformó en la segunda fuerza política, con un claro cuestionamiento a la conducción de Luis Spahn en Unión y con un proyecto para reformar el estatuto del club.",
       link:
         "https://www.unosantafe.com.ar/union/simonutti-union-no-mejoro-viene-pasos-atras-n2588140.html",
-      image: "https://i.imgur.com/jZNEpFD.jpg",
+      image: img3,
       imageAlt: "Leonardo Simonutti",
       date: "2020-06-01",
     },
@@ -64,7 +87,7 @@ const getPrensa = () => {
         "En primer termino recordó que hace un año Luis Spahn fue reelecto en las ultimas elecciones en la institución Tatengue: “Hoy se cumplen un año de las elecciones seguimos con un proyecto firme”",
       link:
         "https://www.radioeme.com/2020/06/leonardo-simonutti-de-triunfo-tatengue-pensamos-en-el-futuro-de-union/",
-      image: "https://i.imgur.com/kAtQe1h.jpg",
+      image: img4,
       imageAlt: "Leonardo Simonutti",
       date: "2020-06-01",
     },
@@ -76,7 +99,7 @@ const getPrensa = () => {
         "Los jugadores que vendieron fueron los jugadores que nosotros teníamos en vista para vender. Se vendió casi 7 millones de dolares en cuotas o de contado, que no sabemos, y se invirtió alrededor de 3 millones de dolares. No sabemos que pasó con esa diferencia de unos 4 millones de dolares",
       ],
       link: "https://youtu.be/tmWM2VigGaw",
-      image: "https://i.imgur.com/WHARPX3.jpg",
+      image: img5,
       imageAlt: "Leonardo Simonutti",
       date: "2020-06-01",
     },
@@ -90,7 +113,7 @@ const getPrensa = () => {
       ],
       link:
         "https://antologiaradio.com/post/leonardo-simonutti-de-la-agrupacion-triunfo-tatengue-a-un-ano-de-las-ultimas-elecciones-rojiblancas",
-      image: "https://i.imgur.com/Eup4FwC.jpg",
+      image: img6,
       imageAlt: "Agrupacion Triunfo Tatengue",
       date: "2020-06-03",
     },
@@ -105,7 +128,7 @@ const getPrensa = () => {
       ],
       link:
         "https://sinmordaza.com/noticia/110388-el-nuevo-y-moderno-estatuto-de-union-que-presentara-triunfo-tatengue.html",
-      image: "https://i.imgur.com/kcnq1bv.jpg",
+      image: img7,
       imageAlt: "Triunfo tatengue logo",
       date: "2020-07-10",
     },
@@ -119,7 +142,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.unosantafe.com.ar/union/union-triunfo-tatengue-presento-la-reforma-estatuto-n2596291.html",
-      image: "https://i.imgur.com/kc4swbR.jpg",
+      image: img8,
       imageAlt: "Sede del club",
       date: "2020-07-10",
     },
@@ -134,7 +157,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.ellitoral.com/index.php/id_um/248651-triunfo-tatengue-tiene-terminado-el-anteproyecto-de-reforma-del-estatuto-arduo-trabajo-sobre-154-articulos-actualidad-tatengue.html?utm_source=dlvr.it&utm_medium=whatsapp",
-      image: "https://i.imgur.com/N5RWxTs.jpg",
+      image: img9,
       imageAlt: "Hinchada de UNIÓN",
       date: "2020-07-10",
     },
@@ -149,7 +172,7 @@ const getPrensa = () => {
       ],
       link:
         "http://enelarea.com.ar/2020/07/11/reunion-de-triunfo-tatengue-y-glorioso-89-por-la-reforma-del-estatuto/?utm_source=dlvr.it&utm_medium=twitter",
-      image: "https://i.imgur.com/45Zlqxu.jpg",
+      image: img10,
       imageAlt: "Reunión con G89",
       date: "2020-07-11",
     },
@@ -161,7 +184,7 @@ const getPrensa = () => {
         "El presidente de nuestra Agrupación da detalles sobre la reforma de Estatuto que estamos impulsando.",
       ],
       link: "https://youtu.be/kWtUeddkXUI",
-      image: "https://i.imgur.com/hW4EXgp.jpg",
+      image: img11,
       imageAlt: "UETD",
       date: "2020-07-14",
     },
@@ -175,7 +198,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.ellitoral.com/index.php/id_um/251131-siguen-las-reuniones-por-el-estatuto-triunfo-tatengue-y-glorioso-89-actualidad-tatengue.html",
-      image: "https://static.ellitoral.com/um/fotos/315945_tate.jpg",
+      image: img12,
       imageAlt: "Reunión con G89",
       date: "2020-07-26",
     },
@@ -186,8 +209,8 @@ const getPrensa = () => {
         "Entrevista realizada al presidente de nuestra Agrupación el día 23 de agosto por LT9",
       text: [],
       link: "https://www.youtube.com/watch?v=0n6opPfgXmg&feature=youtu.be",
-      image: "https://i.imgur.com/9A36WYG.png",
-      imageAlt: "",
+      image: img13,
+      imageAlt: "Leo Simonutti",
       date: "2020-08-23",
     },
     {
@@ -199,7 +222,7 @@ const getPrensa = () => {
         "Quiero que sea claro el presidente de Unión, ya no sabemos cuanto dinero le debemos a Spahn. Hay dos balances que no fueron aprobados y que fueron objetados, por la IGPJ, entonces preocupémosnos si eso pasa. Me llama la atención que la Justicia sea tan rápida para algunas cosas con Spahn y tan lentas para otras. Ya no sabemos por cuanto vendió, se habla de 6.000.000 de dólares o 7.000.000 de dólares es tan ambigua la información",
       ],
       link: "https://www.youtube.com/watch?v=IXaxyb_xxyg",
-      image: "https://i.imgur.com/D6UdWqW.png",
+      image: img14,
       imageAlt: "Rodrigo Villarreal",
       date: "2020-09-22",
     },
@@ -213,8 +236,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.unosantafe.com.ar/union/el-socio-union-termina-naturalizando-todo-n2611468.html",
-      image:
-        "https://media.lacapital.com.ar/adjuntos/204/imagenes/028/819/0028819576.png",
+      image: img15,
       imageAlt: "Rodrigo Villarreal",
       date: "2020-09-22",
     },
@@ -228,7 +250,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.unosantafe.com.ar/union/la-oposicion-union-llego-un-consenso-el-estatuto-n2617521.html",
-      image: "https://i.imgur.com/415RUm9.jpg",
+      image: img16,
       imageAlt: "Consenso ",
       date: "2020-10-19",
     },
@@ -241,7 +263,7 @@ const getPrensa = () => {
       ],
       link:
         "https://drive.google.com/file/d/1DaLd1OrNeOqFd3-k3F7k6LIi71OQTNWW/view?usp=sharing",
-      image: "https://i.imgur.com/DcR3CAl.png",
+      image: img17,
       imageAlt: "Parte de prensa",
       date: "2020-10-19",
     },
@@ -255,7 +277,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.derf.com.ar/simonutti-hay-que-pensar-un-union-aca-30-o-40-anos-n1529578",
-      image: "https://i.imgur.com/Qc6ruG3.jpg",
+      image: img18,
       imageAlt: "Nota en C5SF",
       date: "2020-10-20",
     },
@@ -270,7 +292,7 @@ const getPrensa = () => {
       ],
       link:
         "https://deporfe.com/triunfo-tatengue-apuesta-por-la-construccion-de-un-union-nuevo-y-moderno/",
-      image: "https://i.imgur.com/gcWKzDS.jpg",
+      image: img19,
       imageAlt: "Simonutti",
       date: "2020-10-22",
     },
@@ -284,7 +306,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.ellitoral.com/index.php/id_um/273920-villarreal-tajante-es-un-nuevo-hecho-delictivo-de-spahn-mas-repercusiones-por-las-declaraciones-del-presidente-de-union-actualidad-tatengue-fuerte-polemica.html?utm_source=dlvr.it&utm_medium=whatsapp",
-      image: "https://i.imgur.com/il3m5II.jpg",
+      image: img20,
       imageAlt: "Rodrigo villarreal",
       date: "2020-12-19",
     },
@@ -298,7 +320,7 @@ const getPrensa = () => {
       ],
       link:
         "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
-      image: "https://i.imgur.com/7agj8TE.jpg",
+      image: img21,
       imageAlt: "Rodriguez Peragallo",
       date: "2020-12-24",
     },

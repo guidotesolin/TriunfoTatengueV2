@@ -1,3 +1,6 @@
+import img0 from "../../assets/images/Propuestas/id0.jpg";
+import img1 from "../../assets/images/Propuestas/id1.jpg";
+
 const getPropuestas = () => {
   const propuestas = [
     {
@@ -10,7 +13,7 @@ const getPropuestas = () => {
         "En total trabajamos en 154 Artículos. Los cuales se encuentran desarrollados en el link",
       ],
       link: "/propuestas_estatuto",
-      image: "https://i.imgur.com/rSDEWW9.jpg",
+      image: img0,
       imageAlt: "Reforma estatuto",
       date: "2020-07-10",
     },
@@ -23,7 +26,7 @@ const getPropuestas = () => {
         "Las Asambleas de socios, en el marco del Estatuto vigente, deben realizarse en forma presencial, y es objetivo del presente documento definir las acciones necesarias para prevenir y gestionar de manera adecuada los riesgos generales del COVID-19 respecto de todos los participantes del presente evento.",
       ],
       link: "/propuestas_protocolo",
-      image: "https://i.imgur.com/gDLdxV8.jpg",
+      image: img1,
       imageAlt: "Protocolo asamblea",
       date: "2021-01-04",
     },
