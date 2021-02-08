@@ -35,7 +35,7 @@ export default function OpinionMainPage() {
       );
       setPagination(paginateArray);
       setAvalaiblePages(pages);
-    }
+    } // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [opinion]);
 
   const handleNext = () => {

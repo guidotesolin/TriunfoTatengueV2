@@ -35,7 +35,7 @@ export default function PropuestasMainPage() {
       );
       setPagination(paginateArray);
       setAvalaiblePages(pages);
-    }
+    } // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [propuestas]);
 
   const handleNext = () => {
@@ -97,7 +97,7 @@ export default function PropuestasMainPage() {
   };
 
   return (
-    <Grid container style={{ justifyContent: "center" }} alignItems="center" >
+    <Grid container style={{ justifyContent: "center" }} alignItems="center">
       <Grid item>
         <Typography className={classes.tituloSeccion}>PROPUESTAS</Typography>
       </Grid>

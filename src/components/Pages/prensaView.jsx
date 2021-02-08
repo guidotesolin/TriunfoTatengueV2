@@ -35,7 +35,7 @@ export default function PrensaMainPage() {
       );
       setPagination(paginateArray);
       setAvalaiblePages(pages);
-    }
+    } // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [prensa]);
 
   const handleNext = () => {
