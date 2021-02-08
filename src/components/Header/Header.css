@@ -2,7 +2,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 20px;
-  background: rgba(255, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -12,9 +12,13 @@ nav {
   align-items: center;
 }
 
+.navbarimage {
+  padding: 0;
+}
+
 .navbarElement {
   transition: 0.4s;
-  color: white;
+  color: #ef233c;
   font-size: 20px;
   text-decoration: none;
   padding: 0 10px;
@@ -22,16 +26,16 @@ nav {
 }
 
 .navbarElement:hover {
-  background-color: white;
-  color: red;
-  padding: 24px 10px;
+  background-color: #ef233c;
+  color: white;
+  padding: 23px 10px;
   text-decoration: none;
 }
 
 @media only screen and (max-width: 992px) {
   .navbarElement:hover {
-    background-color: white;
-    color: red;
+    background-color: #ef233c;
+    color: white;
     padding: 10px 10px;
     text-decoration: none;
   }

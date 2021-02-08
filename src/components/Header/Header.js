@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/brandWhite.png";
+import Logo from "../../assets/images/brandRed.png";
 
 import "./Header.css";
 
@@ -10,13 +10,17 @@ export default function Header() {
     <div id="divNavbar">
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand>
-          <img
-            src={Logo}
-            width="50"
-            className="d-inline-block align-top"
-            alt="Logo TT"
-            id="BrandLogo"
-          />
+          <Nav.Link class="navbarImage">
+            <Link to="/" class="navbarImage">
+              <img
+                src={Logo}
+                width="50"
+                className="d-inline-block align-top"
+                alt="Logo TT"
+                id="BrandLogo"
+              />
+            </Link>
+          </Nav.Link>
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">

@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Footer.css";
-import Logo from "../../assets/images/brandWhite.png";
+import Logo from "../../assets/images/brandRed.png";
 import { Row } from "react-bootstrap";
 
 export default function Footer() {
