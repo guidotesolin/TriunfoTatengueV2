@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <div id="divNavbar">
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand>
+        <Navbar.Brand py-0>
           <Nav.Link class="navbarImage">
             <Link to="/" class="navbarImage">
               <img
