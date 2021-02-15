@@ -20,6 +20,7 @@ import img18 from "../../assets/images/Prensa/id18.jpg";
 import img19 from "../../assets/images/Prensa/id19.jpg";
 import img20 from "../../assets/images/Prensa/id20.jpg";
 import img21 from "../../assets/images/Prensa/id21.jpg";
+import img22 from "../../assets/images/Prensa/id22.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -323,6 +324,20 @@ const getPrensa = () => {
       image: img21,
       imageAlt: "Rodriguez Peragallo",
       date: "2020-12-24",
+    },
+    {
+      id: 22,
+      title: `Reunión entre Gugnali y Triunfo Tatengue con ideas a futuro`,
+      epigraph:
+        "Uno de los referentes de la Agrupación Triunfo Tatengue, se reunió días atrás con el exentrenador de Unión, Claudio Gugnali, para seguir trabajando en conjunto",
+      text: [
+        `La Agrupación Triunfo Tatengue sigue trabajando. Si bien habrá que esperar uno tiempo más para las nuevas elecciones en Unión, no detiene su andar y avanza en temas que podrían ser importantes a futuro. Sobre todo en el manejo de las divisiones inferiores, hoy el eslabón más recurrente por la crisis económica que disparó la pandemia del coronavirus. Esto hace que los equipos apuesten y potencien sus patrimonios. En este sentido, uno de los referentes, Leonardo Simonutti estuvo reunido con el exentrenador y colaborador de Alejandro Sabella en la Selección Argentina, Claudio Gugnali.`,
+      ],
+      link:
+        "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
+      image: img22,
+      imageAlt: "Simonutti y Gugnali",
+      date: "2021-02-13",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

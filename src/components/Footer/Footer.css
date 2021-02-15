@@ -1,5 +1,5 @@
 #socialNetworks {
-  background-color: rgba(255, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.9);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,14 +20,14 @@
 }
 
 .socialIcons {
-  color: red;
+  color: white;
 }
 
 .socialIcons {
   display: inline-block;
   width: 60px;
   height: 60px;
-  background: #f1f1f1;
+  background: #ef233c;
   border-radius: 30%;
   box-shadow: 0 5px 15px -5px #00000070;
   overflow: hidden;
@@ -40,11 +40,11 @@
 }
 .socialIcons:hover i {
   transform: scale(1.3);
-  color: #f1f1f1;
+  color: #ef233c;
 }
 
 .socialIcons::before {
-  background: red;
+  background: white;
 }
 .socialIcons::before {
   content: "";
