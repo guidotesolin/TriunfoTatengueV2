@@ -1,27 +1,27 @@
 const dateToString = (addedDate) => {
-  const actualDateInt = parseInt(Date.now());
-  const dateAux = Date.parse(addedDate);
-  const difInMs = actualDateInt - dateAux;
-  const msPerDay = 24 * 60 * 60 * 1000;
-  const difInDays = Math.ceil(difInMs / msPerDay);
+  const today = new Date();
+  const added = new Date(addedDate);
+  const diffInMs = today - added;
+  const diffInHours = Math.round(diffInMs / (1000 * 60 * 60));
+  const diffInDays = Math.ceil(diffInHours / 24);
   let difAsString;
-  if (difInDays < 30) {
-    if (difInDays === 1) {
+  if (diffInDays < 30) {
+    if (diffInDays === 1) {
       difAsString = "Añadido hoy";
     } else {
-      difAsString = `Añadido hace ${difInDays} días`;
+      difAsString = `Añadido hace ${diffInDays} días`;
     }
-  } else if (difInDays < 365) {
-    const months = parseInt(difInDays / 30);
-    if (difInDays < 60) {
+  } else if (diffInDays < 365) {
+    const months = parseInt(diffInDays / 30);
+    if (diffInDays < 60) {
       difAsString = "Añadido hace un mes";
     } else {
       difAsString = `Añadido hace ${months} meses`;
     }
-  } else if (difInDays < 730) {
+  } else if (diffInDays < 730) {
     difAsString = "Añadido hace un año";
   } else {
-    const years = parseInt(difInDays / 365);
+    const years = parseInt(diffInDays / 365);
     difAsString = `Añadido hace ${years} años`;
   }
   return difAsString;

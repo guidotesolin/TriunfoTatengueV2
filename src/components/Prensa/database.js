@@ -21,6 +21,8 @@ import img19 from "../../assets/images/Prensa/id19.jpg";
 import img20 from "../../assets/images/Prensa/id20.jpg";
 import img21 from "../../assets/images/Prensa/id21.jpg";
 import img22 from "../../assets/images/Prensa/id22.jpg";
+import img23 from "../../assets/images/Propuestas/id2.jpg";
+import img24 from "../../assets/images/Prensa/id24.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -323,7 +325,7 @@ const getPrensa = () => {
         "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
       image: img21,
       imageAlt: "Rodriguez Peragallo",
-      date: "2020-12-24",
+      date: "2020-12-25",
     },
     {
       id: 22,
@@ -337,7 +339,33 @@ const getPrensa = () => {
         "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
       image: img22,
       imageAlt: "Simonutti y Gugnali",
-      date: "2021-02-13",
+      date: "2021-02-14",
+    },
+    {
+      id: 23,
+      title: `Piden que la tribuna Cándido Pujato del estadio de Unión lleve el nombre de Leopoldo Jacinto Luque `,
+      epigraph:
+        "La Agrupación “Triunfo Tatengue” lanzó un comunicado de prensa solicitando a la comisión directiva del club la designación del nombre del campeón del mundo en 1978 para la tribuna norte del 15 de Abril.",
+      text: [
+        `Este miércoles, mediante un comunicado de prensa, la agrupación Triunfo Tatengue solicitó al presidente de Unión, Luis Spahn, y la comisión directiva del club que “se arbitren los medios institucionales para designar toda la tribuna Norte de nuestro estadio 15 de Abril (conocida como Cándido Pujato) con el nombre de LEOPOLDO JACINTO LUQUE”.`,
+      ],
+      link:
+        "https://www.sol915.com.ar/piden-la-tribuna-candido-pujato-del-estadio-union-lleve-nombre-leopoldo-jacinto-luque/",
+      image: img23,
+      imageAlt: "Leopoldo Luque",
+      date: "2021-02-18",
+    },
+    {
+      id: 24,
+      title: "Piden que la tribuna de Cándido Pujato lleve el nombre de Luque",
+      epigraph: `La Agrupación Triunfo Tatengue hizo ingresar por mesa de entradas el pedido para que la comisión directiva de Unión designe a la tribuna norte ubicada sobre Cándido Pujato con el nombre de Leopoldo Jacinto Luque, el ex delantero tatengue recientemente fallecido.`,
+      text:
+        "En 1975, Unión vendió a Luque a River en una cifra récord en el fútbol argentino. Parte de ese dinero sirvió para la posterior remodelación de todo ese sector.",
+      link:
+        "https://www.ellitoral.com/index.php/id_um/283194-piden-que-la-tribuna-de-candido-pujato-lleve-el-nombre-de-luque-tras-su-reciente-muerte-actualidad-tatengue-union.html",
+      image: img24,
+      imageAlt: "Leopoldo Luque",
+      date: "2021-02-18",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

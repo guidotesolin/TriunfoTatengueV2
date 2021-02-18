@@ -1,5 +1,6 @@
 import img0 from "../../assets/images/Propuestas/id0.jpg";
 import img1 from "../../assets/images/Propuestas/id1.jpg";
+import img2 from "../../assets/images/Propuestas/id2.jpg";
 
 const getPropuestas = () => {
   const propuestas = [
@@ -15,7 +16,7 @@ const getPropuestas = () => {
       link: "/propuestas_estatuto",
       image: img0,
       imageAlt: "Reforma estatuto",
-      date: "2020-07-10",
+      date: "2020-07-11",
     },
     {
       id: 1,
@@ -28,7 +29,20 @@ const getPropuestas = () => {
       link: "/propuestas_protocolo",
       image: img1,
       imageAlt: "Protocolo asamblea",
-      date: "2021-01-04",
+      date: "2021-01-05",
+    },
+    {
+      id: 2,
+      title: "Tribuna Leopoldo Jacinto Luque",
+      epigraph:
+        "Un homenaje más que merecido",
+      text: [
+        "Estimados tatengues, les queremos hacer llegar la nota presentada el día de hoy en el club proponiendo que se cambie el nombre de la tribuna hoy llamada Cándido Pujato por Leopoldo Jacinto Luque para honrarlo en modo de agradecimiento a todo lo brindado a nuestra querida institución",
+      ],
+      link: "/propuestas_tribuna_leopoldo_luque",
+      image: img2,
+      imageAlt: "Leopoldo Jacinto Luque",
+      date: "2021-02-18",
     },
   ];
   propuestas.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
