@@ -1,6 +1,8 @@
 const dateToString = (addedDate) => {
   const today = new Date();
   const added = new Date(addedDate);
+  today.setHours(0, 0, 0, 0);
+  added.setHours(0, 0, 0, 0);
   const diffInMs = today - added;
   const diffInHours = Math.round(diffInMs / (1000 * 60 * 60));
   const diffInDays = Math.ceil(diffInHours / 24);
@@ -8,6 +10,8 @@ const dateToString = (addedDate) => {
   if (diffInDays < 30) {
     if (diffInDays === 1) {
       difAsString = "Añadido hoy";
+    } else if (diffInDays === 2) {
+      difAsString = "Añadido ayer";
     } else {
       difAsString = `Añadido hace ${diffInDays} días`;
     }

@@ -42,7 +42,7 @@ const getPropuestas = () => {
       link: "/propuestas_tribuna_leopoldo_luque",
       image: img2,
       imageAlt: "Leopoldo Jacinto Luque",
-      date: "2021-02-18",
+      date: "2021-02-17",
     },
   ];
   propuestas.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

@@ -23,6 +23,7 @@ import img21 from "../../assets/images/Prensa/id21.jpg";
 import img22 from "../../assets/images/Prensa/id22.jpg";
 import img23 from "../../assets/images/Propuestas/id2.jpg";
 import img24 from "../../assets/images/Prensa/id24.jpg";
+import img25 from "../../assets/images/Prensa/id25.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -339,7 +340,7 @@ const getPrensa = () => {
         "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
       image: img22,
       imageAlt: "Simonutti y Gugnali",
-      date: "2021-02-14",
+      date: "2021-02-13",
     },
     {
       id: 23,
@@ -353,7 +354,7 @@ const getPrensa = () => {
         "https://www.sol915.com.ar/piden-la-tribuna-candido-pujato-del-estadio-union-lleve-nombre-leopoldo-jacinto-luque/",
       image: img23,
       imageAlt: "Leopoldo Luque",
-      date: "2021-02-18",
+      date: "2021-02-17",
     },
     {
       id: 24,
@@ -364,6 +365,18 @@ const getPrensa = () => {
       link:
         "https://www.ellitoral.com/index.php/id_um/283194-piden-que-la-tribuna-de-candido-pujato-lleve-el-nombre-de-luque-tras-su-reciente-muerte-actualidad-tatengue-union.html",
       image: img24,
+      imageAlt: "Leopoldo Luque",
+      date: "2021-02-17",
+    },
+    {
+      id: 25,
+      title: `Simonutti: "No hay tatengue que no quiera que la tribuna se llame Leopoldo Jacinto Luque"`,
+      epigraph: `El presidente de Triunfo Tatengue, Leonardo Simonutti, detalló en Oíd Mortales todo sobre la nota que su agrupación le presentó a Unión para que la tribuna de Cándido Pujato adquiera el nombre del recientemente fallecido Leopoldo Jacinto Luque.`,
+      text:
+        "«La mayoría de los clubes no le dan a sus ídolos el lugar que se merecen, y en esta oportunidad le presentamos una nota al club para que la tribuna de Cándido Pujato lleve su nombre, recordando que parte de ella se terminó con los fondos de su venta a River, ayudando en la infraestructura de Unión, y porque es el ídolo». Escuchalo a Leonardo Simonutti en Radio Gol.",
+      link:
+        "https://www.radiogol.com.ar/deportes/union/no-hay-tatengue-que-no-quiera-que-la-tribuna-se-llame-leopoldo-jacinto-luque-2519/",
+      image: img25,
       imageAlt: "Leopoldo Luque",
       date: "2021-02-18",
     },
