@@ -1,8 +1,10 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import styles from "../../assets/styles/homeViewStyles";
 import "../body.css";
 import Card from "../utils/imageCardView";
+
 export default function Homepage() {
   const classes = styles();
 
@@ -20,6 +22,25 @@ export default function Homepage() {
         <Typography className={classes.tituloSeccion}>
           TRIUNFO TATENGUE
         </Typography>
+      </Grid>
+      <Grid item className={classes.gridElement}>
+        <Grid
+          container
+          direction="row"
+          justify="center"
+          alignItems="center"
+          style={{ textAlign: "center" }}
+        >
+          <Grid item>
+            <Link to="/asamblea">
+              <img
+                src={"https://i.imgur.com/39bloZ0.jpg"}
+                alt="Asamblea general de socios"
+                className={classes.image}
+              />
+            </Link>
+          </Grid>
+        </Grid>
       </Grid>
       <Grid item className={classes.gridElement} style={{ width: "80%" }}>
         <div class="container">

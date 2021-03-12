@@ -25,7 +25,7 @@ const OpinionStyles = makeStyles((theme) => {
       marginBottom: "10px",
       fontFamily: "HelveticaNeueLight",
     },
-    text:{
+    text: {
       fontSize: "20x",
       fontFamily: "HelveticaNeueLight",
     },
@@ -62,6 +62,7 @@ const OpinionStyles = makeStyles((theme) => {
     },
     textoLista: {
       fontFamily: "HelveticaNeueBold",
+      marginBottom: "3px",
     },
   };
 });
