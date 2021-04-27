@@ -8,6 +8,8 @@ const PrensaStyles = makeStyles((theme) => {
       fontSize: "30px",
       fontFamily: "Futura",
     },
+    gridJustifyContent: { justifyContent: "center" },
+    gridButton: { marginTop: "5px", display: "flex", alignItems: "center" },
     gridNoticia: { display: "flex" },
     gridImage: { minWidth: "160px", textAlign: "center", paddingRight: "15px" },
     preview: { width: "125px", maxHeight: "150px", marginRight: "20px" },
@@ -27,6 +29,7 @@ const PrensaStyles = makeStyles((theme) => {
     },
     text: {
       fontSize: "20x",
+      marginBottom: "10px",
       fontFamily: "HelveticaNeueLight",
     },
     button: {
@@ -49,6 +52,7 @@ const PrensaStyles = makeStyles((theme) => {
       "& .MuiLink-underlineHover:hover": { textDecoration: "none" },
     },
     addedText: { fontSize: "12px" },
+    gridPagination: { marginTop: "10px" },
     pagination: {
       background: "none",
       "& .MuiMobileStepper-dotActive": { backgroundColor: "#FF0000" },

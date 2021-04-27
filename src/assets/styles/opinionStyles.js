@@ -27,6 +27,7 @@ const OpinionStyles = makeStyles((theme) => {
     },
     text: {
       fontSize: "20x",
+      marginBottom: "10px",
       fontFamily: "HelveticaNeueLight",
     },
     button: {

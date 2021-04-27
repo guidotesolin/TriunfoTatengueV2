@@ -74,9 +74,7 @@ export default function PrensaMainPage() {
             {noticia.epigraph}
           </Typography>
           <Typography className={classes.text}>{noticia.text}</Typography>
-          <Grid
-            style={{ marginTop: "5px", display: "flex", alignItems: "center" }}
-          >
+          <Grid className={classes.gridButton}>
             <Button className={classes.button}>
               <Link
                 rel="noopener noreferrer"
@@ -99,7 +97,7 @@ export default function PrensaMainPage() {
   };
 
   return (
-    <Grid container style={{ justifyContent: "center" }} alignItems="center">
+    <Grid container className={classes.gridJustifyContent} alignItems="center">
       <Grid item>
         <Typography className={classes.tituloSeccion}>PRENSA</Typography>
       </Grid>
@@ -111,13 +109,15 @@ export default function PrensaMainPage() {
             return (
               <Grid key={index}>
                 {renderNoticia(noticia)}
-                <Divider className={classes.divider} />
+                {index < pagination.length - 1 && (
+                  <Divider className={classes.divider} />
+                )}
               </Grid>
             );
           })
         )}
       </Grid>
-      <Grid item>
+      <Grid item className={classes.gridPagination}>
         <MobileStepper
           className={classes.pagination}
           variant="dots"

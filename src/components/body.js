@@ -18,7 +18,7 @@ import TribunaLuque from "../components/Propuestas/tribunaLuqueView";
 // Opinion
 import EneasInferiores from "../components/Opinion/eneasInferioresView";
 // Others
-import Asamblea from "../components/OthersPages/asambleaView"
+
 export default function BodyPage() {
   return (
     <Container id="divBody">
@@ -41,10 +41,6 @@ export default function BodyPage() {
           <Route
             path="/opinion_las_inferiores_y_su_importancia"
             component={EneasInferiores}
-          />
-          <Route
-            path="/asamblea"
-            component={Asamblea}
           />
           <Route component={NotFound} />
         </Switch>

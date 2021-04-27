@@ -16,13 +16,14 @@ export default function Agrupacion() {
       justify="center"
       alignItems="center"
       wrap="nowrap"
+      className={classes.root}
     >
       <Grid item>
         <Typography className={classes.tituloSeccion}>
           AGRUPACIÓN TRIUNFO TATENGUE
         </Typography>
       </Grid>
-      <Grid item style={{ textAlign: "center" }}>
+      <Grid item className={classes.carosuelGrid}>
         <div>
           <Carousel className={classes.carosuel}>
             <Carousel.Item>

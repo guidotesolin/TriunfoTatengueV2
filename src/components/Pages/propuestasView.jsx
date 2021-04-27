@@ -74,9 +74,7 @@ export default function PropuestasMainPage() {
             {propuesta.epigraph}
           </Typography>
           <Typography className={classes.text}>{propuesta.text}</Typography>
-          <Grid
-            style={{ marginTop: "5px", display: "flex", alignItems: "center" }}
-          >
+          <Grid className={classes.gridButton}>
             <Button className={classes.button}>
               <Link
                 to={propuesta.link}
@@ -97,7 +95,7 @@ export default function PropuestasMainPage() {
   };
 
   return (
-    <Grid container style={{ justifyContent: "center" }} alignItems="center">
+    <Grid container className={classes.root} alignItems="center">
       <Grid item>
         <Typography className={classes.tituloSeccion}>PROPUESTAS</Typography>
       </Grid>
@@ -109,7 +107,9 @@ export default function PropuestasMainPage() {
             return (
               <Grid key={index}>
                 {renderPropuesta(propuesta)}
-                <Divider className={classes.divider} />
+                {index < pagination.length - 1 && (
+                  <Divider className={classes.divider} />
+                )}
               </Grid>
             );
           })

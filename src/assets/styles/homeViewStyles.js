@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const homeView = makeStyles((theme) => {
   return {
+    root: { justifyContent: "center" },
     tituloSeccion: {
       color: "#364d84",
       fontSize: "30px",
@@ -13,6 +14,7 @@ const homeView = makeStyles((theme) => {
       color: "#085fb6",
     },
     gridElement: { marginBottom: "30px" },
+    videoGrid: { width: "80%", marginBottom: "30px" },
     videoContainer: {
       position: "relative",
       overflow: "hidden",

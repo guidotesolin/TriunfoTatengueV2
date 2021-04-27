@@ -14,7 +14,17 @@ const ContactoStyles = makeStyles((theme) => {
       fontSize: "20px",
     },
     contactoGrid: { textAlign: "center" },
-    texfield: { marginTop: "15px", marginRigth: "10px", marginLeft: "10px" },
+    fieldsGrid: { width: "70%" },
+    mediumGrid:{width: "50%"},
+    fieldsContainer: { marginTop: "5px", marginBottom: "5px", width: "100%" },
+    texfield: {
+      marginTop: "15px",
+      paddingLeft: "10px",
+      background: "#FFFFFF",
+      paddingTop: "2px",
+      border: "1px solid #FF0000",
+      borderRadius: "5px",
+    },
     button: {
       minWidth: "120px",
       height: "30px",
@@ -25,6 +35,7 @@ const ContactoStyles = makeStyles((theme) => {
         backgroundColor: "#FFFFFF",
       },
     },
+    redText: { color: "#FF0000" },
     buttonText: {
       paddingRight: "5px",
       paddingLeft: "5px",

@@ -1,9 +1,9 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
-import { Link } from "react-router-dom";
 import styles from "../../assets/styles/homeViewStyles";
 import "../body.css";
 import Card from "../utils/imageCardView";
+import AgrupacionImage from "../../assets/images/img02.jpg";
 
 export default function Homepage() {
   const classes = styles();
@@ -11,9 +11,8 @@ export default function Homepage() {
   return (
     <Grid
       container
-      style={{ justifyContent: "center" }}
       alignItems="center"
-      className={classes.containerTab}
+      className={classes.root}
       direction="column"
       justify="center"
       wrap="nowrap"
@@ -23,32 +22,14 @@ export default function Homepage() {
           TRIUNFO TATENGUE
         </Typography>
       </Grid>
-      <Grid item className={classes.gridElement}>
-        <Grid
-          container
-          direction="row"
-          justify="center"
-          alignItems="center"
-          style={{ textAlign: "center" }}
-        >
-          <Grid item>
-            <Link to="/asamblea">
-              <img
-                src={"https://i.imgur.com/39bloZ0.jpg"}
-                alt="Asamblea general de socios"
-                className={classes.image}
-              />
-            </Link>
-          </Grid>
-        </Grid>
-      </Grid>
-      <Grid item className={classes.gridElement} style={{ width: "80%" }}>
+
+      <Grid item className={classes.videoGrid}>
         <div class="container">
           <iframe
             src="https://www.youtube.com/embed/KeinW5M6XfA"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             title="Unión, Unidos"
             class="responsive-iframe"
           ></iframe>
@@ -67,6 +48,18 @@ export default function Homepage() {
         >
           <Grid item>
             <Card
+              image={AgrupacionImage}
+              altImage={"Agrupacion Triunfo Tatengue"}
+              title={"Quienes somos"}
+              description={
+                "Somos la generacion que va a cambiar las reglas de juego de nuestra institucion. Somos un equipo donde nadie es imprescindible y todos cumplimos roles específicos en nuestra propuesta de Comisión directiva. No somos súbditos ni levantamanos del poder de turno."
+              }
+              tag={"Nosotros"}
+              url={"/Agrupacion"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image={"https://i.imgur.com/R6m4ClE.jpg"}
               altImage={"Leopoldo Luque"}
               title={"Tribuna Leopoldo Luque"}
@@ -75,6 +68,18 @@ export default function Homepage() {
               }
               tag={"Propuesta"}
               url={"/propuestas_tribuna_leopoldo_luque"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
+              image={"https://i.imgur.com/5mBr2Lq.jpg"}
+              altImage={"Leo Simonutti"}
+              title={"Entrevista a Leo Simonutti en Asado con fútbol"}
+              description={
+                "Entrevista realizada al presidente de nuestra Agrupación el día 23 de agosto por LT9"
+              }
+              tag={"Prensa"}
+              link={"https://www.youtube.com/watch?v=0n6opPfgXmg"}
             />
           </Grid>
           <Grid item>
@@ -99,6 +104,22 @@ export default function Homepage() {
               }
               tag={"Propuesta"}
               url={"/propuestas_estatuto"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
+              image={"https://i.imgur.com/Q6LykHf.jpg"}
+              altImage={"Gugnali y Simonutti"}
+              title={
+                "Reunión entre Gugnali y Triunfo Tatengue con ideas a futuro"
+              }
+              description={
+                "Leo Simonutti, el presidente de la Agrupación Triunfo Tatengue, se reunió días atrás con el exentrenador de Unión, Claudio Gugnali, para seguir trabajando en conjunto"
+              }
+              tag={"Prensa"}
+              link={
+                "https://www.unosantafe.com.ar/union/reunion-gugnali-y-triunfo-tatengue-ideas-futuro-n2641685.html"
+              }
             />
           </Grid>
         </Grid>

@@ -77,7 +77,7 @@ export default function Contacto() {
       }
       if (!validationPhoneFormat) {
         setSnackbarErrorMsg(
-          "El teléfono solo debe estar compuesto por numeros. No deje espacios en blanco"
+          "El teléfono solo debe estar compuesto por números. No deje espacios en blanco"
         );
         setSnackbarError(true);
       }
@@ -172,56 +172,80 @@ export default function Contacto() {
         <Typography className={classes.contactText}>
           <strong>
             ¡Todas las opiniones son bienvenidas, llegó el momento de escuchar
-            al socio!
+            al hincha!
           </strong>
         </Typography>
         <Typography className={classes.contactText}>
-          Contactaté con nuestra agrupación mediante el siguiente formulario:
+          Contactaté con nuestra agrupación mediante el siguiente formulario o
+          mandanos a alguna de nuestras redes sociales
         </Typography>
       </Grid>
-      <Grid item>
-        <div>
-          <TextField
-            value={name}
-            placeholder="Nombre y apellido"
-            onChange={handleChangeName}
-            className={classes.texfield}
-          />
-          <TextField
-            onChange={handleChangeEmail}
-            value={email}
-            placeholder="Email"
-            className={classes.texfield}
-          />
-          <TextField
-            value={phone}
-            onChange={handleChangePhone}
-            placeholder="Telefono"
-            className={classes.texfield}
-          />
-        </div>
-        <div style={{ marginTop: "15px", marginBottom: "15px" }}>
-          <TextField
-            value={message}
-            fullWidth
-            label="Comentario libre"
-            multiline
-            rows={7}
-            onChange={handleChangeText}
-          />
-          <Grid container direction="row-reverse">
-            <Grid item>
-              {message.length < 1500 ? (
-                <small>{message.length}/1500</small>
-              ) : (
-                <small style={{ color: "#FF0000" }}>
-                  {message.length}/1500
-                </small>
-              )}
+      <Grid item className={classes.fieldsGrid}>
+        <Grid
+          container
+          direction="column"
+          justify="center"
+          alignItems="center"
+          className={classes.fieldsContainer}
+        >
+          <Grid item className={classes.fieldsContainer}>
+            <TextField
+              value={name}
+              placeholder="Nombre y apellido"
+              onChange={handleChangeName}
+              className={classes.texfield}
+              InputProps={{ disableUnderline: true }}
+              fullWidth={true}
+            />
+          </Grid>
+          <Grid item className={classes.fieldsContainer}>
+            <Grid container spacing={2} justify="space-between">
+              <Grid item className={classes.mediumGrid}>
+                <TextField
+                  onChange={handleChangeEmail}
+                  value={email}
+                  placeholder="Email"
+                  className={classes.texfield}
+                  InputProps={{ disableUnderline: true }}
+                  fullWidth={true}
+                />
+              </Grid>
+              <Grid item className={classes.mediumGrid}>
+                <TextField
+                  value={phone}
+                  onChange={handleChangePhone}
+                  placeholder="Telefono"
+                  className={classes.texfield}
+                  fullWidth={true}
+                  InputProps={{ disableUnderline: true }}
+                />
+              </Grid>
             </Grid>
           </Grid>
-        </div>
+          <Grid item className={classes.fieldsContainer}>
+            <TextField
+              value={message}
+              onChange={handleChangeText}
+              placeholder="Dejanos tu opinión, propuesta o comentario. ¡Queremos escucharte!"
+              className={classes.texfield}
+              InputProps={{ disableUnderline: true }}
+              fullWidth
+              multiline
+              rows={7}
+            />
+          </Grid>
+        </Grid>
+        <Grid item>
+          <Grid container direction="row-reverse">
+            <Grid item>
+              <small className={message.length < 1500 ? null : classes.redText}>
+                {message.length}/1500
+              </small>
+            </Grid>
+          </Grid>
+        </Grid>
       </Grid>
+
       <Grid item>
         <Button className={classes.button} onClick={handleSend}>
           {loader ? (

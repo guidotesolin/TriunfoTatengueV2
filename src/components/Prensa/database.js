@@ -24,6 +24,8 @@ import img22 from "../../assets/images/Prensa/id22.jpg";
 import img23 from "../../assets/images/Propuestas/id2.jpg";
 import img24 from "../../assets/images/Prensa/id24.jpg";
 import img25 from "../../assets/images/Prensa/id25.jpg";
+import img26 from "../../assets/images/Prensa/id26.jpg";
+import img27 from "../../assets/images/Prensa/id27.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -337,7 +339,7 @@ const getPrensa = () => {
         `La Agrupación Triunfo Tatengue sigue trabajando. Si bien habrá que esperar uno tiempo más para las nuevas elecciones en Unión, no detiene su andar y avanza en temas que podrían ser importantes a futuro. Sobre todo en el manejo de las divisiones inferiores, hoy el eslabón más recurrente por la crisis económica que disparó la pandemia del coronavirus. Esto hace que los equipos apuesten y potencien sus patrimonios. En este sentido, uno de los referentes, Leonardo Simonutti estuvo reunido con el exentrenador y colaborador de Alejandro Sabella en la Selección Argentina, Claudio Gugnali.`,
       ],
       link:
-        "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
+        "https://www.unosantafe.com.ar/union/reunion-gugnali-y-triunfo-tatengue-ideas-futuro-n2641685.html",
       image: img22,
       imageAlt: "Simonutti y Gugnali",
       date: "2021-02-13",
@@ -379,6 +381,30 @@ const getPrensa = () => {
       image: img25,
       imageAlt: "Leopoldo Luque",
       date: "2021-02-18",
+    },
+    {
+      id: 26,
+      title: `Triunfo Tatengue oficializó que no aprobará Memoria y Balance`,
+      epigraph: `Triunfo Tatengue, encabezada por Leonardo Simoniutti y segunda fuerza en Unión en las elecciones, oficializó que no aprobará Memoria y Balance.`,
+      text:
+        "El próximo miércoles 17 de marzo se realizará, como lo oficializó Unión en sus redes sociales y en su sitio web, la Asamblea General Ordinaria, que tendrá como uno de sus principales objetivos aprobar Memoria y Balance. Vale recordar que Triunfo Tatengue y Glorioso 89 por algunos medios informaron que no darán el visto bueno para dicha alternativa, argumentando sus motivos.        ",
+      link:
+        "https://www.unosantafe.com.ar/union/triunfo-tatengue-oficializo-que-no-aprobara-memoria-y-balance-n2647604.html?utm_source=dlvr.it&utm_medium=twitter",
+      image: img26,
+      imageAlt: "Triunfo Tatengue",
+      date: "2021-03-15",
+    },
+    {
+      id: 27,
+      title: `Triunfo Tatengue y Glorioso 89 no aprobarán Memoria y Balance en la asamblea del miércoles      `,
+      epigraph: `El próximo miércoles 17 de marzo se realizará, como lo oficializó Unión en sus redes sociales y en su sitio web, la Asamblea General Ordinaria, que tendrá como uno de sus principales objetivos aprobar Memoria y Balance. Vale recordar que Triunfo Tatengue y Glorioso 89 por algunos medios informaron que no darán el visto bueno para dicha alternativa, argumentando sus motivos.     `,
+      text:
+        "Triunfo Tatengue en las últimas horas emitió un comunicado donde se informó de los motivos por los cuales la agrupación no aprobará Memoria y Balance en la Asamblea General Ordinaria del próximo miércoles en Unión. Bajo el título «¿Por qué NO Aprobamos la Memoria y Balance?», una de las agrupaciones que participó en las últimas elecciones en Unión, comenzó informando: «La Aprobación significa prestar consentimiento, aceptar que lo expuesto es totalmente verdad, que no se dejó nada librado al azar y está bajo Ley, que se ha expresado todo lo sucedido en estos tiempos, y que el conjunto de lo mencionado es avalado con Documentos y acuerdos en la CD, refrendadas en las Actas. Y esto, claramente, no sucedió en éste último año».",
+      link:
+        "https://deporfe.com/triunfo-tatengue-y-glorioso-89-no-aprobaran-memoria-y-balance-en-la-asamblea-del-miercoles/",
+      image: img27,
+      imageAlt: "Asamblea",
+      date: "2021-03-15",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

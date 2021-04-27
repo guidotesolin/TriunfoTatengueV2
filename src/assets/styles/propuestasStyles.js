@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const PropuestasStyles = makeStyles((theme) => {
   return {
+    root: { justifyContent: "center", paddingBottom: "10px" },
     tituloSeccion: {
       color: "#364d84",
       marginBottom: "30px",
@@ -27,8 +28,10 @@ const PropuestasStyles = makeStyles((theme) => {
     },
     text: {
       fontSize: "20x",
+      marginBottom: "10px",
       fontFamily: "HelveticaNeueLight",
     },
+    gridButton: { marginTop: "5px", display: "flex", alignItems: "center" },
     button: {
       borderRadius: "18px",
       backgroundColor: "#FF0000",
