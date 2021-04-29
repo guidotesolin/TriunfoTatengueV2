@@ -5,7 +5,7 @@ const AgrupacionStyles = makeStyles((theme) => {
   return {
     root: { paddingBottom: "10px" },
     tituloSeccion: {
-      color: "#364d84",
+      color: "#ef233c",
       marginBottom: "30px",
       fontSize: "30px",
       fontFamily: "Futura",

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import styles from "../../assets/styles/listPageStyles";
+import Database from "../Opinion/database";
 import {
   Grid,
   CircularProgress,
@@ -8,11 +9,9 @@ import {
   Button,
   MobileStepper,
 } from "@material-ui/core";
-import styles from "../../assets/styles/opinionStyles";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
-import Database from "../Opinion/database";
-import dateToString from "../utils/dateToString";
+import RenderOpinion from "../utils/listElementView";
 
 export default function OpinionMainPage() {
   const classes = styles();
@@ -58,44 +57,6 @@ export default function OpinionMainPage() {
     setPageNumber(newPage);
   };
 
-  const renderOpinion = (opinion) => {
-    const gridOpinion = (
-      <Grid className={classes.gridOpinion}>
-        <Grid>
-          <img
-            src={opinion.image}
-            alt={opinion.imageAlt}
-            className={classes.preview}
-          />
-        </Grid>
-        <Grid>
-          <Typography className={classes.title}>{opinion.title}</Typography>
-          <Typography className={classes.epigraph}>
-            Por {opinion.author}
-          </Typography>
-          <Typography className={classes.text}>{opinion.text}</Typography>
-          <Grid
-            style={{ marginTop: "5px", display: "flex", alignItems: "center" }}
-          >
-            <Button className={classes.button}>
-              <Link
-                to={opinion.link}
-                className={classes.link}
-                style={{ textDecoration: "none" }}
-              >
-                Continuar leyendo
-              </Link>
-            </Button>
-            <Typography className={classes.addedText}>
-              <em>{dateToString(opinion.date)}</em>
-            </Typography>
-          </Grid>
-        </Grid>
-      </Grid>
-    );
-    return gridOpinion;
-  };
-
   return (
     <Grid container style={{ justifyContent: "center" }} alignItems="center">
       <Grid item>
@@ -108,8 +69,14 @@ export default function OpinionMainPage() {
           pagination.map((opinion, index) => {
             return (
               <Grid key={index}>
-                {renderOpinion(opinion)}
-                <Divider className={classes.divider} />
+                <RenderOpinion
+                  element={opinion}
+                  buttonText={"Continuar leyendo"}
+                  isExternal={false}
+                />
+                {index < pagination.length - 1 && (
+                  <Divider className={classes.divider} />
+                )}
               </Grid>
             );
           })
@@ -128,7 +95,7 @@ export default function OpinionMainPage() {
                 className={classes.paginationButton}
                 size="small"
                 onClick={handleNext}
-                disabled={pageNumber === avalaiblePages}
+                disabled={pageNumber === avalaiblePages - 1}
               >
                 <KeyboardArrowRight />
               </Button>

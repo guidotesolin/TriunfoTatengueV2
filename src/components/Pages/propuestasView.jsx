@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import styles from "../../assets/styles/listPageStyles";
+import Database from "../Propuestas/database";
 import {
   Grid,
   CircularProgress,
@@ -8,11 +9,9 @@ import {
   Button,
   MobileStepper,
 } from "@material-ui/core";
-import styles from "../../assets/styles/propuestasStyles";
 import KeyboardArrowLeft from "@material-ui/icons/KeyboardArrowLeft";
 import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
-import Database from "../Propuestas/database";
-import dateToString from "../utils/dateToString";
+import RenderPropuesta from "../utils/listElementView";
 
 export default function PropuestasMainPage() {
   const classes = styles();
@@ -58,44 +57,8 @@ export default function PropuestasMainPage() {
     setPageNumber(newPage);
   };
 
-  const renderPropuesta = (propuesta) => {
-    const gridPropuesta = (
-      <Grid className={classes.gridPropuesta}>
-        <Grid>
-          <img
-            src={propuesta.image}
-            alt={propuesta.imageAlt}
-            className={classes.preview}
-          />
-        </Grid>
-        <Grid>
-          <Typography className={classes.title}>{propuesta.title}</Typography>
-          <Typography className={classes.epigraph}>
-            {propuesta.epigraph}
-          </Typography>
-          <Typography className={classes.text}>{propuesta.text}</Typography>
-          <Grid className={classes.gridButton}>
-            <Button className={classes.button}>
-              <Link
-                to={propuesta.link}
-                className={classes.link}
-                style={{ textDecoration: "none" }}
-              >
-                Ver completo
-              </Link>
-            </Button>
-            <Typography className={classes.addedText}>
-              <em>{dateToString(propuesta.date)}</em>
-            </Typography>
-          </Grid>
-        </Grid>
-      </Grid>
-    );
-    return gridPropuesta;
-  };
-
   return (
-    <Grid container className={classes.root} alignItems="center">
+    <Grid container className={classes.gridRoot} alignItems="center">
       <Grid item>
         <Typography className={classes.tituloSeccion}>PROPUESTAS</Typography>
       </Grid>
@@ -106,7 +69,11 @@ export default function PropuestasMainPage() {
           pagination.map((propuesta, index) => {
             return (
               <Grid key={index}>
-                {renderPropuesta(propuesta)}
+                <RenderPropuesta
+                  element={propuesta}
+                  buttonText={"Ver completa"}
+                  isExternal={false}
+                />
                 {index < pagination.length - 1 && (
                   <Divider className={classes.divider} />
                 )}
@@ -115,7 +82,7 @@ export default function PropuestasMainPage() {
           })
         )}
       </Grid>
-      <Grid item>
+      <Grid item className={classes.gridPagination}>
         {avalaiblePages > 1 && (
           <MobileStepper
             className={classes.pagination}
@@ -128,7 +95,7 @@ export default function PropuestasMainPage() {
                 className={classes.paginationButton}
                 size="small"
                 onClick={handleNext}
-                disabled={pageNumber === avalaiblePages}
+                disabled={pageNumber === avalaiblePages - 1}
               >
                 <KeyboardArrowRight />
               </Button>

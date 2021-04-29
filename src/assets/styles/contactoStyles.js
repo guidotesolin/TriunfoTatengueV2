@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const ContactoStyles = makeStyles((theme) => {
   return {
     tituloSeccion: {
-      color: "#364d84",
+      color: "#ef233c",
       marginBottom: "30px",
       fontSize: "30px",
       fontFamily: "Futura",
