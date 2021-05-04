@@ -75,7 +75,7 @@ export default function PrensaMainPage() {
                   isExternal={true}
                 />
                 {index < pagination.length - 1 && (
-                  <Divider className={classes.divider} />
+                  <Divider style={{ marginTop: "15px", marginBottom: "15px" }}/>
                 )}
               </Grid>
             );

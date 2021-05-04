@@ -75,7 +75,9 @@ export default function PropuestasMainPage() {
                   isExternal={false}
                 />
                 {index < pagination.length - 1 && (
-                  <Divider className={classes.divider} />
+                  <Divider
+                    style={{ marginTop: "15px", marginBottom: "15px" }}
+                  />
                 )}
               </Grid>
             );

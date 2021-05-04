@@ -12,7 +12,6 @@ const ListPageStyles = makeStyles(() => {
       fontSize: "30px",
       fontFamily: "Futura",
     },
-    divider: { marginTop: "15px", marginBottom: "15px" },
     gridPagination: { marginTop: "15px" },
     pagination: {
       background: "none",

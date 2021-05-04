@@ -164,11 +164,9 @@ export default function Contacto() {
         <Typography className={classes.contactText}>
           ¿Querés acercarnos alguna idea o propuesta?
         </Typography>
-        <Typography className={classes.contactText}>
-          <strong>
-            ¡Todas las opiniones son bienvenidas, llegó el momento de escuchar
-            al hincha!
-          </strong>
+        <Typography className={classes.blueText}>
+          ¡Todas las opiniones son bienvenidas, llegó el momento de escuchar al
+          hincha!
         </Typography>
         <Typography className={classes.contactText}>
           Contactaté con nuestra agrupación mediante el siguiente formulario o
@@ -188,7 +186,21 @@ export default function Contacto() {
               value={name}
               placeholder="Nombre y apellido"
               onChange={handleChangeName}
-              className={classes.texfield}
+              style={{
+                marginTop: "15px",
+                paddingLeft: "10px",
+                background: "#FFFFFF",
+                paddingTop: "2px",
+                borderWidth: "1px",
+                borderColor: "#ef233c",
+                borderStyle: "solid",
+                borderRadius: "5px",
+                transition: "border .3s",
+                "&:hover": {
+                  outline: "none",
+                  border: "2px solid #FF0000",
+                },
+              }}
               InputProps={{ disableUnderline: true }}
               fullWidth={true}
             />
@@ -200,7 +212,21 @@ export default function Contacto() {
                   onChange={handleChangeEmail}
                   value={email}
                   placeholder="Email"
-                  className={classes.texfield}
+                  style={{
+                    marginTop: "15px",
+                    paddingLeft: "10px",
+                    background: "#FFFFFF",
+                    paddingTop: "2px",
+                    borderWidth: "1px",
+                    borderColor: "#ef233c",
+                    borderStyle: "solid",
+                    borderRadius: "5px",
+                    transition: "border .3s",
+                    "&:hover": {
+                      outline: "none",
+                      border: "2px solid #FF0000",
+                    },
+                  }}
                   InputProps={{ disableUnderline: true }}
                   fullWidth={true}
                 />
@@ -210,7 +236,21 @@ export default function Contacto() {
                   value={phone}
                   onChange={handleChangePhone}
                   placeholder="Telefono"
-                  className={classes.texfield}
+                  style={{
+                    marginTop: "15px",
+                    paddingLeft: "10px",
+                    background: "#FFFFFF",
+                    paddingTop: "2px",
+                    borderWidth: "1px",
+                    borderColor: "#ef233c",
+                    borderStyle: "solid",
+                    borderRadius: "5px",
+                    transition: "border .3s",
+                    "&:hover": {
+                      outline: "none",
+                      border: "2px solid #FF0000",
+                    },
+                  }}
                   fullWidth={true}
                   InputProps={{ disableUnderline: true }}
                 />
@@ -222,7 +262,21 @@ export default function Contacto() {
               value={message}
               onChange={handleChangeText}
               placeholder="Dejanos tu opinión, propuesta o comentario. ¡Queremos escucharte!"
-              className={classes.texfield}
+              style={{
+                marginTop: "15px",
+                paddingLeft: "10px",
+                background: "#FFFFFF",
+                paddingTop: "2px",
+                borderWidth: "1px",
+                borderColor: "#ef233c",
+                borderStyle: "solid",
+                borderRadius: "5px",
+                transition: "border .3s",
+                "&:hover": {
+                  outline: "none",
+                  border: "2px solid #FF0000",
+                },
+              }}
               InputProps={{ disableUnderline: true }}
               fullWidth
               multiline
@@ -243,7 +297,7 @@ export default function Contacto() {
 
       <Grid item>
         <SendButton
-          buttonText={"Contactarse"}
+          buttonText="Contactarse"
           onClickFunction={handleSend}
           loader={loader}
         />
