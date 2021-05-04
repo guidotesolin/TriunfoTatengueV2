@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../../assets/styles/listElementStyles";
 import { Grid, Typography } from "@material-ui/core";
 import Button from "./buttonView";
-import dateToString from "./dateToString";
+import dateToString from "../utils/functions/dateToString";
 
 export default function ListElementView(props) {
   const { element, buttonText, isExternal } = props;

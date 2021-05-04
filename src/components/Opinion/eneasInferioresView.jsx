@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Typography, Avatar } from "@material-ui/core";
-import styles from "../../assets/styles/opinionStyles";
+import styles from "../../assets/styles/generalPagesSyles";
 import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
 export default function EneasInferiores() {
@@ -13,30 +13,31 @@ export default function EneasInferiores() {
       direction="column"
       justify="center"
       wrap="nowrap"
+      className={classes.root}
     >
-      <Grid item>
+      <Grid item className={classes.centerText}>
         <Typography className={classes.tituloSeccion}>
           LAS INFERIORES Y SU IMPORTANCIA
         </Typography>
       </Grid>
       <Grid item>
         <img
-          style={{ maxWidth: "60vh", marginBottom: "20px" }}
+          className={classes.imageResponsive}
           src="https://i.imgur.com/iYWUGze.jpg"
           alt="Eneas Cencha"
         />
       </Grid>
       <Grid container direction="row" justify="flex-start" alignItems="center">
-        <Grid item>
+        <Grid item className={classes.gridSeparation}>
           <Avatar
-            src={"https://i.imgur.com/PEF0dg6.jpg"}
-            alt={"Eneas cencha"}
-            style={{ height: "50px", width: "50px", marginRight: "15px" }}
+            src="https://i.imgur.com/PEF0dg6.jpg"
+            alt="Eneas cencha"
+            className={classes.userAvatar}
           />
         </Grid>
         <Grid item>Por Eneas Cencha</Grid>
       </Grid>
-      <Grid item style={{ marginTop: "10px", marginBottom: "10px" }}>
+      <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>
           En Triunfo Tatengue sabemos que las divisiones inferiores son el pilar
           de todos los clubes de futbol, por lo que consideramos que deben ser
@@ -85,7 +86,7 @@ export default function EneasInferiores() {
           crecer como club y como institución.
           <strong> Unidos, juntos por Unión</strong>.
         </Typography>
-        <Grid item style={{ textAlign: "center" }}>
+        <Grid item className={classes.centerText}>
           <ShareInSocialMedia
             link="http://www.triunfotatengue.com.ar/#/opinion_las_inferiores_y_su_importancia"
             title="Las inferiores y su importancia, por Eneas Cencha"

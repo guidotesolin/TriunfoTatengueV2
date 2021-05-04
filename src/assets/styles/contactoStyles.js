@@ -1,7 +1,8 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const ContactoStyles = makeStyles((theme) => {
+const ContactoStyles = makeStyles(() => {
   return {
+    root: { textAlign: "center", paddingBottom: "10px" },
     tituloSeccion: {
       color: "#ef233c",
       marginBottom: "30px",
@@ -13,9 +14,8 @@ const ContactoStyles = makeStyles((theme) => {
       fontFamily: "HelveticaNeueLight",
       fontSize: "20px",
     },
-    contactoGrid: { textAlign: "center" },
     fieldsGrid: { width: "70%" },
-    mediumGrid:{width: "50%"},
+    mediumGrid: { width: "50%" },
     fieldsContainer: { marginTop: "5px", marginBottom: "5px", width: "100%" },
     texfield: {
       marginTop: "15px",
@@ -24,28 +24,13 @@ const ContactoStyles = makeStyles((theme) => {
       paddingTop: "2px",
       border: "1px solid #FF0000",
       borderRadius: "5px",
-    },
-    button: {
-      minWidth: "120px",
-      height: "30px",
-      borderRadius: "18px",
-      backgroundColor: "#FF0000",
-      marginRight: "15px",
+      transition: "border .3s",
       "&:hover": {
-        backgroundColor: "#FFFFFF",
+        outline: "none",
+        border: "2px solid #FF0000",
       },
     },
     redText: { color: "#FF0000" },
-    buttonText: {
-      paddingRight: "5px",
-      paddingLeft: "5px",
-      textTransform: "none",
-      textDecoration: "none",
-      color: "#FFFFFF",
-      "&:hover": {
-        color: "#FF0000",
-      },
-    },
   };
 });
 

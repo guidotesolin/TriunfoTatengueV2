@@ -1,10 +1,13 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const ListPageStyles = makeStyles((theme) => {
+const ListPageStyles = makeStyles(() => {
+  const red = "#ef233c";
+  //const white = "#FFFFFF";
+  //const blue = "#085fb6";
   return {
     gridRoot: { justifyContent: "center", paddingBottom: "10px" },
     tituloSeccion: {
-      color: "#ef233c",
+      color: red,
       marginBottom: "30px",
       fontSize: "30px",
       fontFamily: "Futura",
@@ -13,9 +16,9 @@ const ListPageStyles = makeStyles((theme) => {
     gridPagination: { marginTop: "15px" },
     pagination: {
       background: "none",
-      "& .MuiMobileStepper-dotActive": { backgroundColor: "#FF0000" },
+      "& .MuiMobileStepper-dotActive": { backgroundColor: red },
     },
-    paginationButton: { color: "#FF0000" },
+    paginationButton: { color: red },
   };
 });
 export default ListPageStyles;

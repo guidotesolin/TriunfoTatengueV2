@@ -1,6 +1,6 @@
 import React from "react";
+import styles from "../../assets/styles/generalPagesSyles";
 import { Grid, Typography } from "@material-ui/core";
-import styles from "../../assets/styles/propuestasPagesSyles";
 import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
 import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
 import ProtocoloFile from "../../assets/documents/Protocolo.pdf";
@@ -18,6 +18,7 @@ export default function ProtocoloView() {
       alignItems="center"
       justify="center"
       wrap="nowrap"
+      className={classes.root}
     >
       <Grid item className={classes.centerText}>
         <Typography className={classes.tituloSeccion}>
@@ -28,7 +29,7 @@ export default function ProtocoloView() {
         <img
           src="https://i.imgur.com/gDLdxV8.jpg"
           alt="Asamblea 2021"
-          className={classes.asambleaImages}
+          className={classes.imageResponsive}
         />
       </Grid>
       <Grid item>
@@ -57,10 +58,10 @@ export default function ProtocoloView() {
         <img
           src="https://i.imgur.com/YdQErCW.jpg"
           alt="Nota presentada al club"
-          className={classes.asambleaImages}
+          className={classes.imageResponsive}
         />
       </Grid>
-      <Grid item style={{ textAlign: "center" }}>
+      <Grid item className={classes.centerText}>
         <ShareInSocialMedia
           link="http://www.triunfotatengue.com.ar/#/propuestas_protocolo"
           title="Protocolo para la realización de la asamblea"

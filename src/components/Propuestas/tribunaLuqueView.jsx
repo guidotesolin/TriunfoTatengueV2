@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
-import styles from "../../assets/styles/propuestasPagesSyles";
+import styles from "../../assets/styles/generalPagesSyles";
 import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
 export default function TribunaLeopoldoLuque() {
@@ -12,20 +12,21 @@ export default function TribunaLeopoldoLuque() {
       direction="column"
       justify="center"
       wrap="nowrap"
+      className={classes.root}
     >
-      <Grid item>
+      <Grid item className={classes.centerText}>
         <Typography className={classes.tituloSeccion}>
           TRIBUNA LEOPOLDO JACINTO LUQUE
         </Typography>
       </Grid>
       <Grid item>
         <img
-          style={{ maxWidth: "60vh", marginBottom: "20px" }}
+          className={classes.imageResponsive}
           src="https://i.imgur.com/R6m4ClE.jpg"
           alt="Leopoldo jacinto luque"
         />
       </Grid>
-      <Grid item style={{ marginBottom: "10px" }}>
+      <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>
           El día 17 de febrero presentamos una nota al club solicitando que la
           tribuna conocida popularmente como Cándido Pujato sea rebautizada como
@@ -37,7 +38,7 @@ export default function TribunaLeopoldoLuque() {
         <img
           src="https://i.imgur.com/7G46qBk.jpg"
           alt="Nota presentada al club"
-          className={classes.asambleaImages}
+          className={classes.imageResponsive}
         />
       </Grid>
       <Grid item>
@@ -80,7 +81,7 @@ export default function TribunaLeopoldoLuque() {
         <img
           src="https://images.ole.com.ar/2021/02/15/K1Iycm1eF_1256x620__1.jpg"
           alt="Luque"
-          style={{ maxWidth: "80vh", marginBottom: "20px" }}
+          className={classes.imageResponsive}
         />
       </Grid>
       <ShareInSocialMedia

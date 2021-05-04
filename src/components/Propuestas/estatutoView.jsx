@@ -1,10 +1,11 @@
 import React from "react";
-import { Grid, Typography, Button, Link } from "@material-ui/core";
-import styles from "../../assets/styles/propuestasPagesSyles";
+import styles from "../../assets/styles/generalPagesSyles";
+import { Grid, Typography } from "@material-ui/core";
 import Viewer, { Worker } from "@phuocng/react-pdf-viewer";
 import "@phuocng/react-pdf-viewer/cjs/react-pdf-viewer.css";
 import EstatutoFile from "../../assets/documents/Estatuto.pdf";
 import ShareInSocialMedia from "../utils/shareInSocialMediaView";
+import DownloadButton from "../utils/buttonView";
 
 export default function EstatutoView() {
   const classes = styles();
@@ -20,21 +21,22 @@ export default function EstatutoView() {
       direction="column"
       justify="center"
       wrap="nowrap"
+      className={classes.root}
     >
-      <Grid item>
+      <Grid item className={classes.centerText}>
         <Typography className={classes.tituloSeccion}>
           NUESTRO ANTE PROYECTO DE REFORMA DE ESTATUTO
         </Typography>
       </Grid>
       <Grid item>
         <img
-          style={{ maxWidth: "60vh", marginBottom: "20px" }}
+          className={classes.imageResponsive}
           src="https://i.imgur.com/rSDEWW9.jpg"
           alt="Reforma de estatuto"
         />
       </Grid>
 
-      <Grid item style={{ marginBottom: "10px" }}>
+      <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>
           Hinchas y socios de <strong>UNIÓN</strong>, desde Triunfo Tatengue
           queremos presentarles nuestro Proyecto de reforma de Estatuto, tal
@@ -148,16 +150,11 @@ export default function EstatutoView() {
         </Worker>
       </Grid>
       <Grid item>
-        <Button className={classes.downloadButton}>
-          <Link
-            rel="noopener noreferrer"
-            target="_blank"
-            href={linkEstatuto}
-            className={classes.textButton}
-          >
-            Descargar proyecto completo
-          </Link>
-        </Button>
+        <DownloadButton
+          buttonText={"Descargar proyecto completo"}
+          link={linkEstatuto}
+          isExternal={true}
+        />
       </Grid>
       <ShareInSocialMedia
         link="http://www.triunfotatengue.com.ar/#/propuestas_estatuto"

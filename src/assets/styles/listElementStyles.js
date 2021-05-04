@@ -1,12 +1,15 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const ListElementStyles = makeStyles((theme) => {
+const ListElementStyles = makeStyles(() => {
+  //const red = "#ef233c";
+  //const white = "#FFFFFF";
+  const blue = "#085fb6";
   return {
     flexGrid: { display: "flex" },
     imagePreview: { width: "125px", maxHeight: "150px", marginRight: "20px" },
     title: {
       fontSize: "23px",
-      color: "#085fb6",
+      color: blue,
       fontWeight: "600",
       fontFamily: "HelveticaNeueBold",
     },
@@ -23,7 +26,7 @@ const ListElementStyles = makeStyles((theme) => {
       fontFamily: "HelveticaNeueLight",
     },
     gridButton: { marginTop: "5px", display: "flex", alignItems: "center" },
-    addedText: { fontSize: "12px" },
+    addedText: { marginLeft: "12px", fontSize: "12px" },
   };
 });
 

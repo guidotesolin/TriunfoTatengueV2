@@ -1,40 +1,24 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const homeView = makeStyles((theme) => {
+const HomeStyles = makeStyles(() => {
+  const red = "#ef233c";
+  //const white = "#FFFFFF";
+  //const blue = "#085fb6";
   return {
     root: { justifyContent: "center" },
+    gridElement: { marginBottom: "30px" },
     tituloSeccion: {
-      color: "#364d84",
+      color: red,
       fontSize: "30px",
       fontFamily: "Futura",
     },
+    videoGrid: { width: "80%", marginBottom: "30px" },
     text: {
       fontFamily: "HelveticaNeueBold",
       fontSize: "23px",
-      color: "#085fb6",
-    },
-    gridElement: { marginBottom: "30px" },
-    videoGrid: { width: "80%", marginBottom: "30px" },
-    videoContainer: {
-      position: "relative",
-      overflow: "hidden",
-      width: "100%",
-      paddingTop: "56.25%",
-    },
-    video: {
-      position: "absolute",
-      top: "0",
-      left: "0",
-      bottom: "0",
-      right: "0",
-      width: "100%",
-      height: "100%",
-    },
-    image: {
-      width: "80%",
-      cursor: "pointer",
+      color: red,
     },
   };
 });
 
-export default homeView;
+export default HomeStyles;

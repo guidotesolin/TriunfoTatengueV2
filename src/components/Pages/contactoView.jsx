@@ -1,18 +1,13 @@
 import React, { useState } from "react";
-import {
-  Grid,
-  TextField,
-  Typography,
-  Button,
-  Snackbar,
-  CircularProgress,
-} from "@material-ui/core";
-import emailjs from "emailjs-com";
 import styles from "../../assets/styles/contactoStyles";
+import { Grid, TextField, Typography, Snackbar } from "@material-ui/core";
+import emailjs from "emailjs-com";
 import MuiAlert from "@material-ui/lab/Alert";
-import ValidateEmpty from "../utils/validateEmpty";
-import ValidateMail from "../utils/validateEmail";
-import ValidatePhone from "../utils/validatePhone";
+import SendButton from "../utils/buttonOnClickView";
+// Functions
+import ValidateEmpty from "../utils/functions/validateEmpty";
+import ValidateMail from "../utils/functions/validateEmail";
+import ValidatePhone from "../utils/functions/validatePhone";
 
 export default function Contacto() {
   const classes = styles();
@@ -153,7 +148,7 @@ export default function Contacto() {
       direction="column"
       alignItems="center"
       justify="center"
-      className={classes.contactoGrid}
+      className={classes.root}
     >
       <Grid item>
         <Typography className={classes.tituloSeccion}>CONTACTO </Typography>
@@ -247,13 +242,11 @@ export default function Contacto() {
       </Grid>
 
       <Grid item>
-        <Button className={classes.button} onClick={handleSend}>
-          {loader ? (
-            <CircularProgress size={20} />
-          ) : (
-            <Typography className={classes.buttonText}>Enviar</Typography>
-          )}
-        </Button>
+        <SendButton
+          buttonText={"Contactarse"}
+          onClickFunction={handleSend}
+          loader={loader}
+        />
       </Grid>
       <Snackbar
         open={snackbarError}
