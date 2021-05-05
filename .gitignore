@@ -10,7 +10,8 @@
 
 # production
 /build
-
+# Email configuration
+/src/components/utils/emailJsConfig.js
 # misc
 .DS_Store
 .env.local

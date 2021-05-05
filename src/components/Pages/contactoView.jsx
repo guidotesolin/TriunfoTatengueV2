@@ -8,6 +8,8 @@ import SendButton from "../utils/buttonOnClickView";
 import ValidateEmpty from "../utils/functions/validateEmpty";
 import ValidateMail from "../utils/functions/validateEmail";
 import ValidatePhone from "../utils/functions/validatePhone";
+// Configuration email js
+import ConfigFile from "../utils/emailJsConfig";
 
 export default function Contacto() {
   const classes = styles();
@@ -98,11 +100,6 @@ export default function Contacto() {
     }
   };
 
-  // EmailJS params
-  const serviceID = "default_service";
-  const templateID = "paginaweb";
-  const userID = "user_Hm8cr2VjV88hTCqnBiG5L";
-
   const sendMail = () => {
     setLoader(true);
     const params = {};
@@ -110,6 +107,8 @@ export default function Contacto() {
     params.mail = email;
     params.telefono = phone;
     params.mensaje = message;
+    // EmailJS params
+    const { serviceID, templateID, userID } = ConfigFile();
     emailjs.send(serviceID, templateID, params, userID).then(
       () => {
         setSnackbarSuccess(true);
@@ -117,12 +116,12 @@ export default function Contacto() {
         setLoader(false);
       },
       (err) => {
-        setSnackbarErrorMsg(
-          "Un error ha ocurrido cuando el mensaje se estaba enviando. Por favor comuniquese directamente con cualquiera nuestras redes sociales"
-        );
-        setSnackbarError(true);
-        console.log(err.message);
+        const error =
+          "Error de servidor. Comuniquese por cualquiera nuestras redes sociales";
+        setSnackbarErrorMsg(error);
+        console.log(err);
         setLoader(false);
+        setSnackbarError(true);
       }
     );
   };
@@ -317,8 +316,8 @@ export default function Contacto() {
         onClose={closeSuccessSnackbar}
       >
         <Alert onClose={closeSuccessSnackbar} severity="success">
-          ¡Gracias por ponerte en contacto con nuestra agrupación! Su consulta
-          ha sido enviada. A la brevedad nos estaremos comunicando
+          ¡Gracias por ponerte en contacto! A la brevedad nos estaremos
+          comunicando.
         </Alert>
       </Snackbar>
     </Grid>
