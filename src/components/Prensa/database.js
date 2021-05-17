@@ -27,6 +27,9 @@ import img25 from "../../assets/images/Prensa/id25.jpg";
 import img26 from "../../assets/images/Prensa/id26.jpg";
 import img27 from "../../assets/images/Prensa/id27.jpg";
 import img28 from "../../assets/images/Prensa/id28.jpg";
+import img30 from "../../assets/images/Prensa/id30.jpg";
+import img31 from "../../assets/images/Prensa/id31.jpg";
+import img32 from "../../assets/images/Prensa/id32.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -397,6 +400,49 @@ const getPrensa = () => {
       image: img1,
       imageAlt: "Leo Simonutti",
       date: "2021-05-14",
+    },
+    {
+      id: 30,
+      title:
+        "Gugnali, Bottaniz y Cacho Roteta se suman al proyecto deportivo de Triunfo Tatengue",
+      epigraph:
+        "Leonardo Simonutti es el principal referente de la agrupación Triunfo Tatengue, primera minoría en Unión, que ya se está preparando para el proceso electoral que vivirá la institución al año que viene.",
+      text: [
+        "El propio Simonutti dio a conocer cuáles son los nombres con quiénes ya ha conversado para que se hagan cargo del fútbol de Unión en el caso de ser gobierno: Claudio Gugnali, Víctor Alfredo Bottaniz y Carlos Roteta.",
+      ],
+      link: "https://deporfe.com/gugnali-bottaniz-y-cacho-roteta-se-suman-al-proyecto-deportivo-de-triunfo-tatengue/",
+      image: img30,
+      imageAlt: "Leonardo Simonutti y Claudio Gugnali",
+      date: "2021-05-17",
+    },
+
+    {
+      id: 31,
+      title:
+        "El proyecto futbolístico de Triunfo Tatengue con Gugnali, Bottaniz y Roteta",
+      epigraph:
+        "Triunfo Tatengue presentó un Proyecto Futbolístico en sus redes sociales con principales referentes de Unión. Claudio Gugnali sería el manager, mientras que Lito Bottaniz tendría la función del director de scouting, y Cacho Reteta sería el coordinador de divisiones inferiores.",
+      text: [
+        "La actual dirigencia de Unión se encuentra enfocada en cubrir dos puestos muy importantes para el proyecto deportivo, como son los cargos de director deportivo, que quedó acéfalo tras la partida de Martín Zuccarelli, y el de coordinador de inferiores, que no tiene referente desde hace un buen tiempo.",
+      ],
+      link: "https://www.radiogol.com.ar/deportes/el-proyecto-futbolistico-de-triunfo-tatengue-con-gugnali-bottaniz-y-roteta-10927",
+      image: img31,
+      imageAlt: "Proyecto futbolistico",
+      date: "2021-05-17",
+    },
+
+    {
+      id: 32,
+      title: "Gugnali, Bottaniz y Roteta en los planes de Triunfo Tatengue",
+      epigraph:
+        "Simonutti, el referente de la primera minoría ya adelantó quiénes serían los encargados de manejar el fútbol de Unión en el caso de ser gobierno en las elecciones del año que viene.",
+      text: [
+        "Triunfo Tatengue, se está preparando para el proceso electoral que vivirá la institución al año que viene. Y en diálogo con El Litoral (entrevista que será ampliada en una próxima edición), el propio Simonutti dio a conocer cuáles son los nombres con quiénes ya ha conversado para que se hagan cargo del fútbol de Unión en el caso de ser gobierno: Claudio Gugnali, Víctor Alfredo Bottaniz y Carlos Roteta.",
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/298415-gugnali-bottaniz-y-roteta-en-los-planes-de-triunfo-tatengue-asi-lo-revelo-leonardo-simonutti-actualidad-tatengue-un-proyecto-ambicioso.htm",
+      image: img32,
+      imageAlt: "Gugnali, Bottaniz y Roteta",
+      date: "2021-05-17",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

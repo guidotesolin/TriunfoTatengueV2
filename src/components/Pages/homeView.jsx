@@ -47,6 +47,16 @@ export default function Homepage() {
         >
           <Grid item>
             <Card
+              image="https://i.imgur.com/hShwBen.jpg"
+              altImage="Proyecto futbolistico"
+              title={`Gugnali, Bottaniz y Roteta se suman a nuestro proyecto`}
+              description="Contamos con un gran equipo de trabajo para el Fútbol Profesional y Amateur de Unión. Estamos orgullosos de darles la bienvenida"
+              tag="Propuesta"
+              url={"/propuestas_proyecto_futbolistico"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://i.imgur.com/1g9YeuP.jpg"
               altImage={"Leo Simonutti"}
               title={`"Unión necesita un proyecto a largo plazo"`}

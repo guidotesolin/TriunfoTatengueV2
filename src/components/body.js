@@ -15,6 +15,7 @@ import NotFound from "./NotFound/404";
 import Estatuto from "../components/Propuestas/estatutoView";
 import Protocolo from "../components/Propuestas/protocoloView";
 import TribunaLuque from "../components/Propuestas/tribunaLuqueView";
+import Futbol from "../components/Propuestas/proyectoFutbolisticoView";
 // Opinion
 import EneasInferiores from "../components/Opinion/eneasInferioresView";
 // Others
@@ -38,6 +39,7 @@ export default function BodyPage() {
             path="/propuestas_tribuna_leopoldo_luque"
             component={TribunaLuque}
           />
+          <Route path="/propuestas_proyecto_futbolistico" component={Futbol} />
           {/*Opinion */}
           <Route
             path="/opinion_las_inferiores_y_su_importancia"

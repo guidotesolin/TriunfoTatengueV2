@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const GeneralPagesStyles = makeStyles(() => {
   const red = "#ef233c";
   // const white = "#FFFFFF";
-  // const blue = "#085fb6";
+  //const blue = "#085fb6";
   return {
     root: { marginBottom: "10px" },
     centerText: { textAlign: "center" },
@@ -31,7 +31,8 @@ const GeneralPagesStyles = makeStyles(() => {
     textoLista: {
       fontFamily: "HelveticaNeueBold",
     },
-    userAvatar:{height: "50px", width: "50px", marginRight: "15px" }
+    userAvatar: { height: "50px", width: "50px", marginRight: "15px" },
+    imageGrid: { width: "100%" },
   };
 });
 

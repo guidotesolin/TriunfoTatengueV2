@@ -1,6 +1,7 @@
 import img0 from "../../assets/images/Propuestas/id0.jpg";
 import img1 from "../../assets/images/Propuestas/id1.jpg";
 import img2 from "../../assets/images/Propuestas/id2.jpg";
+import img3 from "../../assets/images/Propuestas/id3.jpg";
 
 const getPropuestas = () => {
   const propuestas = [
@@ -34,8 +35,7 @@ const getPropuestas = () => {
     {
       id: 2,
       title: "Tribuna Leopoldo Jacinto Luque",
-      epigraph:
-        "Un homenaje más que merecido",
+      epigraph: "Un homenaje más que merecido",
       text: [
         "Estimados tatengues, les queremos hacer llegar la nota presentada el día de hoy en el club proponiendo que se cambie el nombre de la tribuna hoy llamada Cándido Pujato por Leopoldo Jacinto Luque para honrarlo en modo de agradecimiento a todo lo brindado a nuestra querida institución",
       ],
@@ -43,6 +43,19 @@ const getPropuestas = () => {
       image: img2,
       imageAlt: "Leopoldo Jacinto Luque",
       date: "2021-02-17",
+    },
+    {
+      id: 3,
+      title: "Nuestro proyecto futbolistico",
+      epigraph:
+        "Contamos con un gran equipo de trabajo para el Fútbol Profesional y Amateur de Unión estamos orgullosos de presentarlos.",
+      text: [
+        "Es una estructura moderna, como existe y se trabaja con grandes éxitos en los Clubes de Europa, además con gente de reconocido profesionalismo y pertenencia en Union.",
+      ],
+      link: "/propuestas_proyecto_futbolistico",
+      image: img3,
+      imageAlt: "Gugnali, Bottaniz y Roteta",
+      date: "2021-05-17",
     },
   ];
   propuestas.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
