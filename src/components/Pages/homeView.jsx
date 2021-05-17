@@ -1,9 +1,11 @@
 import React from "react";
 import { Grid, Typography } from "@material-ui/core";
+import { Link } from "react-router-dom";
 import styles from "../../assets/styles/homeViewStyles";
 import "../body.css";
 import Card from "../utils/imageCardView";
 import AgrupacionImage from "../../assets/images/img02.jpg";
+import Asociate from "../../assets/images/asociate.jpg";
 
 export default function Homepage() {
   const classes = styles();
@@ -36,9 +38,6 @@ export default function Homepage() {
         </div>
       </Grid>
       <Grid item className={classes.gridElement}>
-        <Typography className={classes.text}>DESTACADO</Typography>
-      </Grid>
-      <Grid item className={classes.gridElement}>
         <Grid
           container
           direction="row"
@@ -46,6 +45,16 @@ export default function Homepage() {
           alignItems="flex-start"
           spacing={2}
         >
+          <Grid item>
+            <Card
+              image="https://i.imgur.com/1g9YeuP.jpg"
+              altImage={"Leo Simonutti"}
+              title={`"Unión necesita un proyecto a largo plazo"`}
+              description="Leonardo Simonutti juega a fondo para ser presidente de Unión. El esperancino, especialista en desarrollo y expansión de las energías renovables y convencionales, lidera la agrupación Triunfo Tatengue, y se anima a disputarle la hegemonía política a Luis Spahn. El futuro del Tate es algo que lo obsesiona y lo deja en claro permanentemente."
+              tag="Prensa"
+              link="https://www.ellitoral.com/index.php/id_um/297992-simonutti-union-necesita-un-proyecto-a-largo-plazo-una-propuesta-diferente-actualidad-tatengue-una-propuesta-diferente.html"
+            />
+          </Grid>
           <Grid item>
             <Card
               image={AgrupacionImage}
@@ -123,6 +132,15 @@ export default function Homepage() {
             />
           </Grid>
         </Grid>
+      </Grid>
+      <Grid item className={classes.gridElement}>
+        <Link to={"/asociate"} style={{ textDecoration: "none" }}>
+          <img
+            src={Asociate}
+            alt="Asociate!"
+            className={classes.imageResponsive}
+          />
+        </Link>
       </Grid>
     </Grid>
   );

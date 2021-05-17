@@ -18,6 +18,7 @@ const HomeStyles = makeStyles(() => {
       fontSize: "23px",
       color: red,
     },
+    imageResponsive: { width: "100%" },
   };
 });
 

@@ -18,6 +18,7 @@ import TribunaLuque from "../components/Propuestas/tribunaLuqueView";
 // Opinion
 import EneasInferiores from "../components/Opinion/eneasInferioresView";
 // Others
+import Asociate from "../components/Others/asociateView";
 
 export default function BodyPage() {
   return (
@@ -42,6 +43,8 @@ export default function BodyPage() {
             path="/opinion_las_inferiores_y_su_importancia"
             component={EneasInferiores}
           />
+          {/*Others */}
+          <Route path="/asociate" component={Asociate} />
           <Route component={NotFound} />
         </Switch>
       </HashRouter>

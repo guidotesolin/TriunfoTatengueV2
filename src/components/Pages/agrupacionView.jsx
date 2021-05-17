@@ -64,12 +64,15 @@ export default function Agrupacion() {
         </Typography>
         <Typography className={classes.text}>
           Somos la identidad tatengue y el sentimiento del hincha que pretende
-          un Unión mucho más grande y no hablamos solamente de fútbol, el{" "}
+          un Unión mucho más grande y no hablamos solamente de fútbol, el
           <strong>TRIUNFO TATENGUE</strong> se tiene que aplicar a todos los
-          aspectos del club. Unión es el club social y deportivo más importante
-          de la región y eso tiene que verse reflejado en masa societaria,
-          infraestructura, actividades deportivas, actividades sociales,
-          actividades culturales y en el club en sí mismo.
+          aspectos del club.
+          <strong>
+            Unión es el club social y deportivo más importante de la región y
+            eso tiene que verse reflejado en masa societaria, infraestructura,
+            actividades deportivas, actividades sociales, actividades culturales
+            y en el club en sí mismo.
+          </strong>
         </Typography>
         <Typography className={classes.text}>
           Deseamos elevar la vara institucional y que el club gane en calidad

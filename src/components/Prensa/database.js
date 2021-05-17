@@ -26,6 +26,7 @@ import img24 from "../../assets/images/Prensa/id24.jpg";
 import img25 from "../../assets/images/Prensa/id25.jpg";
 import img26 from "../../assets/images/Prensa/id26.jpg";
 import img27 from "../../assets/images/Prensa/id27.jpg";
+import img28 from "../../assets/images/Prensa/id28.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -37,8 +38,7 @@ const getPrensa = () => {
       text: [
         "El próximo lunes 1 de junio se cumplirá un año de las ultimas elección en Unión. En los últimos comicios, Luis Spahn fue reelecto como presidente de la institución. A casi un año del acto electivo, Leonardo Simonutti, presidente de Triunfo Tatengue, charló con Nexo Diario sobre los proyectos que buscan realizar en el club.",
       ],
-      link:
-        "https://nexodiario.com/leonardo-simonutti-queremos-lograr-un-union-transparente/",
+      link: "https://nexodiario.com/leonardo-simonutti-queremos-lograr-un-union-transparente/",
       image: img0,
       imageAlt: "Leonardo Simonutti",
       date: "2020-05-30",
@@ -51,8 +51,7 @@ const getPrensa = () => {
       text: [
         "Triunfo Tatengue redobla la apuesta y a un año de las elecciones en las que resultó electo el actual presidente, Luis Spahn, formula críticas a la gestión y señala: “Pasó un año y estamos peor. Se vendió por mucho dinero, se desvalorizó el plantel, no se sabe si se achicó la deuda con los acreedores, especialmente con el presidente, no hubo obras y se fue la figura más importante que era nuestro técnico”, señala Leonardo Simonutti, el presidente de este grupo político que resultó segundo en las elecciones del 1 de junio pasado.",
       ],
-      link:
-        "https://www.ellitoral.com/index.php/id_um/242119-paso-un-ano-y-estamos-peor-leonardo-simonutti-y-la-voz-de-triunfo-tatengue-a-365-dias-de-las-elecciones-actualidad-tatengue.html",
+      link: "https://www.ellitoral.com/index.php/id_um/242119-paso-un-ano-y-estamos-peor-leonardo-simonutti-y-la-voz-de-triunfo-tatengue-a-365-dias-de-las-elecciones-actualidad-tatengue.html",
       image: img1,
       imageAlt: "Leonardo Simonutti",
       date: "2020-05-31",
@@ -75,10 +74,8 @@ const getPrensa = () => {
       epigraph: [
         "Leonardo Simonutti, referente de Triunfo Tatengue junto a Rodrigo Villarreal, contó en qué consiste el nuevo estatuto que proponen para Unión.",
       ],
-      text:
-        "Leonardo Simonutti es el actual referente de la agrupación Triunfo Tatengue, que viene realizando una importante tarea en los últimos tiempos, ya que se transformó en la segunda fuerza política, con un claro cuestionamiento a la conducción de Luis Spahn en Unión y con un proyecto para reformar el estatuto del club.",
-      link:
-        "https://www.unosantafe.com.ar/union/simonutti-union-no-mejoro-viene-pasos-atras-n2588140.html",
+      text: "Leonardo Simonutti es el actual referente de la agrupación Triunfo Tatengue, que viene realizando una importante tarea en los últimos tiempos, ya que se transformó en la segunda fuerza política, con un claro cuestionamiento a la conducción de Luis Spahn en Unión y con un proyecto para reformar el estatuto del club.",
+      link: "https://www.unosantafe.com.ar/union/simonutti-union-no-mejoro-viene-pasos-atras-n2588140.html",
       image: img3,
       imageAlt: "Leonardo Simonutti",
       date: "2020-06-01",
@@ -89,10 +86,8 @@ const getPrensa = () => {
       epigraph: [
         "En exclusiva por Radio Eme deportivo hablamos con Leonardo Simonutti, representante de la agrupación Triunfo Tatengue",
       ],
-      text:
-        "En primer termino recordó que hace un año Luis Spahn fue reelecto en las ultimas elecciones en la institución Tatengue: “Hoy se cumplen un año de las elecciones seguimos con un proyecto firme”",
-      link:
-        "https://www.radioeme.com/2020/06/leonardo-simonutti-de-triunfo-tatengue-pensamos-en-el-futuro-de-union/",
+      text: "En primer termino recordó que hace un año Luis Spahn fue reelecto en las ultimas elecciones en la institución Tatengue: “Hoy se cumplen un año de las elecciones seguimos con un proyecto firme”",
+      link: "https://www.radioeme.com/2020/06/leonardo-simonutti-de-triunfo-tatengue-pensamos-en-el-futuro-de-union/",
       image: img4,
       imageAlt: "Leonardo Simonutti",
       date: "2020-06-01",
@@ -117,8 +112,7 @@ const getPrensa = () => {
       text: [
         "Leonardo Simonutti es el actual referente de la agrupación Triunfo Tatengue, que viene realizando una importante tarea en los últimos tiempos, ya que se transformó en la segunda fuerza política, con un claro cuestionamiento a la conducción de Luis Spahn en Unión y con un proyecto para reformar el estatuto del club.",
       ],
-      link:
-        "https://antologiaradio.com/post/leonardo-simonutti-de-la-agrupacion-triunfo-tatengue-a-un-ano-de-las-ultimas-elecciones-rojiblancas",
+      link: "https://antologiaradio.com/post/leonardo-simonutti-de-la-agrupacion-triunfo-tatengue-a-un-ano-de-las-ultimas-elecciones-rojiblancas",
       image: img6,
       imageAlt: "Agrupacion Triunfo Tatengue",
       date: "2020-06-03",
@@ -132,8 +126,7 @@ const getPrensa = () => {
       text: [
         "Uno de los últimos trabajos que se destacó en la agrupación que tiene como presidente a Leonardo Simonutti, y a Rodrigo Villarreal como una de las cabezas visibles que más apoya y trabaja en favor del club a pesar de no ser gestión en estos momentos, fue la adaptación del Estatuto.",
       ],
-      link:
-        "https://sinmordaza.com/noticia/110388-el-nuevo-y-moderno-estatuto-de-union-que-presentara-triunfo-tatengue.html",
+      link: "https://sinmordaza.com/noticia/110388-el-nuevo-y-moderno-estatuto-de-union-que-presentara-triunfo-tatengue.html",
       image: img7,
       imageAlt: "Triunfo tatengue logo",
       date: "2020-07-10",
@@ -146,8 +139,7 @@ const getPrensa = () => {
       text: [
         'Es un trabajo hecho a conciencia, con muchas horas de estudio, consultando a profesionales y observando los Estatutos de instituciones prestigiosas y exitosas, expresaron desde el espacio político. Asimismo, sostuvo que "mantenemos la identidad que caracteriza al Club social y deportivo más importante de la región. En total trabajamos en 154 Artículos',
       ],
-      link:
-        "https://www.unosantafe.com.ar/union/union-triunfo-tatengue-presento-la-reforma-estatuto-n2596291.html",
+      link: "https://www.unosantafe.com.ar/union/union-triunfo-tatengue-presento-la-reforma-estatuto-n2596291.html",
       image: img8,
       imageAlt: "Sede del club",
       date: "2020-07-10",
@@ -161,8 +153,7 @@ const getPrensa = () => {
       text: [
         "Hace algunas semanas, en una entrevista a El Litoral, Alejandro Simonutti —hoy presidente de Triunfo Tatengue, la agrupación que propició la candidatura de Rodrigo Villarreal en las elecciones del año pasado— adelantaba el trabajo que se venía realizando en la conformación del anteproyecto de reforma del estatuto de Unión, algo que fue una promesa electoral de esa agrupación y que ahora materializa para ser presentada a la actual comisión directiva para que se convoque a una asamblea extraordinaria a fin de modernizar el estatuto del club.",
       ],
-      link:
-        "https://www.ellitoral.com/index.php/id_um/248651-triunfo-tatengue-tiene-terminado-el-anteproyecto-de-reforma-del-estatuto-arduo-trabajo-sobre-154-articulos-actualidad-tatengue.html?utm_source=dlvr.it&utm_medium=whatsapp",
+      link: "https://www.ellitoral.com/index.php/id_um/248651-triunfo-tatengue-tiene-terminado-el-anteproyecto-de-reforma-del-estatuto-arduo-trabajo-sobre-154-articulos-actualidad-tatengue.html?utm_source=dlvr.it&utm_medium=whatsapp",
       image: img9,
       imageAlt: "Hinchada de UNIÓN",
       date: "2020-07-10",
@@ -176,8 +167,7 @@ const getPrensa = () => {
       text: [
         "Miembros de la Agrupación Triunfo Tatengue se reuniero con Glorioso 89 para comenzar a cotejar puntos de coincidencia con un espíritu reformista para un estatuto moderno y correspondiente a estos tiempos donde el pueblo tatengue pide mayor transparencia, control de los actos de gobierno y dinamismo en las distintas áreas, tanto profesionales como amateurs, del Club Atlético Unión.",
       ],
-      link:
-        "http://enelarea.com.ar/2020/07/11/reunion-de-triunfo-tatengue-y-glorioso-89-por-la-reforma-del-estatuto/?utm_source=dlvr.it&utm_medium=twitter",
+      link: "http://enelarea.com.ar/2020/07/11/reunion-de-triunfo-tatengue-y-glorioso-89-por-la-reforma-del-estatuto/?utm_source=dlvr.it&utm_medium=twitter",
       image: img10,
       imageAlt: "Reunión con G89",
       date: "2020-07-11",
@@ -202,8 +192,7 @@ const getPrensa = () => {
       text: [
         "Las dos agrupaciones que fueron listas opositoras en las elecciones llevadas a cabo el año pasado en Unión, volvieron a reunirse. Tanto Triunfo Tatengue como Glorioso ‘89 siguen avanzando en el trabajo conjunto de cara a la reforma del estatuto de Unión.",
       ],
-      link:
-        "https://www.ellitoral.com/index.php/id_um/251131-siguen-las-reuniones-por-el-estatuto-triunfo-tatengue-y-glorioso-89-actualidad-tatengue.html",
+      link: "https://www.ellitoral.com/index.php/id_um/251131-siguen-las-reuniones-por-el-estatuto-triunfo-tatengue-y-glorioso-89-actualidad-tatengue.html",
       image: img12,
       imageAlt: "Reunión con G89",
       date: "2020-07-26",
@@ -240,8 +229,7 @@ const getPrensa = () => {
       text: [
         'En estos 11 años de conducción de Luis Sphan observo por el espejo retrovisor y no veo ningún adelanto. Pienso en la cantidad de jugadores que pasaron en los últimos años por Unión y muchos se terminaron yendo con el pase en su poder. Jugadores que ahora son figuras en otros equipos", reflexionó en el inicio de la charla.',
       ],
-      link:
-        "https://www.unosantafe.com.ar/union/el-socio-union-termina-naturalizando-todo-n2611468.html",
+      link: "https://www.unosantafe.com.ar/union/el-socio-union-termina-naturalizando-todo-n2611468.html",
       image: img15,
       imageAlt: "Rodrigo Villarreal",
       date: "2020-09-22",
@@ -254,8 +242,7 @@ const getPrensa = () => {
       text: [
         "Estimados/as periodistas, las Agrupaciones Unionistas Glorioso 89 y Triunfo Tatengue se complacen en informarles a ustedes y a la familia rojiblanca que hemos llegado a un acuerdo en diferentes aspectos relacionados con la reforma del Estatuto de Unión.",
       ],
-      link:
-        "https://www.unosantafe.com.ar/union/la-oposicion-union-llego-un-consenso-el-estatuto-n2617521.html",
+      link: "https://www.unosantafe.com.ar/union/la-oposicion-union-llego-un-consenso-el-estatuto-n2617521.html",
       image: img16,
       imageAlt: "Consenso ",
       date: "2020-10-19",
@@ -267,8 +254,7 @@ const getPrensa = () => {
       text: [
         "Durante varios meses nuestras agrupaciones estuvieron trabajando en sus respectivas propuestas para la reforma del Estatuto, tal cual lo prometiéramos durante la campaña electoral del 2019 en la cual participamos como únicas fuerzas opositoras. Tras dar a conocer los anteproyectos, y como fuerzas vivas y activas en la vida unionista, nos pusimos a trabajar de manera conjunta, unimos criterios y disponibilidad de tiempo para realizar un anteproyecto de Estatuto con el objetivo de lograr un Club moderno y grande, tanto en la Liga Profesional como en las competiciones internacionales del fútbol y todas sus disciplinas.",
       ],
-      link:
-        "https://drive.google.com/file/d/1DaLd1OrNeOqFd3-k3F7k6LIi71OQTNWW/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1DaLd1OrNeOqFd3-k3F7k6LIi71OQTNWW/view?usp=sharing",
       image: img17,
       imageAlt: "Parte de prensa",
       date: "2020-10-19",
@@ -281,8 +267,7 @@ const getPrensa = () => {
       text: [
         'Leonardo Simonutti, uno de los referentes de la agrupación "Triunfo Tatengue", dialogó con Andrés Battistella por C5SF y para Agencia DERF sobre el acuerdo alcanzado con otra agrupación para avanzar en la modificación del estatuto del Club Atlético Unión.',
       ],
-      link:
-        "https://www.derf.com.ar/simonutti-hay-que-pensar-un-union-aca-30-o-40-anos-n1529578",
+      link: "https://www.derf.com.ar/simonutti-hay-que-pensar-un-union-aca-30-o-40-anos-n1529578",
       image: img18,
       imageAlt: "Nota en C5SF",
       date: "2020-10-20",
@@ -296,8 +281,7 @@ const getPrensa = () => {
       text: [
         "«El año pasado antes de las elecciones, en nuestra plataforma propusimos modificar el estatuto, que sea moderno, profesional y que se adapte a la realidad que vivimos. Como dirigentes debemos pensar en el futuro, conversamos con la agrupación Glorioso 89, mantuvimos reuniones presenciales en julio y agosto y antes lo hicimos de manera virtual. Por lo cual llegamos a un entendimiento para modernizar el estatuto», comenzó contando.",
       ],
-      link:
-        "https://deporfe.com/triunfo-tatengue-apuesta-por-la-construccion-de-un-union-nuevo-y-moderno/",
+      link: "https://deporfe.com/triunfo-tatengue-apuesta-por-la-construccion-de-un-union-nuevo-y-moderno/",
       image: img19,
       imageAlt: "Simonutti",
       date: "2020-10-22",
@@ -310,8 +294,7 @@ const getPrensa = () => {
       text: [
         "El candidato a presidente de Unión en las últimas elecciones, por Triunfo Tatengue, Rodrigo Villarreal, fue durísimo y cargó las tintas contra el presidente Spahn y también apuntó a la Inspección de Personas Jurídicas y al Ministerio Público de la Acusación.",
       ],
-      link:
-        "https://www.ellitoral.com/index.php/id_um/273920-villarreal-tajante-es-un-nuevo-hecho-delictivo-de-spahn-mas-repercusiones-por-las-declaraciones-del-presidente-de-union-actualidad-tatengue-fuerte-polemica.html?utm_source=dlvr.it&utm_medium=whatsapp",
+      link: "https://www.ellitoral.com/index.php/id_um/273920-villarreal-tajante-es-un-nuevo-hecho-delictivo-de-spahn-mas-repercusiones-por-las-declaraciones-del-presidente-de-union-actualidad-tatengue-fuerte-polemica.html?utm_source=dlvr.it&utm_medium=whatsapp",
       image: img20,
       imageAlt: "Rodrigo villarreal",
       date: "2020-12-19",
@@ -324,8 +307,7 @@ const getPrensa = () => {
       text: [
         `En los últimos días Luis Spahn, presidente de Unión, le brindó una entrevista a Cablevideo Santo Tomé, donde reveló: "Retiré algo de fondo en enero y diciembre, cuando estuvo disponible. Después vino la pandemia y no retiré más porque empezamos a tener una economía incierta. El Covid nos robó 40 millones de pesos por falta de asistencia de público en los partidos internacionales. Trabajábamos en un predio con varios dueños pero con la inestabilidad cambiara decidieron no vender". Esto derivó en que Luis Rodríguez Peragallo, uno de los referentes de Triunfo Tatengue, salga a plasmar la postura de su agrupación ante estas declaraciones.`,
       ],
-      link:
-        "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
+      link: "https://www.unosantafe.com.ar/union/en-union-hay-una-falta-transparencia-alarmante-n2632169.html",
       image: img21,
       imageAlt: "Rodriguez Peragallo",
       date: "2020-12-25",
@@ -338,8 +320,7 @@ const getPrensa = () => {
       text: [
         `La Agrupación Triunfo Tatengue sigue trabajando. Si bien habrá que esperar uno tiempo más para las nuevas elecciones en Unión, no detiene su andar y avanza en temas que podrían ser importantes a futuro. Sobre todo en el manejo de las divisiones inferiores, hoy el eslabón más recurrente por la crisis económica que disparó la pandemia del coronavirus. Esto hace que los equipos apuesten y potencien sus patrimonios. En este sentido, uno de los referentes, Leonardo Simonutti estuvo reunido con el exentrenador y colaborador de Alejandro Sabella en la Selección Argentina, Claudio Gugnali.`,
       ],
-      link:
-        "https://www.unosantafe.com.ar/union/reunion-gugnali-y-triunfo-tatengue-ideas-futuro-n2641685.html",
+      link: "https://www.unosantafe.com.ar/union/reunion-gugnali-y-triunfo-tatengue-ideas-futuro-n2641685.html",
       image: img22,
       imageAlt: "Simonutti y Gugnali",
       date: "2021-02-13",
@@ -352,8 +333,7 @@ const getPrensa = () => {
       text: [
         `Este miércoles, mediante un comunicado de prensa, la agrupación Triunfo Tatengue solicitó al presidente de Unión, Luis Spahn, y la comisión directiva del club que “se arbitren los medios institucionales para designar toda la tribuna Norte de nuestro estadio 15 de Abril (conocida como Cándido Pujato) con el nombre de LEOPOLDO JACINTO LUQUE”.`,
       ],
-      link:
-        "https://www.sol915.com.ar/piden-la-tribuna-candido-pujato-del-estadio-union-lleve-nombre-leopoldo-jacinto-luque/",
+      link: "https://www.sol915.com.ar/piden-la-tribuna-candido-pujato-del-estadio-union-lleve-nombre-leopoldo-jacinto-luque/",
       image: img23,
       imageAlt: "Leopoldo Luque",
       date: "2021-02-17",
@@ -362,10 +342,8 @@ const getPrensa = () => {
       id: 24,
       title: "Piden que la tribuna de Cándido Pujato lleve el nombre de Luque",
       epigraph: `La Agrupación Triunfo Tatengue hizo ingresar por mesa de entradas el pedido para que la comisión directiva de Unión designe a la tribuna norte ubicada sobre Cándido Pujato con el nombre de Leopoldo Jacinto Luque, el ex delantero tatengue recientemente fallecido.`,
-      text:
-        "En 1975, Unión vendió a Luque a River en una cifra récord en el fútbol argentino. Parte de ese dinero sirvió para la posterior remodelación de todo ese sector.",
-      link:
-        "https://www.ellitoral.com/index.php/id_um/283194-piden-que-la-tribuna-de-candido-pujato-lleve-el-nombre-de-luque-tras-su-reciente-muerte-actualidad-tatengue-union.html",
+      text: "En 1975, Unión vendió a Luque a River en una cifra récord en el fútbol argentino. Parte de ese dinero sirvió para la posterior remodelación de todo ese sector.",
+      link: "https://www.ellitoral.com/index.php/id_um/283194-piden-que-la-tribuna-de-candido-pujato-lleve-el-nombre-de-luque-tras-su-reciente-muerte-actualidad-tatengue-union.html",
       image: img24,
       imageAlt: "Leopoldo Luque",
       date: "2021-02-17",
@@ -374,10 +352,8 @@ const getPrensa = () => {
       id: 25,
       title: `Simonutti: "No hay tatengue que no quiera que la tribuna se llame Leopoldo Jacinto Luque"`,
       epigraph: `El presidente de Triunfo Tatengue, Leonardo Simonutti, detalló en Oíd Mortales todo sobre la nota que su agrupación le presentó a Unión para que la tribuna de Cándido Pujato adquiera el nombre del recientemente fallecido Leopoldo Jacinto Luque.`,
-      text:
-        "«La mayoría de los clubes no le dan a sus ídolos el lugar que se merecen, y en esta oportunidad le presentamos una nota al club para que la tribuna de Cándido Pujato lleve su nombre, recordando que parte de ella se terminó con los fondos de su venta a River, ayudando en la infraestructura de Unión, y porque es el ídolo». Escuchalo a Leonardo Simonutti en Radio Gol.",
-      link:
-        "https://www.radiogol.com.ar/deportes/union/no-hay-tatengue-que-no-quiera-que-la-tribuna-se-llame-leopoldo-jacinto-luque-2519/",
+      text: "«La mayoría de los clubes no le dan a sus ídolos el lugar que se merecen, y en esta oportunidad le presentamos una nota al club para que la tribuna de Cándido Pujato lleve su nombre, recordando que parte de ella se terminó con los fondos de su venta a River, ayudando en la infraestructura de Unión, y porque es el ídolo». Escuchalo a Leonardo Simonutti en Radio Gol.",
+      link: "https://www.radiogol.com.ar/deportes/union/no-hay-tatengue-que-no-quiera-que-la-tribuna-se-llame-leopoldo-jacinto-luque-2519/",
       image: img25,
       imageAlt: "Leopoldo Luque",
       date: "2021-02-18",
@@ -386,10 +362,8 @@ const getPrensa = () => {
       id: 26,
       title: `Triunfo Tatengue oficializó que no aprobará Memoria y Balance`,
       epigraph: `Triunfo Tatengue, encabezada por Leonardo Simoniutti y segunda fuerza en Unión en las elecciones, oficializó que no aprobará Memoria y Balance.`,
-      text:
-        "El próximo miércoles 17 de marzo se realizará, como lo oficializó Unión en sus redes sociales y en su sitio web, la Asamblea General Ordinaria, que tendrá como uno de sus principales objetivos aprobar Memoria y Balance. Vale recordar que Triunfo Tatengue y Glorioso 89 por algunos medios informaron que no darán el visto bueno para dicha alternativa, argumentando sus motivos.        ",
-      link:
-        "https://www.unosantafe.com.ar/union/triunfo-tatengue-oficializo-que-no-aprobara-memoria-y-balance-n2647604.html?utm_source=dlvr.it&utm_medium=twitter",
+      text: "El próximo miércoles 17 de marzo se realizará, como lo oficializó Unión en sus redes sociales y en su sitio web, la Asamblea General Ordinaria, que tendrá como uno de sus principales objetivos aprobar Memoria y Balance. Vale recordar que Triunfo Tatengue y Glorioso 89 por algunos medios informaron que no darán el visto bueno para dicha alternativa, argumentando sus motivos.        ",
+      link: "https://www.unosantafe.com.ar/union/triunfo-tatengue-oficializo-que-no-aprobara-memoria-y-balance-n2647604.html?utm_source=dlvr.it&utm_medium=twitter",
       image: img26,
       imageAlt: "Triunfo Tatengue",
       date: "2021-03-15",
@@ -398,13 +372,31 @@ const getPrensa = () => {
       id: 27,
       title: `Triunfo Tatengue y Glorioso 89 no aprobarán Memoria y Balance en la asamblea del miércoles      `,
       epigraph: `El próximo miércoles 17 de marzo se realizará, como lo oficializó Unión en sus redes sociales y en su sitio web, la Asamblea General Ordinaria, que tendrá como uno de sus principales objetivos aprobar Memoria y Balance. Vale recordar que Triunfo Tatengue y Glorioso 89 por algunos medios informaron que no darán el visto bueno para dicha alternativa, argumentando sus motivos.     `,
-      text:
-        "Triunfo Tatengue en las últimas horas emitió un comunicado donde se informó de los motivos por los cuales la agrupación no aprobará Memoria y Balance en la Asamblea General Ordinaria del próximo miércoles en Unión. Bajo el título «¿Por qué NO Aprobamos la Memoria y Balance?», una de las agrupaciones que participó en las últimas elecciones en Unión, comenzó informando: «La Aprobación significa prestar consentimiento, aceptar que lo expuesto es totalmente verdad, que no se dejó nada librado al azar y está bajo Ley, que se ha expresado todo lo sucedido en estos tiempos, y que el conjunto de lo mencionado es avalado con Documentos y acuerdos en la CD, refrendadas en las Actas. Y esto, claramente, no sucedió en éste último año».",
-      link:
-        "https://deporfe.com/triunfo-tatengue-y-glorioso-89-no-aprobaran-memoria-y-balance-en-la-asamblea-del-miercoles/",
+      text: "Triunfo Tatengue en las últimas horas emitió un comunicado donde se informó de los motivos por los cuales la agrupación no aprobará Memoria y Balance en la Asamblea General Ordinaria del próximo miércoles en Unión. Bajo el título «¿Por qué NO Aprobamos la Memoria y Balance?», una de las agrupaciones que participó en las últimas elecciones en Unión, comenzó informando: «La Aprobación significa prestar consentimiento, aceptar que lo expuesto es totalmente verdad, que no se dejó nada librado al azar y está bajo Ley, que se ha expresado todo lo sucedido en estos tiempos, y que el conjunto de lo mencionado es avalado con Documentos y acuerdos en la CD, refrendadas en las Actas. Y esto, claramente, no sucedió en éste último año».",
+      link: "https://deporfe.com/triunfo-tatengue-y-glorioso-89-no-aprobaran-memoria-y-balance-en-la-asamblea-del-miercoles/",
       image: img27,
       imageAlt: "Asamblea",
       date: "2021-03-15",
+    },
+    {
+      id: 28,
+      title: `Simonutti: "Unión necesita un proyecto a largo plazo"`,
+      epigraph: `Leonardo Simonutti juega a fondo para ser presidente de Unión. El esperancino, especialista en desarrollo y expansión de las energías renovables y convencionales, lidera la agrupación Triunfo Tatengue, y se anima a disputarle la hegemonía política a Luis Spahn. El futuro del Tate es algo que lo obsesiona y lo deja en claro permanentemente.`,
+      text: "Todavía falta un año para las elecciones en el club, pero el andar de Triunfo Tatengue no se detiene.",
+      link: "https://www.ellitoral.com/index.php/id_um/297992-simonutti-union-necesita-un-proyecto-a-largo-plazo-una-propuesta-diferente-actualidad-tatengue-una-propuesta-diferente.html",
+      image: img28,
+      imageAlt: "Triunfo Tatengue",
+      date: "2021-05-14",
+    },
+    {
+      id: 29,
+      title: `Simonutti: "Tenemos que unirnos por un proyecto superador"`,
+      epigraph: `Leonardo Simonutti, una de las cabezas visibles de Triunfo Tatengue, se refirió a la actualidad deportiva e institucional que atraviesa Unión.`,
+      text: `Leonardo Simonutti habló con La Tercera de Ricardo Porta, por Radio Gol (FM 96.7), donde comenzó hablando de lo deportivo, luego de que Unión quedara fuera de los cuartos de final de la Copa de la Liga Profesional y afirmó: "Con respecto a la actuación del primer equipo yo he rescatado en varias oportunidades, junto con todos los unionistas, porque lo que queremos en Triunfo Tatengue es la unión y no la división. Tenemos que juntarnos todos los que queremos un Unión distinto diferente, distinto, nuevo y un Tatengue que quiera volver a soñar y deje de estar de pesadilla en pesadilla tenemos que unirnos por un proyecto superador`,
+      link: "https://www.unosantafe.com.ar/union/simonutti-tenemos-que-unirnos-un-proyecto-superador-n2660904.html",
+      image: img1,
+      imageAlt: "Leo Simonutti",
+      date: "2021-05-14",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
