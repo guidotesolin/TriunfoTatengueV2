@@ -21,28 +21,18 @@ export default function Asociate() {
         </Typography>
       </Grid>
       <Grid item className={classes.gridSeparation}>
-        <div
-          class="fb-video"
-          data-href="https://www.facebook.com/TriunfoTatengue/videos/756732458364996"
-          data-width="500"
-          data-show-text="false"
-        >
-          <blockquote
-            cite="https://developers.facebook.com/TriunfoTatengue/videos/756732458364996/"
-            class="fb-xfbml-parse-ignore"
-          >
-            <a href="https://developers.facebook.com/TriunfoTatengue/videos/756732458364996/"></a>
-            <p>
-              💪🏼🇦🇹 ¡Tu voz vale! Construyamos JUNTOS el futuro de nuestro amado
-              #Unión ❤️🤍❤️ #ElClubEsDeLosSocios #TriunfoTatengue #UnidosUnión
-            </p>
-            Publicado por
-            <a href="https://www.facebook.com/TriunfoTatengue/">
-              Triunfo Tatengue
-            </a>
-            en Martes, 23 de marzo de 2021
-          </blockquote>
-        </div>
+        <iframe
+          title="Pasate a pleno"
+          src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fleonardo.simonutti%2Fvideos%2F10220291833628268%2F&show_text=false&width=380"
+          width="380"
+          height="476"
+          className={classes.facebookVideo}
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"
+        ></iframe>
       </Grid>
       <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>

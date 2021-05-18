@@ -33,6 +33,7 @@ const GeneralPagesStyles = makeStyles(() => {
     },
     userAvatar: { height: "50px", width: "50px", marginRight: "15px" },
     imageGrid: { width: "100%" },
+    facebookVideo: { border: "none", overflow: "hidden" },
   };
 });
 

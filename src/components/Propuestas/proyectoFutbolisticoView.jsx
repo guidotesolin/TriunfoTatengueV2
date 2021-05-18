@@ -84,6 +84,24 @@ export default function ProyectoFutbolistico() {
         <Typography className={classes.textoDesarrollo}>
           Estamos convencidos que estamos en el camino correcto.
         </Typography>
+        <Typography className={classes.textoDesarrollo}>
+          Compartimos un fragmento de la nota a nuestro presidente en SOL 91.5
+          comentando un poco sobre esta estructura
+        </Typography>
+        <Grid item className={classes.centerText}>
+          <iframe
+            title="Simonutti en FM Sol"
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fleonardo.simonutti%2Fvideos%2F10220454967626516%2F&show_text=false&width=267"
+            width="267"
+            height="476"
+            className={classes.facebookVideo}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen="true"
+          ></iframe>
+        </Grid>
         <Grid item>
           <Grid
             container
