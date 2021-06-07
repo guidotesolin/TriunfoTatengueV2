@@ -49,7 +49,7 @@ export default function TribunaLeopoldoLuque() {
         </Typography>
       </Grid>
       <Grid item>
-        <blockquote class="twitter-tweet">
+        <blockquote className="twitter-tweet">
           <p lang="es" dir="ltr">
             📃 Convenio de transferencia entre
             <a href="https://twitter.com/RiverPlate?ref_src=twsrc%5Etfw">

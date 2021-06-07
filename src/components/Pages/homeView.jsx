@@ -26,14 +26,14 @@ export default function Homepage() {
       </Grid>
 
       <Grid item className={classes.videoGrid}>
-        <div class="container">
+        <div className="container">
           <iframe
             src="https://www.youtube.com/embed/KeinW5M6XfA"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             title="Unión, Unidos"
-            class="responsive-iframe"
+            className="responsive-iframe"
           ></iframe>
         </div>
       </Grid>
@@ -47,6 +47,16 @@ export default function Homepage() {
         >
           <Grid item>
             <Card
+              image="https://i.imgur.com/0P53ZTR.jpg"
+              altImage="Leonardo Simonutti"
+              title="La historia del otro ferretero que quiere ser presidente de Unión"
+              description="“Grondona tenía una ferretería y fue presidente de la Afa; yo tengo una ferretería y quiero ser presidente de Unión”, dice este esperancino que ya tiene designado el manager, el coordinador y el buscador de talentos si el socio lo elige. Su plan para entrar a Unión sin necesidad de una chequera pero con resto económico."
+              tag="Prensa"
+              link="https://www.ellitoral.com/index.php/id_um/299476-la-historia-del-otro-ferretero-que-quiere-ser-presidente-de-union-leonardo-simonutti-quien-es-que-quiere-para-el-club-como-piensa-actualidad-tatengue-leonardo-simonutti.html"
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://i.imgur.com/hShwBen.jpg"
               altImage="Proyecto futbolistico"
               title={`Gugnali, Bottaniz y Roteta se suman a nuestro proyecto`}
@@ -58,7 +68,7 @@ export default function Homepage() {
           <Grid item>
             <Card
               image="https://i.imgur.com/1g9YeuP.jpg"
-              altImage={"Leo Simonutti"}
+              altImage="Leo Simonutti"
               title={`"Unión necesita un proyecto a largo plazo"`}
               description="Leonardo Simonutti juega a fondo para ser presidente de Unión. El esperancino, especialista en desarrollo y expansión de las energías renovables y convencionales, lidera la agrupación Triunfo Tatengue, y se anima a disputarle la hegemonía política a Luis Spahn. El futuro del Tate es algo que lo obsesiona y lo deja en claro permanentemente."
               tag="Prensa"

@@ -9,22 +9,22 @@ export default function Footer() {
     <div id="socialNetworks">
       <Row id="networks">
         <a
-          class="socialIcons"
+          className="socialIcons"
           rel="noopener noreferrer"
           href="https://www.facebook.com/TriunfoTatengue"
           target="_blank"
         >
-          <i class="fab fa-facebook-square"></i>
+          <i className="fab fa-facebook-square" />
         </a>
       </Row>
       <Row id="networks">
         <a
-          class="socialIcons"
+          className="socialIcons"
           rel="noopener noreferrer"
           href="https://www.instagram.com/triunfotatengue"
           target="_blank"
         >
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram" />
         </a>
       </Row>
       <Row id="networks">
@@ -38,22 +38,22 @@ export default function Footer() {
       </Row>
       <Row id="networks">
         <a
-          class="socialIcons"
+          className="socialIcons"
           rel="noopener noreferrer"
           href="https://www.twitter.com/TriunfoTatengue"
           target="_blank"
         >
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter" />
         </a>
       </Row>
       <Row id="networks">
         <a
-          class="socialIcons"
+          className="socialIcons"
           rel="noopener noreferrer"
           href="https://www.youtube.com/channel/UC_3_g_ZA677mPetWdTTBhjA"
           target="_blank"
         >
-          <i class="fab fa-youtube"></i>
+          <i className="fab fa-youtube" />
         </a>
       </Row>
     </div>

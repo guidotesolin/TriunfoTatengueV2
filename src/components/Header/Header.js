@@ -10,8 +10,8 @@ export default function Header() {
     <div id="divNavbar">
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand >
-          <Nav.Link class="navbarImage">
-            <Link to="/" class="navbarImage">
+          <Nav.Link className="navbarImage">
+            <Link to="/" className="navbarImage">
               <img
                 src={Logo}
                 width="50"
@@ -25,32 +25,32 @@ export default function Header() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav.Link>
-            <Link to="/" class="navbarElement">
+            <Link to="/" className="navbarElement">
               Inicio
             </Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/agrupacion" class="navbarElement">
+            <Link to="/agrupacion" className="navbarElement">
               Agrupación
             </Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/propuestas" class="navbarElement">
+            <Link to="/propuestas" className="navbarElement">
               Propuestas
             </Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/prensa" class="navbarElement">
+            <Link to="/prensa" className="navbarElement">
               Prensa
             </Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/opinion" class="navbarElement">
+            <Link to="/opinion" className="navbarElement">
               Opinión
             </Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/contacto" class="navbarElement">
+            <Link to="/contacto" className="navbarElement">
               Contacto
             </Link>
           </Nav.Link>

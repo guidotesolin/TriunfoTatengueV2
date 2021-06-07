@@ -4,8 +4,8 @@ import "./404.css";
 
 export default function NotFound() {
   return (
-    <div class="wrapper">
-      <div class="hijo">
+    <div className="wrapper">
+      <div className="hijo">
         <h1 id="Titulo">
           <strong>404 | NOT FOUND</strong>
         </h1>
