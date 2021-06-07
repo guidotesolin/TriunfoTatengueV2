@@ -75,7 +75,9 @@ export default function PrensaMainPage() {
                   isExternal={true}
                 />
                 {index < pagination.length - 1 && (
-                  <Divider style={{ marginTop: "15px", marginBottom: "15px" }}/>
+                  <Divider
+                    style={{ marginTop: "15px", marginBottom: "15px" }}
+                  />
                 )}
               </Grid>
             );
@@ -90,6 +92,7 @@ export default function PrensaMainPage() {
             steps={avalaiblePages}
             position="static"
             activeStep={pageNumber}
+            style={{ background: "none" }}
             nextButton={
               <Button
                 className={classes.paginationButton}

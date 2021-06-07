@@ -7,6 +7,7 @@ const GeneralPagesStyles = makeStyles(() => {
   return {
     root: { marginBottom: "10px" },
     centerText: { textAlign: "center" },
+    centerGrid: { textAlign: "-webkit-center" },
     tituloSeccion: {
       color: red,
       marginBottom: "30px",

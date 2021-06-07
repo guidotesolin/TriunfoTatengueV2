@@ -14,7 +14,6 @@ const ListPageStyles = makeStyles(() => {
     },
     gridPagination: { marginTop: "15px" },
     pagination: {
-      background: "none",
       "& .MuiMobileStepper-dotActive": { backgroundColor: red },
     },
     paginationButton: { color: red },

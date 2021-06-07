@@ -1,10 +1,13 @@
 import React from "react";
 import styles from "../../assets/styles/generalPagesSyles";
 import { Grid, Typography } from "@material-ui/core";
-import ShareInSocialMedia from "../utils/shareInSocialMediaView";
+// Images
 import Gugnali from "../../assets/images/Propuestas/futbol/gugnali.jpg";
 import Roteta from "../../assets/images/Propuestas/futbol/roteta.jpg";
 import Bottaniz from "../../assets/images/Propuestas/futbol/bottaniz.jpg";
+// Components
+import ReactPlayer from "react-player";
+import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
 export default function ProyectoFutbolistico() {
   const classes = styles();
@@ -69,7 +72,7 @@ export default function ProyectoFutbolistico() {
           el Club, de una capacidad inigualable.
         </Typography>
         <Typography className={classes.textoDesarrollo}>
-          <strong>Lito Botaniz</strong> sumándose a la Direccion de Scouting,
+          <strong>Lito Bottaniz</strong> sumándose a la Direccion de Scouting,
           gloria del Club, para detectar los mejores juveniles que formaremos en
           nuestras canteras, y además detectar los jugadores que podrían sumarse
           al plantel profesional.
@@ -81,6 +84,12 @@ export default function ProyectoFutbolistico() {
           Tatengue de la cuna, y que llamará a todos los ex jugadores e ídolos
           del Club, para sumarse al proyecto grande de este nuevo Union.
         </Typography>
+        <Grid item className={classes.centerGrid}>
+          <ReactPlayer
+            url="https://soundcloud.com/triunfo-tatengue/audio-rotetta"
+            width={300}
+          />
+        </Grid>
         <Typography className={classes.textoDesarrollo}>
           Estamos convencidos que estamos en el camino correcto.
         </Typography>

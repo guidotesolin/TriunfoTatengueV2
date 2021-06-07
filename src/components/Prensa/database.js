@@ -30,6 +30,8 @@ import img28 from "../../assets/images/Prensa/id28.jpg";
 import img30 from "../../assets/images/Prensa/id30.jpg";
 import img31 from "../../assets/images/Prensa/id31.jpg";
 import img32 from "../../assets/images/Prensa/id32.jpg";
+import img33 from "../../assets/images/Prensa/id33.jpg";
+import img34 from "../../assets/images/Prensa/id34.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -443,6 +445,33 @@ const getPrensa = () => {
       image: img32,
       imageAlt: "Gugnali, Bottaniz y Roteta",
       date: "2021-05-17",
+    },
+
+    {
+      id: 33,
+      title: "El proyecto deportivo de una de las agrupaciones de Unión",
+      epigraph:
+        "Triunfo Tatengue, cuya cabeza visible es Leonardo Simonutti, lanzará su proyecto deportivo, con referentes vinculados a la historia de Unión.",
+      text: [
+        "La actual dirigencia de Unión se encuentra enfocada en cubrir dos puestos muy importantes para el proyecto deportivo, como son los cargos de director deportivo, que quedó acéfalo tras la partida de Martín Zuccarelli, y el de coordinador de inferiores, que no tiene referente desde hace un buen tiempo.",
+      ],
+      link: "https://www.unosantafe.com.ar/union/el-proyecto-deportivo-una-las-agrupaciones-union-n2661413.html",
+      image: img33,
+      imageAlt: "Lito Bottaniz",
+      date: "2021-05-17",
+    },
+    {
+      id: 34,
+      title:
+        "La historia del otro ferretero que quiere ser presidente de Unión",
+      epigraph: `“Grondona tenía una ferretería y fue presidente de la Afa; yo tengo una ferretería y quiero ser presidente de Unión”, dice este esperancino que ya tiene designado el manager, el coordinador y el buscador de talentos si el socio lo elige. Su plan para entrar a Unión sin necesidad de una chequera pero con resto económico.`,
+      text: [
+        "Su nombre comenzó a sonar fuerte en el último proceso electoral, cuando se metió en el ruedo político dela mano de Rodrigo Villarreal. Es un empresario conocido, naturalmente hincha de Unión, y desde ese rol fue acunando inquietudes y logró despertar la aspiración de contribuir con el club de sus amores desde una función más comprometida.",
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/299476-la-historia-del-otro-ferretero-que-quiere-ser-presidente-de-union-leonardo-simonutti-quien-es-que-quiere-para-el-club-como-piensa-actualidad-tatengue-leonardo-simonutti.html",
+      image: img34,
+      imageAlt: "Simonutti",
+      date: "2021-05-23",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
