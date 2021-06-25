@@ -5,6 +5,7 @@ import { Grid, Typography } from "@material-ui/core";
 import Gugnali from "../../assets/images/Propuestas/futbol/gugnali.jpg";
 import Roteta from "../../assets/images/Propuestas/futbol/roteta.jpg";
 import Bottaniz from "../../assets/images/Propuestas/futbol/bottaniz.jpg";
+import Equipo from "../../assets/images/Propuestas/futbol/equipo.jpg";
 // Components
 import ReactPlayer from "react-player";
 import ShareInSocialMedia from "../utils/shareInSocialMediaView";
@@ -39,6 +40,13 @@ export default function ProyectoFutbolistico() {
           y se trabaja con grandes éxitos en los Clubes de Europa, además con
           gente de reconocido profesionalismo y pertenencia en Union.
         </Typography>
+        <Grid item className={classes.centerGrid}>
+          <img
+            src={Equipo}
+            alt="Proyecto futbolistico"
+            className={classes.imageResponsive}
+          />
+        </Grid>
         <Typography className={classes.textoDesarrollo}>
           Tenemos un proyecto futbolístico que tiene cuatro eslabones. El
           patrimonio del club, en el aspecto futbolístico, está dado en las

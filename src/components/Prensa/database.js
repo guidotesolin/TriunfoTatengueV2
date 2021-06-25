@@ -32,6 +32,15 @@ import img31 from "../../assets/images/Prensa/id31.jpg";
 import img32 from "../../assets/images/Prensa/id32.jpg";
 import img33 from "../../assets/images/Prensa/id33.jpg";
 import img34 from "../../assets/images/Prensa/id34.jpg";
+import img35 from "../../assets/images/Prensa/id35.jpg";
+import img36 from "../../assets/images/Prensa/id36.jpg";
+import img37 from "../../assets/images/Prensa/id37.jpg";
+import img38 from "../../assets/images/Prensa/id38.jpg";
+import img39 from "../../assets/images/Prensa/id39.jpg";
+import img40 from "../../assets/images/Prensa/id40.jpg";
+import img41 from "../../assets/images/Prensa/id41.jpg";
+import img42 from "../../assets/images/Prensa/id42.jpg";
+import img43 from "../../assets/images/Prensa/id43.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -472,6 +481,123 @@ const getPrensa = () => {
       image: img34,
       imageAlt: "Simonutti",
       date: "2021-05-23",
+    },
+    {
+      id: 35,
+      title:
+        "Cachito Roteta: 'Estoy muy orgulloso del equipo que se está formando'",
+      epigraph:
+        "Quien será nuestro Director de Fútbol Amateur y Formativas dialogó con el equipo de En El Area el día 30 de mayo",
+      text: [
+        `"Tenemos objetivos superadores: Queremos a un Unión peleando cosas importantes e institucionalmente fuerte.`,
+      ],
+      link: "https://soundcloud.com/triunfo-tatengue/audio-rotetta",
+      image: img35,
+      imageAlt: "Cacho Roteta",
+      date: "2021-05-30",
+    },
+    {
+      id: 36,
+      title:
+        "Eduardo Magnín se sumó al proyecto deportivo de la Agrupación Triunfo Tatengue",
+      epigraph:
+        "Es otra “incorporación” que se suma al grupo de Triunfo Tatengue, aunque dicen que no es la última.",
+      text: [
+        "Eduardo Magnín no es un nombre que pase desapercibido en el mundo Unión. Tanto como jugador, cuando fue caudillo del ascenso del ’96, como cuando le tocó dirigir y con la reserva peleó el campeonato. Magnín fue importante para la vida futbolística de la institución. Hizo su aporte. No se fue bien.",
+      ],
+      link: "https://deporfe.com/eduardo-magnin-se-sumo-al-proyecto-deportivo-de-la-agrupacion-triunfo-tatengue/",
+      image: img36,
+      imageAlt: "Renoleta Magnin",
+      date: "2021-06-12",
+    },
+    {
+      id: 37,
+      title: `Simonutti: "Cuando nosotros decimos 'Unidos Unión' es porque realmente lo sentimos así"`,
+      epigraph:
+        "Nota realizada a Leonardo Simonutti por Carlos Gilardoni en Radio Gol el día 13 de junio",
+      text: [
+        `"Siempre hemos llamado a las otras agrupaciones para trabajar juntos. A Unión lo sacamos adelante entre todos."`,
+      ],
+      link: "https://soundcloud.com/triunfo-tatengue/simonutti-radio-gol-13-junio",
+      image: img37,
+      imageAlt: "Leo Simonutti",
+      date: "2021-06-13",
+    },
+    {
+      id: 39,
+      title: `Leonardo Simonutti: "Aspiramos a formar un equipo competitivo para poder tener la aspiración de competir en todos los torneos y lograr un titulo".`,
+      epigraph:
+        "El presidente de nuestra agrupación dialogó con el equipo de Radio EME el día 17 de junio",
+      text: [
+        `"Nos pusimos a disposición de la Comisión Directiva Actual, estamos para trabajar por el club. En Triunfo Tatengue decimos somos Imparables, en Unión somos 17 mil socios y votan 7 mil"`,
+      ],
+      link: "https://soundcloud.com/triunfo-tatengue/simonutti-radio-eme-17jun",
+      image: img38,
+      imageAlt: "Nota en Radio Eme",
+      date: "2021-06-17",
+    },
+    {
+      id: 38,
+      title: `Gugnali: "Estoy identificado con la gente de Triunfo Tatengue. Estoy gratamente sorprendido, se están preparando".`,
+      epigraph:
+        "Claudio Gugnali, quién será nuestro manager charló por FM 96.7 Radio",
+      text: [
+        `"Si tenemos la suerte, Unión finalmente va a despegar. Me cuesta criticar a la actual CD porque conozco a muchos, pero se estancaron"`,
+      ],
+      link: "https://radiocut.fm/audiocut/claudio-gugnali-18-6-2021/",
+      image: img39,
+      imageAlt: "Gugnali",
+      date: "2021-06-18",
+    },
+    {
+      id: 40,
+      title: `Claudio Gugnali: "Unión es un club que está estancado"`,
+      epigraph:
+        "Claudio Gugnali, ex DT de Unión y coordinador de divisiones inferiores en los primeros años del nuevo siglo. Luego se fue a trabajar con Sabella a Estudiantes y a la selección, pero Unión sigue siendo su debilidad. ",
+      text: [
+        `Es el secretario deportivo que impulsa Triunfo Tatengue. Volvió a hacer hincapié en la necesidad de que el club tenga su predio.`,
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/304173-claudio-gugnali-union-es-un-club-que-esta-estancado-el-hombre-que-nunca-se-fue-y-que-quiere-volver-actualidad-tatengue-elogio-a-azconzabal.html",
+      image: img40,
+      imageAlt: "Gugnali",
+      date: "2021-06-20",
+    },
+    {
+      id: 41,
+      title: `Gugnali: “Hoy no hay coordinador, no hay manager, es terrible la situación que se vive”`,
+      epigraph:
+        "“Estoy gratamente sorprendido porque es un grupo de gente con muchas ganas y con muchos proyecto. No es normal que un año antes de las elecciones un grupo se prepare de la manera e intensidad que se está preparando este grupo, no deja nada librado al azar”.",
+      text: [
+        `A más de un año de una nueva elección en Unión, Triunfo Tatengue ya trabaja en la confección de la lista y los proyectos. En ese sentido, quien habló fue Claudio Gugnali, ex ayudante de campo de Alejandro Sabella en la Selección Argentina`,
+      ],
+      link: "https://deporfe.com/gugnali-hoy-no-hay-coordinador-no-hay-manager-es-terrible-la-situacion-que-se-vive/",
+      image: img41,
+      imageAlt: "Claudio Gugnali",
+      date: "2021-06-20",
+    },
+    {
+      id: 42,
+      title: `Nota televisiva a Leonardo Simonutti en Canal 2 de San Justo`,
+      epigraph:
+        "Extensa entrevista realizada al presidente de nuestra agrupación en La Mesa Deportiva el día 16 de Junio",
+      text: [],
+      link: "https://www.youtube.com/watch?v=DPCoBoI4yTQ",
+      image: img42,
+      imageAlt: "Leo Simonutti",
+      date: "2021-06-21",
+    },
+    {
+      id: 43,
+      title: `Eduardo Magnín: “Me convocaron porque reconocen el trabajo que uno hizo”`,
+      epigraph:
+        "Uno de los símbolos de la entidad charló con radio Gol 96.7 para hablar de la actualidad del equipo y la conformación del plantel con jugadores de la cantera.",
+      text: [
+        ` “La gente de Triunfo Tatengue me ha convocado en este tiempo, para mí es un gusto primero y principal porque reconocen el trabajo que uno hizo y lo primero que me expresaron es que vuelva a trabajar en el club”, apuntó a propósito de su convocatoria por uno de los sectores opositores al gobierno de turno.`,
+      ],
+      link: "https://deporfe.com/eduardo-magnin-me-convocaron-porque-reconocen-el-trabajo-que-uno-hizo/",
+      image: img43,
+      imageAlt: "Magnin",
+      date: "2021-06-24",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

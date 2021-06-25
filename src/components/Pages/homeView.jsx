@@ -47,6 +47,16 @@ export default function Homepage() {
         >
           <Grid item>
             <Card
+              image="https://i.imgur.com/Waj2cfN.jpg"
+              altImage="Proyecto futbolistico"
+              title={`¡Bienvenido Renoleta!`}
+              description={`Eduardo "Renoleta" Magnín también se suma a nuestro proyecto futbolistico. Experiencia, Pertenencia y Trabajo. Conocedor como pocos de las inferiores de Club, formador de esta camada actual y uno de los grandes potenciadores del trabajo en inferiores se une a nuestra estructura futbolistica.`}
+              tag="Propuesta"
+              url={"/propuestas_proyecto_futbolistico"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://i.imgur.com/0P53ZTR.jpg"
               altImage="Leonardo Simonutti"
               title="La historia del otro ferretero que quiere ser presidente de Unión"
@@ -55,16 +65,7 @@ export default function Homepage() {
               link="https://www.ellitoral.com/index.php/id_um/299476-la-historia-del-otro-ferretero-que-quiere-ser-presidente-de-union-leonardo-simonutti-quien-es-que-quiere-para-el-club-como-piensa-actualidad-tatengue-leonardo-simonutti.html"
             />
           </Grid>
-          <Grid item>
-            <Card
-              image="https://i.imgur.com/hShwBen.jpg"
-              altImage="Proyecto futbolistico"
-              title={`Gugnali, Bottaniz y Roteta se suman a nuestro proyecto`}
-              description="Contamos con un gran equipo de trabajo para el Fútbol Profesional y Amateur de Unión. Estamos orgullosos de darles la bienvenida"
-              tag="Propuesta"
-              url={"/propuestas_proyecto_futbolistico"}
-            />
-          </Grid>
+
           <Grid item>
             <Card
               image="https://i.imgur.com/1g9YeuP.jpg"
