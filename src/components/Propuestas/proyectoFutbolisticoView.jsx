@@ -6,8 +6,10 @@ import Gugnali from "../../assets/images/Propuestas/futbol/gugnali.jpg";
 import Roteta from "../../assets/images/Propuestas/futbol/roteta.jpg";
 import Bottaniz from "../../assets/images/Propuestas/futbol/bottaniz.jpg";
 import Equipo from "../../assets/images/Propuestas/futbol/equipo.jpg";
+import Renoleta from "../../assets/images/Propuestas/futbol/Magnin.jpg";
+import Predio from "../../assets/images/Propuestas/futbol/Predio.jpg";
 // Components
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
 import ShareInSocialMedia from "../utils/shareInSocialMediaView";
 
 export default function ProyectoFutbolistico() {
@@ -67,6 +69,13 @@ export default function ProyectoFutbolistico() {
             </li>
           </ul>
         </Typography>
+        <Grid item className={classes.centerGrid}>
+          <img
+            src={Predio}
+            alt="Gugnali y Simonutti"
+            className={classes.imageResponsive}
+          />
+        </Grid>
         <Typography className={classes.textoDesarrollo}>
           El mundo se define entre compradores y vendedores. Nosotros tenemos
           que ser vendedores, fabricantes. El producto final tiene que ser un
@@ -79,12 +88,40 @@ export default function ProyectoFutbolistico() {
           profesional, con su ya reconocida trayectoria internacional y amor por
           el Club, de una capacidad inigualable.
         </Typography>
+        <Grid item className={classes.centerText}>
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTriunfoTatengue%2Fvideos%2F817376852300556%2F&show_text=false&width=380&t=0"
+            title="Claudio Gugnali"
+            width="267"
+            height="330"
+            className={classes.facebookVideo}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen="true"
+          />
+        </Grid>
         <Typography className={classes.textoDesarrollo}>
           <strong>Lito Bottaniz</strong> sumándose a la Direccion de Scouting,
           gloria del Club, para detectar los mejores juveniles que formaremos en
           nuestras canteras, y además detectar los jugadores que podrían sumarse
           al plantel profesional.
         </Typography>
+        <Grid item className={classes.centerText}>
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTriunfoTatengue%2Fvideos%2F807176729987235%2F&show_text=false&width=380&t=0"
+            title="Lito Bottaniz"
+            width="267"
+            height="330"
+            className={classes.facebookVideo}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen="true"
+          />
+        </Grid>
         <Typography className={classes.textoDesarrollo}>
           <strong>Carlos "Cachito" Roteta</strong> como Director De Fútbol
           Amateur y Formativas, conocedor como pocos de nuestro fútbol, de
@@ -92,10 +129,40 @@ export default function ProyectoFutbolistico() {
           Tatengue de la cuna, y que llamará a todos los ex jugadores e ídolos
           del Club, para sumarse al proyecto grande de este nuevo Union.
         </Typography>
+        <Grid item className={classes.centerText}>
+          <iframe
+            src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTriunfoTatengue%2Fvideos%2F801861337185441%2F&show_text=false&width=380&t=0"
+            title="Roteta"
+            width="267"
+            height="330"
+            className={classes.facebookVideo}
+            scrolling="no"
+            frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            allowFullScreen="true"
+          />
+        </Grid>
+        {/*
+           <Grid item className={classes.centerGrid}>
+            <ReactPlayer
+              url="https://soundcloud.com/triunfo-tatengue/audio-rotetta"
+              width={300}
+            />
+          </Grid>
+        */}
+        <Typography className={classes.textoDesarrollo}>
+          <strong>Eduardo "Renoleta" Magnin</strong> también se suma a nuestro
+          proyecto futbolistico. Experiencia, Pertenencia y Trabajo. Conocedor
+          como pocos de las inferiores de Club, formador de esta camada actual y
+          uno de los grandes potenciadores del trabajo en inferiores retomará
+          con su labor.
+        </Typography>
         <Grid item className={classes.centerGrid}>
-          <ReactPlayer
-            url="https://soundcloud.com/triunfo-tatengue/audio-rotetta"
-            width={300}
+          <img
+            src={Renoleta}
+            alt="Renoleta"
+            className={classes.imageResponsive}
           />
         </Grid>
         <Typography className={classes.textoDesarrollo}>

@@ -41,6 +41,8 @@ import img40 from "../../assets/images/Prensa/id40.jpg";
 import img41 from "../../assets/images/Prensa/id41.jpg";
 import img42 from "../../assets/images/Prensa/id42.jpg";
 import img43 from "../../assets/images/Prensa/id43.jpg";
+import img44 from "../../assets/images/Prensa/id44.jpg";
+import img45 from "../../assets/images/Prensa/id45.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -598,6 +600,32 @@ const getPrensa = () => {
       image: img43,
       imageAlt: "Magnin",
       date: "2021-06-24",
+    },
+    {
+      id: 44,
+      title: `"Es una oportunidad muy linda y estamos preparados para grandes cosas"`,
+      epigraph: "Nota a Lito Bottaniz en Café con Fútbol",
+      text: [
+        `"Me reconforta mucho que no se piense solamente en el resultado futbolistico. Se busca hacer crecer la institución y tener un predio acorde a lo que es Unión"`,
+      ],
+      link: "https://www.youtube.com/watch?v=UJ9qLTkeikw",
+      image: img44,
+      imageAlt: "Botaniz",
+      date: "2021-07-08",
+    },
+
+    {
+      id: 45,
+      title: `Simonutti: “Pedimos a la dirigencia que rectifique el rumbo de Unión”`,
+      epigraph:
+        "El referente de la agrupación Triunfo Tatengue, Leonardo Simonutti, dialogó en exclusiva con SOL 91.5 sobre el presente institucional, económico y deportivo del rojiblanco. ¡Escuchá!",
+      text: [
+        `“Triunfo Tatengue desde hace un tiempo estamos proponiendo cosas que sean en beneficio del club. Estamos siempre pensando para adelante sin dejar de mirar el presente que tiene la institución"`,
+      ],
+      link: "https://www.sol915.com.ar/simonutti-pedimos-la-dirigencia-rectifique-rumbo-union/",
+      image: img45,
+      imageAlt: "Simonutti",
+      date: "2021-07-30",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
