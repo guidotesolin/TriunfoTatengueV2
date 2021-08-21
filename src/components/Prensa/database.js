@@ -43,6 +43,8 @@ import img42 from "../../assets/images/Prensa/id42.jpg";
 import img43 from "../../assets/images/Prensa/id43.jpg";
 import img44 from "../../assets/images/Prensa/id44.jpg";
 import img45 from "../../assets/images/Prensa/id45.jpg";
+import img46 from "../../assets/images/Prensa/id46.jpg";
+import img47 from "../../assets/images/Prensa/id47.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -613,7 +615,6 @@ const getPrensa = () => {
       imageAlt: "Botaniz",
       date: "2021-07-08",
     },
-
     {
       id: 45,
       title: `Simonutti: “Pedimos a la dirigencia que rectifique el rumbo de Unión”`,
@@ -626,6 +627,30 @@ const getPrensa = () => {
       image: img45,
       imageAlt: "Simonutti",
       date: "2021-07-30",
+    },
+    {
+      id: 46,
+      title: `Simonutti sobre la actualidad de Unión: "Estamos diez años atrasados con Lanús"`,
+      epigraph: "Recorrió varios clubes de Buenos Aires junto a Gugnali",
+      text: [
+        `"Estamos viendo cómo se trabaja y qué tienen los otros clubes. La verdad que me vine impresionado con la infraestructura, las pensiones, las canchas de césped natural y las de césped sintético con las normas que exige Fifa y la manera en la que trabajan", señaló Simonutti, quien además también se interesó por conocer cuál es el proyecto deportivo e institucional de Lanús y cómo se manejan en el área financiera.`,
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/313553-simonutti-sobre-la-actualidad-de-union-estamos-diez-anos-atrasados-con-lanus-recorrio-varios-clubes-junto-a-gugnali-actualidad-tatengue-recorrio-varios-clubes.html",
+      image: img46,
+      imageAlt: "Simonutti",
+      date: "2021-08-14",
+    },
+    {
+      id: 47,
+      title: `Pepe Castro en Triunfo Tatengue`,
+      epigraph: "Un ex jugador con trayectoria y experiencia",
+      text: [
+        `Las autoridades de Triunfo Tatengue, con Leonardo Simonutti a la cabeza, tienen la firme intención de sumar a su grupo de trabajo a José Antonio Castro, goleador de Unión en el ascenso de 1989 y en la posterior campaña en Primera de la mano de Humberto Zuccarelli en la temporada 89-90.`,
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/314281-pepe-castro-en-triunfo-tatengue-un-ex-jugador-con-trayectoria-y-experiencia-actualidad-tatengue-trayectoria-y-experiencia.html",
+      image: img47,
+      imageAlt: "Pepe Castro",
+      date: "2021-08-19",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

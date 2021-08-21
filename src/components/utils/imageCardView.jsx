@@ -57,7 +57,11 @@ export default function ImageCardView(props) {
     );
   } else {
     return (
-      <Link to={url} style={{ textDecoration: "none" }}>
+      <Link
+        to={url}
+        style={{ textDecoration: "none" }}
+        onClick={() => window.scrollTo(0, 0)}
+      >
         <Card className={classes.card}>
           <CardActionArea>
             <div className={classes.divTag}>

@@ -5,10 +5,13 @@ const ImageCardStyles = makeStyles(() => {
   const white = "#FFFFFF";
   const blue = "#085fb6";
   return {
-    card: { width: "345px" },
+    card: { width: "345px", height: "100%" },
     image: { height: "140px" },
     title: { fontFamily: "HelveticaNeueBold" },
-    body: { fontFamily: "HelveticaNeueLight", fontSize: "20px" },
+    body: {
+      fontFamily: "HelveticaNeueLight",
+      fontSize: "20px",
+    },
     divTag: { position: "relative" },
     tag: {
       color: white,

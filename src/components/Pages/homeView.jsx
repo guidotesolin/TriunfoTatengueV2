@@ -25,7 +25,6 @@ export default function Homepage() {
           TRIUNFO TATENGUE
         </Typography>
       </Grid>
-
       <Grid item className={classes.videoGrid}>
         <div className="container">
           <iframe
@@ -43,7 +42,7 @@ export default function Homepage() {
           container
           direction="row"
           justify="center"
-          alignItems="flex-start"
+         // alignItems="flex-start"
           spacing={2}
         >
           <Grid item>
@@ -109,37 +108,31 @@ export default function Homepage() {
           <Grid item>
             <Card
               image={AgrupacionImage}
-              altImage={"Agrupacion Triunfo Tatengue"}
-              title={"Quienes somos"}
-              description={
-                "Somos la generacion que va a cambiar las reglas de juego de nuestra institucion. Somos un equipo donde nadie es imprescindible y todos cumplimos roles específicos en nuestra propuesta de Comisión directiva. No somos súbditos ni levantamanos del poder de turno."
-              }
-              tag={"Nosotros"}
-              url={"/Agrupacion"}
+              altImage="Agrupacion Triunfo Tatengue"
+              title="Quienes somos"
+              description="Somos la generacion que va a cambiar las reglas de juego de nuestra institucion. Somos un equipo donde nadie es imprescindible y todos cumplimos roles específicos en nuestra propuesta de Comisión directiva. No somos súbditos ni levantamanos del poder de turno."
+              tag="Nosotros"
+              url="/Agrupacion"
             />
           </Grid>
           <Grid item>
             <Card
-              image={"https://i.imgur.com/R6m4ClE.jpg"}
-              altImage={"Leopoldo Luque"}
-              title={"Tribuna Leopoldo Luque"}
-              description={
-                "El día 17 de febrero presentamos una nota al club solicitando que la tribuna conocida popularmente como Cándido Pujato sea rebautizada como Leopoldo Jacinto Luque en honor a uno de los nombres que más alto ha dejado plantada nuestra bandera."
-              }
-              tag={"Propuesta"}
-              url={"/propuestas_tribuna_leopoldo_luque"}
+              image="https://i.imgur.com/R6m4ClE.jpg"
+              altImage="Leopoldo Luque"
+              title="Tribuna Leopoldo Luque"
+              description="El día 17 de febrero presentamos una nota al club solicitando que la tribuna conocida popularmente como Cándido Pujato sea rebautizada como Leopoldo Jacinto Luque en honor a uno de los nombres que más alto ha dejado plantada nuestra bandera."
+              tag="Propuesta"
+              url="/propuestas_tribuna_leopoldo_luque"
             />
           </Grid>
           <Grid item>
             <Card
-              image={"https://i.imgur.com/rSDEWW9.jpg"}
-              altImage={"Reforma estatuto"}
-              title={"Nuestro ante proyecto para la reforma del estatuto"}
-              description={
-                "Es un trabajo hecho a conciencia, con muchas horas de estudio, consultando a profesionales y observando los Estatutos de instituciones prestigiosas y exitosas. Mantenemos la identidad que caracteriza al Club social y deportivo más importante de la región.En total trabajamos en 154 Artículos."
-              }
-              tag={"Propuesta"}
-              url={"/propuestas_estatuto"}
+              image="https://i.imgur.com/rSDEWW9.jpg"
+              altImage="Reforma estatuto"
+              title="Nuestro ante proyecto para la reforma del estatuto"
+              description="Es un trabajo hecho a conciencia, con muchas horas de estudio, consultando a profesionales y observando los Estatutos de instituciones prestigiosas y exitosas. Mantenemos la identidad que caracteriza al Club social y deportivo más importante de la región.En total trabajamos en 154 Artículos."
+              tag="Propuesta"
+              url="/propuestas_estatuto"
             />
           </Grid>
         </Grid>

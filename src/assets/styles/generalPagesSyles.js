@@ -29,9 +29,7 @@ const GeneralPagesStyles = makeStyles(() => {
       minWidth: "300px",
       width: "80vh",
     },
-    textoLista: {
-      fontFamily: "HelveticaNeueBold",
-    },
+    textoLista: { fontFamily: "HelveticaNeueBold" },
     userAvatar: { height: "50px", width: "50px", marginRight: "15px" },
     imageGrid: { width: "100%" },
     facebookVideo: { border: "none", overflow: "hidden" },

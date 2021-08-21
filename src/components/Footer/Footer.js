@@ -7,6 +7,10 @@ import { Row } from "react-bootstrap";
 export default function Footer() {
   return (
     <div id="socialNetworks">
+      <img
+        src="https://tracker.metricool.com/c3po.jpg?hash=f895b9e9009eb95b494066069ad03605"
+        alt="metricool tracker"
+      />
       <Row id="networks">
         <a
           className="socialIcons"

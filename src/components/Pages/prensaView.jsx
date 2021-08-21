@@ -38,6 +38,7 @@ export default function PrensaMainPage() {
   }, [prensa]);
 
   const handleNext = () => {
+    window.scrollTo(0, 0);
     const newPage = pageNumber + 1;
     const paginateArray = prensa.slice(
       newPage * pageSize,
@@ -48,6 +49,7 @@ export default function PrensaMainPage() {
   };
 
   const handleBack = () => {
+    window.scrollTo(0, 0);
     const newPage = pageNumber - 1;
     const paginateArray = prensa.slice(
       newPage * pageSize,
