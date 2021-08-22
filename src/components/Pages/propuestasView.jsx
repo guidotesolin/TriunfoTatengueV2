@@ -38,6 +38,7 @@ export default function PropuestasMainPage() {
   }, [propuestas]);
 
   const handleNext = () => {
+    window.scrollTo(0, 0);
     const newPage = pageNumber + 1;
     const paginateArray = propuestas.slice(
       newPage * pageSize,
@@ -48,6 +49,7 @@ export default function PropuestasMainPage() {
   };
 
   const handleBack = () => {
+    window.scrollTo(0, 0);
     const newPage = pageNumber - 1;
     const paginateArray = propuestas.slice(
       newPage * pageSize,

@@ -5,7 +5,7 @@ const ImageCardStyles = makeStyles(() => {
   const white = "#FFFFFF";
   const blue = "#085fb6";
   return {
-    card: { width: "345px", height: "100%" },
+    card: { width: "345px", height: "100%", background: "#fafbfc" },
     image: { height: "140px" },
     title: { fontFamily: "HelveticaNeueBold" },
     body: {

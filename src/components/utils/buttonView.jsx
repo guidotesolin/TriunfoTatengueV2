@@ -24,6 +24,7 @@ export default function ButtonView(props) {
           to={link}
           className={classes.link}
           style={{ textDecoration: "none" }}
+          onClick={() => window.scrollTo(0, 0)}
         >
           {buttonText}
         </Link>

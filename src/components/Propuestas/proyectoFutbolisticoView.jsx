@@ -104,9 +104,8 @@ export default function ProyectoFutbolistico() {
           className={classes.facebookVideo}
           scrolling="no"
           frameborder="0"
-          allowfullscreen="true"
+          allowfullscreen={true}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          allowFullScreen="true"
         />
       </Grid>
       <Grid item className={classes.gridSeparation}>
@@ -126,9 +125,8 @@ export default function ProyectoFutbolistico() {
           className={classes.facebookVideo}
           scrolling="no"
           frameborder="0"
-          allowfullscreen="true"
+          allowfullscreen={true}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          allowFullScreen="true"
         />
       </Grid>
       <Grid item className={classes.gridSeparation}>
@@ -150,9 +148,8 @@ export default function ProyectoFutbolistico() {
           className={classes.facebookVideo}
           scrolling="no"
           frameborder="0"
-          allowfullscreen="true"
+          allowfullscreen={true}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          allowFullScreen="true"
         />
       </Grid>
       <Grid item className={classes.gridSeparation}>
@@ -189,9 +186,8 @@ export default function ProyectoFutbolistico() {
           className={classes.facebookVideo}
           scrolling="no"
           frameborder="0"
-          allowfullscreen="true"
+          allowfullscreen={true}
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          allowFullScreen="true"
         ></iframe>
       </Grid>
       <Grid item>
