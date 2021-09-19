@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const GeneralPagesStyles = makeStyles(() => {
   const red = "#ef233c";
-  // const white = "#FFFFFF";
+  //const white = "#FFFFFF";
   //const blue = "#085fb6";
   return {
     root: { marginBottom: "10px" },

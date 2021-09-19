@@ -45,6 +45,11 @@ import img44 from "../../assets/images/Prensa/id44.jpg";
 import img45 from "../../assets/images/Prensa/id45.jpg";
 import img46 from "../../assets/images/Prensa/id46.jpg";
 import img47 from "../../assets/images/Prensa/id47.jpg";
+import img48 from "../../assets/images/Prensa/id48.jpg";
+import img49 from "../../assets/images/Prensa/id49.jpg";
+import img50 from "../../assets/images/Prensa/id50.jpg";
+import img51 from "../../assets/images/Prensa/id51.jpg";
+import img52 from "../../assets/images/Prensa/id52.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -651,6 +656,71 @@ const getPrensa = () => {
       image: img47,
       imageAlt: "Pepe Castro",
       date: "2021-08-19",
+    },
+    {
+      id: 48,
+      title: `Pepe Castro tiene la valija llena de ilusiones para hacer un Unión más grande`,
+      epigraph:
+        "El ex jugador del Tatengue, José Castro, confirmó en SOL 91.5 que mantuvo una reunión con los integrantes de la agrupación Triunfo Tatengue y analiza sumarse al equipo que conduce Leonardo Simonutti.",
+      text: [
+        `“Estuve viendo el proyecto y el entusiasmo de Leonardo Simonutti. Estuvimos en su casa y fue un gesto importante. Es muy interesante y hay chance en un alto porcentaje que forme parte de Triunfo Tatengue”, sostuvo.`,
+      ],
+      link: "https://www.sol915.com.ar/pepe-castro-la-valija-llena-ilusiones-union-mas-grande/",
+      image: img48,
+      imageAlt: "Pepe Castro",
+      date: "2021-09-01",
+    },
+    {
+      id: 49,
+      title: `Castro: "Queremos llevar a Unión a lo más alto"`,
+      epigraph:
+        "José Antonio Castro anticipó en sus redes sociales que llegaría a la ciudad para reunirse con los referentes de Triunfo Tatengue, agrupación de Unión que está trabajando intensamente de cara a las próximas elecciones.",
+      text: [
+        `El exgoleador Tatengue en diálogo con radio Sol 91.5 expresó que "estuve viendo el proyecto, muy entusiasmado, nos reunimos con Leo Simonutti en su casa, tuvo un gesto importante. Es muy interesante y hay un alto porcentaje que forme parte del equipo de trabajo".`,
+      ],
+      link: "https://www.unosantafe.com.ar/union/castro-queremos-llevar-union-lo-mas-alto-n2684869.html",
+      image: img52,
+      imageAlt: "Pepe Castro Diario uno",
+      date: "2021-09-01",
+    },
+    {
+      id: 50,
+      title: `"Unión no puede tener una autoridad por tanto tiempo"`,
+      epigraph:
+        "José Antonio Castro, integrante de Triunfo Tatengue, visitó La Mañana de UNO para hablar del presente de Unión y lo que desea cambiar desde su óptica",
+      text: [
+        `"Estoy muy al tanto de lo que ocurre con Unión, debe cambiar un rumbo, está en un momento muy crítico. Leo Simonutti fue el único que se interesó en mí, siempre lo que decía con dolor se cumplía. Estoy muy contento de estar, le queremos dar mucho espacio a la mujer, su plataforma y voy a estar al lado de él, participaré de la mesa chica. El nexo en Buenos Aires", apuntó de movida.`,
+      ],
+      link: "https://www.unosantafe.com.ar/union/union-no-puede-tener-una-autoridad-tanto-tiempo-n2685182.html",
+      image: img50,
+      imageAlt: "Pepe Castro",
+      date: "2021-09-02",
+    },
+    {
+      id: 51,
+      title: `"Pepe" Castro: "Unión necesita contagio de adentro hacia afuera"`,
+      epigraph:
+        "El exgoleador Tatengue formará parte del equipo de trabajo de Triunfo Tatengue, mirá lo que dijo por LT10",
+      text: [
+        `En diálogo con LT10, “Pepe” Castro contó: “Unión necesita contagio de adentro hacia afuera, manejo con ambiciones y con sangre de los que sueñas. Necesita gente comprometida, sin dudas Simonutti va a ser el presidente”. El ex jugador tendrá varios roles dentro de la comisión directiva, será asesor, embajador deportivo y formará un área de scouting.`,
+      ],
+      link: "https://lt10.com.ar/noticia/310954--pepe-castro-union-necesita-contagio-de-adentro-hacia-afuera",
+      image: img51,
+      imageAlt: "Pepe Castro",
+      date: "2021-09-02",
+    },
+    {
+      id: 52,
+      title: `Pepe Castro: “Tenemos que hacer grande a Unión desde la puerta de entrada hasta la de salida”`,
+      epigraph:
+        "La agrupación Triunfo Tatengue, quienes están trabajando de cara a las próximas elecciones tuvo una reunión. A la misma asistió “Pepe” Castro, quien confirmó que se sumará al proyecto comandado por Leonardo Simonutti.",
+      text: [
+        ` “Además, hay que ser grande en todas las disciplinas, hablé con la gente y no puedo creer que en algunas disciplinas estemos tan mal. Hay muchas cosas por hacer, me junté con Rotetta, mañana iré a Rafaela para estar con Lito Bottaniz”.`,
+      ],
+      link: "https://deporfe.com/pepe-castro-tenemos-que-hacer-grande-a-union-desde-la-puerta-de-entrada-hasta-la-de-salida/",
+      image: img49,
+      imageAlt: "Pepe Castro",
+      date: "2021-09-04",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

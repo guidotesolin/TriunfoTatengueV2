@@ -42,15 +42,24 @@ export default function Homepage() {
           container
           direction="row"
           justify="center"
-          // alignItems="flex-start"
           spacing={2}
         >
           <Grid item>
             <Card
+              image="https://i.imgur.com/h4tVSMA.jpg"
+              altImage="Proyecto futbolistico"
+              title="¡Bienvenido Pepe!"
+              description={`José "Pepe" Castro se sumará a nuestro proyecto en el puesto de Asesor Presidencial. El máximo goleador del inolvidable ascenso de 1989 e ídolo de la institución se suma a Gugnali, Roteta, Bottaniz y Magnín en la busqueda de un Unión más grande.`}
+              tag="Propuesta"
+              url={"/propuestas_proyecto_futbolistico"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://static.ellitoral.com/um/fotos/376455_simonutti_union.jpg"
               altImage="Leonardo Simonutti"
-              title={`"Es una oportunidad muy linda y estamos preparados para grandes cosas"`}
-              description="En Triunfo Tatengue desde hace un tiempo estamos proponiendo cosas que sean en beneficio del club. Estamos siempre pensando para adelante sin dejar de mirar el presente que tiene la institución"
+              title={`"Triunfo Tatengue desde hace un tiempo estamos proponiendo cosas que sean en beneficio del club."`}
+              description="Estamos siempre pensando para adelante sin dejar de mirar el presente que tiene la institución"
               tag="Prensa"
               link="https://soundcloud.com/triunfo-tatengue/simonutti-fm-sol-30-jul"
             />
@@ -73,16 +82,6 @@ export default function Homepage() {
               description="Nota televisiva en el programa La Mesa Deportiva realizada al presidente de nuestra Agrupación el día 22 de junio"
               tag="Prensa"
               link="https://www.youtube.com/watch?v=DPCoBoI4yTQ"
-            />
-          </Grid>
-          <Grid item>
-            <Card
-              image="https://i.imgur.com/Waj2cfN.jpg"
-              altImage="Proyecto futbolistico"
-              title={`¡Bienvenido Renoleta!`}
-              description={`Eduardo "Renoleta" Magnín también se suma a nuestro proyecto futbolistico. Experiencia, Pertenencia y Trabajo. Conocedor como pocos de las inferiores de Club, formador de esta camada actual y uno de los grandes potenciadores del trabajo en inferiores se une a nuestra estructura futbolistica.`}
-              tag="Propuesta"
-              url={"/propuestas_proyecto_futbolistico"}
             />
           </Grid>
           <Grid item>

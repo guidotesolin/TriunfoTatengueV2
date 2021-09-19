@@ -6,7 +6,10 @@ import Gugnali from "../../assets/images/Propuestas/futbol/gugnali.jpg";
 import Roteta from "../../assets/images/Propuestas/futbol/roteta.jpg";
 import Bottaniz from "../../assets/images/Propuestas/futbol/bottaniz.jpg";
 import Equipo from "../../assets/images/Propuestas/futbol/equipo.jpg";
-import Renoleta from "../../assets/images/Propuestas/futbol/Magnin.jpg";
+import Renoleta from "../../assets/images/Propuestas/futbol/magnin.jpg";
+import Pepe from "../../assets/images/Propuestas/futbol/pepe.jpg";
+import Magnin from "../../assets/images/Propuestas/futbol/magninDt.jpg";
+import Castro from "../../assets/images/Propuestas/futbol/castroAsesor.jpg";
 import Predio from "../../assets/images/Propuestas/futbol/Predio.jpg";
 // Components
 // import ReactPlayer from "react-player";
@@ -25,7 +28,7 @@ export default function ProyectoFutbolistico() {
     >
       <Grid item className={classes.centerText}>
         <Typography className={classes.tituloSeccion}>
-          PROYECTO FUTBOLISTICO
+          PROYECTO FUTBOLÍSTICO
         </Typography>
       </Grid>
       <Grid item>
@@ -138,7 +141,6 @@ export default function ProyectoFutbolistico() {
           del Club, para sumarse al proyecto grande de este nuevo Union.
         </Typography>
       </Grid>
-
       <Grid item className={classes.centerText}>
         <iframe
           src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTriunfoTatengue%2Fvideos%2F801861337185441%2F&show_text=false&width=380&t=0"
@@ -154,11 +156,10 @@ export default function ProyectoFutbolistico() {
       </Grid>
       <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>
-          <strong>Eduardo "Renoleta" Magnin</strong> también se suma a nuestro
-          proyecto futbolistico. Experiencia, Pertenencia y Trabajo. Conocedor
-          como pocos de las inferiores de Club, formador de esta camada actual y
-          uno de los grandes potenciadores del trabajo en inferiores retomará
-          con su labor.
+          <strong>Eduardo "Renoleta" Magnin</strong> retomará sus funciones como
+          entrenador de Reserva de AFA. Experiencia, Pertenencia y Trabajo.
+          Conocedor como pocos de las inferiores de Club, formador de la camada
+          actual y uno de los grandes potenciadores del trabajo en inferiores.
         </Typography>
       </Grid>
       <Grid item className={classes.centerGrid}>
@@ -166,6 +167,30 @@ export default function ProyectoFutbolistico() {
           src={Renoleta}
           alt="Renoleta"
           className={classes.imageResponsive}
+        />
+      </Grid>
+      <Grid item className={classes.gridSeparation}>
+        <Typography className={classes.textoDesarrollo}>
+          <strong>José "Pepe" Castro</strong> se sumará en el puesto de
+          Asesor Presidencial. El máximo goleador del inolvidable ascenso de
+          1989 cumplirá la función de Embajador deportivo en el mundo, nexo y
+          voz en los medios de comunicación y también servirá de apoyo para el
+          área de scouting.
+        </Typography>
+      </Grid>
+      <Grid item className={classes.centerGrid}>
+        <img src={Pepe} alt="pepe castro" className={classes.imageResponsive} />
+      </Grid>
+      <Grid item className={classes.centerText}>
+        <iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FATPSantaFe%2Fvideos%2F369543778174245%2F&show_text=false&width=560&t=0"
+          title="Roteta"
+          width="267"
+          className={classes.facebookVideo}
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen={true}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         />
       </Grid>
       <Grid item className={classes.centerText}>
@@ -206,6 +231,20 @@ export default function ProyectoFutbolistico() {
           </Grid>
           <Grid item xs={6} sm={3}>
             <img src={Roteta} alt="Roteta" className={classes.imageGrid} />
+          </Grid>
+        </Grid>
+        <Grid
+          container
+          direction="row"
+          justify="center"
+          alignItems="center"
+          spacing={2}
+        >
+          <Grid item xs={6} sm={3}>
+            <img src={Magnin} alt="Magnin" className={classes.imageGrid} />
+          </Grid>
+          <Grid item xs={6} sm={3}>
+            <img src={Castro} alt="Pepe Castro" className={classes.imageGrid} />
           </Grid>
         </Grid>
       </Grid>
