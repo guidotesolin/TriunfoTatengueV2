@@ -8,17 +8,13 @@ const ImageCardStyles = makeStyles(() => {
     card: {
       width: "345px",
       height: "100%",
-      background: "#fafbfc",
-      "&:hover": {
-        backgroundColor: "#fafbfc",
-      },
+      background: "#FFFFF",
+      transition: "transform 0.15s ease-in-out",
+      "&:hover": { transform: "scale3d(1.05, 1.05, 1)" },
     },
     image: { height: "140px" },
     title: { fontFamily: "HelveticaNeueBold" },
-    body: {
-      fontFamily: "HelveticaNeueLight",
-      fontSize: "20px",
-    },
+    body: { fontFamily: "HelveticaNeueLight", fontSize: "20px" },
     divTag: { position: "relative" },
     tag: {
       color: white,

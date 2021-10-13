@@ -50,6 +50,9 @@ import img49 from "../../assets/images/Prensa/id49.jpg";
 import img50 from "../../assets/images/Prensa/id50.jpg";
 import img51 from "../../assets/images/Prensa/id51.jpg";
 import img52 from "../../assets/images/Prensa/id52.jpg";
+import img53 from "../../assets/images/Prensa/id53.jpg";
+import img54 from "../../assets/images/Prensa/id54.jpg";
+import img55 from "../../assets/images/Prensa/id55.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -721,6 +724,43 @@ const getPrensa = () => {
       image: img49,
       imageAlt: "Pepe Castro",
       date: "2021-09-04",
+    },
+    {
+      id: 53,
+      title: `Triunfo Tatengue le pidió a Unión una anmistía de socios`,
+      epigraph:
+        "En una nota presentada en Unión y que lleva la firma de su presidente, Leonardo Simonutti, Triunfo Tatengue solicita una anmistía a socios por la pandemia.",
+      text: [
+        `La pandemia dio un poco de tregua pero modificó la vida de todos, con clubes como Unión que debieron mucho tiempo cerrar sus puertas, pero con socios que en este año y medio jamás dejaron de pagar la cuota. Por eso, la Agrupación Triunfo Tatengue, que tiene a Leonardo Simonutti como presidente, presentó en las últimas horas una nota dirigida al presidente Luis Spahn, donde solicita la anmistía general societaria desde la entrada en vigencia de la pandemia el pasado 20 de marzo de 2020.`,
+      ],
+      link: "https://www.unosantafe.com.ar/union/triunfo-tatengue-le-pidio-union-anmistia-socios-n2691963.html",
+      image: img53,
+      imageAlt: "Amnistia de socios",
+      date: "2021-10-02",
+    },
+    {
+      id: 54,
+      title: `Leonardo Simonutti: "Quiero ser presidente de Unión porque me veo reflejado en los hinchas"`,
+      epigraph: `El actual candidato a presidente de Unión por la agrupación Triunfo Tatengue visitó los estudios de Aire de Santa Fe. "Los tatengues siempre tenemos que estar en los más alto, por toda la historia que tiene, ese Unión de la década del 70, el básquet que siempre fue importante", dijo.`,
+      text: [
+        ` Quiero ser presidente porque quiero potenciar la "potencialidad" que tiene la ciudad de Santa Fe y sus alrededores. En octubre de 1976 Unión tenía 26.000 socios, cómo puede ser que ahora no tenga un número similar"`,
+      ],
+      link: "https://www.airedesantafe.com.ar/deportes/leonardo-simonutti-quiero-ser-presidente-union-porque-me-veo-reflejado-los-hinchas-n225521",
+      image: img54,
+      imageAlt: "Simonutti",
+      date: "2021-10-12",
+    },
+    {
+      id: 55,
+      title: `Entrevista completa en Aire de Santa Fe`,
+      epigraph: `Reviví la extensa nota televisida realizada a nuestro presidente el día 12 de octubre en Aire de Santa Fe.`,
+      text: [
+        `"Unión debe dejar de ser deficitario, eso pasa cuando los presidentes se manejan mal entonces al tener esto siempre el que ingresa debe tener billetera, como lo dijo una vez Don Ángel Malvicino. Unión tiene que ser un club moderno y profesional con personal con sentido de pertenencia."`,
+      ],
+      link: "https://www.youtube.com/watch?v=MUAC7OQrKQ4",
+      image: img55,
+      imageAlt: "Nota en Aire de Santa Fe",
+      date: "2021-10-12",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

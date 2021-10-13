@@ -7,7 +7,6 @@ import Roteta from "../../assets/images/Propuestas/futbol/roteta.jpg";
 import Bottaniz from "../../assets/images/Propuestas/futbol/bottaniz.jpg";
 import Equipo from "../../assets/images/Propuestas/futbol/equipo.jpg";
 import Renoleta from "../../assets/images/Propuestas/futbol/magnin.jpg";
-import Pepe from "../../assets/images/Propuestas/futbol/pepe.jpg";
 import Magnin from "../../assets/images/Propuestas/futbol/magninDt.jpg";
 import Castro from "../../assets/images/Propuestas/futbol/castroAsesor.jpg";
 import Predio from "../../assets/images/Propuestas/futbol/Predio.jpg";
@@ -91,11 +90,15 @@ export default function ProyectoFutbolistico() {
           se pueda vender para capitalizar el club. Que esto se transforme en un
           círculo virtuoso para las otras disciplinas
         </Typography>
-        <Typography className={classes.textoDesarrollo}>
-          <strong>Claudio Gugnali</strong> será nuestro Manager para el fútbol
-          profesional, con su ya reconocida trayectoria internacional y amor por
-          el Club, de una capacidad inigualable.
-        </Typography>
+        <ul>
+          <li>
+            <Typography className={classes.textoDesarrollo}>
+              <strong>Claudio Gugnali</strong> será nuestro Manager para el
+              fútbol profesional, con su ya reconocida trayectoria internacional
+              y amor por el Club, de una capacidad inigualable.
+            </Typography>
+          </li>
+        </ul>
       </Grid>
 
       <Grid item className={classes.centerText}>
@@ -112,12 +115,16 @@ export default function ProyectoFutbolistico() {
         />
       </Grid>
       <Grid item className={classes.gridSeparation}>
-        <Typography className={classes.textoDesarrollo}>
-          <strong>Lito Bottaniz</strong> sumándose a la Direccion de Scouting,
-          gloria del Club, para detectar los mejores juveniles que formaremos en
-          nuestras canteras, y además detectar los jugadores que podrían sumarse
-          al plantel profesional.
-        </Typography>
+        <ul>
+          <li>
+            <Typography className={classes.textoDesarrollo}>
+              <strong>Lito Bottaniz</strong> sumándose a la Direccion de
+              Scouting, gloria del Club, para detectar los mejores juveniles que
+              formaremos en nuestras canteras, y además detectar los jugadores
+              que podrían sumarse al plantel profesional.
+            </Typography>
+          </li>
+        </ul>
       </Grid>
       <Grid item className={classes.centerText}>
         <iframe
@@ -133,13 +140,18 @@ export default function ProyectoFutbolistico() {
         />
       </Grid>
       <Grid item className={classes.gridSeparation}>
-        <Typography className={classes.textoDesarrollo}>
-          <strong>Carlos "Cachito" Roteta</strong> como Director De Fútbol
-          Amateur y Formativas, conocedor como pocos de nuestro fútbol, de
-          amplia experiencia, formador de innumerable cantidad de talentos,
-          Tatengue de la cuna, y que llamará a todos los ex jugadores e ídolos
-          del Club, para sumarse al proyecto grande de este nuevo Union.
-        </Typography>
+        <ul>
+          <li>
+            <Typography className={classes.textoDesarrollo}>
+              <strong>Carlos "Cachito" Roteta</strong> como Director De Fútbol
+              Amateur y Formativas, conocedor como pocos de nuestro fútbol, de
+              amplia experiencia, formador de innumerable cantidad de talentos,
+              Tatengue de la cuna, y que llamará a todos los ex jugadores e
+              ídolos del Club, para sumarse al proyecto grande de este nuevo
+              Union.
+            </Typography>
+          </li>
+        </ul>
       </Grid>
       <Grid item className={classes.centerText}>
         <iframe
@@ -155,12 +167,17 @@ export default function ProyectoFutbolistico() {
         />
       </Grid>
       <Grid item className={classes.gridSeparation}>
-        <Typography className={classes.textoDesarrollo}>
-          <strong>Eduardo "Renoleta" Magnin</strong> retomará sus funciones como
-          entrenador de Reserva de AFA. Experiencia, Pertenencia y Trabajo.
-          Conocedor como pocos de las inferiores de Club, formador de la camada
-          actual y uno de los grandes potenciadores del trabajo en inferiores.
-        </Typography>
+        <ul>
+          <li>
+            <Typography className={classes.textoDesarrollo}>
+              <strong>Eduardo "Renoleta" Magnin</strong> retomará sus funciones
+              como entrenador de Reserva de AFA. Experiencia, Pertenencia y
+              Trabajo. Conocedor como pocos de las inferiores de Club, formador
+              de la camada actual y uno de los grandes potenciadores del trabajo
+              en inferiores.
+            </Typography>
+          </li>
+        </ul>
       </Grid>
       <Grid item className={classes.centerGrid}>
         <img
@@ -170,22 +187,24 @@ export default function ProyectoFutbolistico() {
         />
       </Grid>
       <Grid item className={classes.gridSeparation}>
-        <Typography className={classes.textoDesarrollo}>
-          <strong>José "Pepe" Castro</strong> se sumará en el puesto de
-          Asesor Presidencial. El máximo goleador del inolvidable ascenso de
-          1989 cumplirá la función de Embajador deportivo en el mundo, nexo y
-          voz en los medios de comunicación y también servirá de apoyo para el
-          área de scouting.
-        </Typography>
+        <ul>
+          <li>
+            <Typography className={classes.textoDesarrollo}>
+              <strong>José "Pepe" Castro</strong> se sumará en el puesto de
+              Asesor Presidencial. El máximo goleador del inolvidable ascenso de
+              1989 cumplirá la función de Embajador deportivo en el mundo, nexo
+              y voz en los medios de comunicación y también servirá de apoyo
+              para el área de scouting.
+            </Typography>
+          </li>
+        </ul>
       </Grid>
       <Grid item className={classes.centerGrid}>
-        <img src={Pepe} alt="pepe castro" className={classes.imageResponsive} />
-      </Grid>
-      <Grid item className={classes.centerText}>
         <iframe
-          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FATPSantaFe%2Fvideos%2F369543778174245%2F&show_text=false&width=560&t=0"
-          title="Roteta"
+          src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTriunfoTatengue%2Fvideos%2F866408810674031%2F&show_text=false&width=380&t=0"
+          title="Pepe Castro"
           width="267"
+          height="330"
           className={classes.facebookVideo}
           scrolling="no"
           frameborder="0"
