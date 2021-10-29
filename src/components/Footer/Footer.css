@@ -4,7 +4,23 @@
   justify-content: center;
   align-items: center;
   padding-top: 30px;
+}
+
+#local {
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.ubication {
+  padding-left: 10px;
+  color: #ef233c;
+  margin-top: revert;
+  font-weight: 600;
+  font-family: "futura";
 }
 
 #brandLogo {

@@ -38,7 +38,7 @@ nav {
   .navbarElement:hover {
     background-color: #ef233c;
     color: white;
-    padding: 5px 5px;
+    padding: 1px 1px 1px 1px;
     text-decoration: none;
   }
 }

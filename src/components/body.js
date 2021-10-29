@@ -16,6 +16,8 @@ import Estatuto from "../components/Propuestas/estatutoView";
 import Protocolo from "../components/Propuestas/protocoloView";
 import TribunaLuque from "../components/Propuestas/tribunaLuqueView";
 import Futbol from "../components/Propuestas/proyectoFutbolisticoView";
+import Amnistia from "../components/Propuestas/amnistiaView";
+import PalcosNorte from "./Propuestas/palcosNorteView";
 // Opinion
 import EneasInferiores from "../components/Opinion/eneasInferioresView";
 // Others
@@ -40,6 +42,8 @@ export default function BodyPage() {
             component={TribunaLuque}
           />
           <Route path="/propuestas_proyecto_futbolistico" component={Futbol} />
+          <Route path="/amnistia" component={Amnistia} />
+          <Route path="/palcos_norte" component={PalcosNorte} />
           {/*Opinion */}
           <Route
             path="/opinion_las_inferiores_y_su_importancia"

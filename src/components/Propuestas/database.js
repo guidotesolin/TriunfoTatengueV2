@@ -2,6 +2,8 @@ import img0 from "../../assets/images/Propuestas/id0.jpg";
 import img1 from "../../assets/images/Propuestas/id1.jpg";
 import img2 from "../../assets/images/Propuestas/id2.jpg";
 import img3 from "../../assets/images/Propuestas/id3.jpg";
+import img4 from "../../assets/images/Propuestas/id4.jpg";
+import img5 from "../../assets/images/Propuestas/id5.jpg";
 
 const getPropuestas = () => {
   const propuestas = [
@@ -56,6 +58,32 @@ const getPropuestas = () => {
       image: img3,
       imageAlt: "Gugnali, Bottaniz y Roteta",
       date: "2021-05-17",
+    },
+    {
+      id: 4,
+      title: "Amnistía General Societaria",
+      epigraph:
+        "El día 30 de septiembre presentamos en Mesa de entradas del Club un pedido formal para lograr una Amnistía General Societaria con el fin de que el Socio pueda sentirse respaldado de las difíciles épocas que la Sociedad tuvo que afrontar.",
+      text: [
+        "Esta nota apunta a que los hinchas puedan regularizar su situación societaria que se vio afectada por la situación económica del país y la pandemia que nos privó de ir a la cancha durante 18 meses.",
+      ],
+      link: "/amnistia",
+      image: img4,
+      imageAlt: "Amnistía",
+      date: "2021-09-30",
+    },
+    {
+      id: 5,
+      title: "Obras: Palcos sobre Cándido Pujato",
+      epigraph:
+        "Entre los numerosos proyectos de nuestro equipo de Infraestructura se destacan los Palcos Norte ubicados sobre la calle Cándido Pujato.",
+      text: [
+        "Serán 88 lugares para 10 personas cada uno, contarán con un equipamiento de frigobar, TV LED, mesada de cocina y estará equipado con las butacas teatro. También estarán los Palcos VIP que contarán con sanitarios de uso exclusivo.",
+      ],
+      link: "/palcos_norte",
+      image: img5,
+      imageAlt: "Palcos",
+      date: "2021-10-29",
     },
   ];
   propuestas.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));

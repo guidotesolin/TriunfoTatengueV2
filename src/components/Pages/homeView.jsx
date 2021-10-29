@@ -40,6 +40,16 @@ export default function Homepage() {
         <Grid container direction="row" justify="center" spacing={2}>
           <Grid item>
             <Card
+              image="https://i.imgur.com/6kTGGt0.jpg"
+              altImage="Proyecto futbolistico"
+              title="Palcos Norte"
+              description={`Ubicados sobre Cándido Pujato se proyectan 88 palcos para 10 personas cada uno, contarán con un equipamiento de frigobar, TV LED, mesada de cocina y estará equipado con las butacas teatro. También estarán los Palcos VIP que contarán con sanitarios de uso exclusivo.`}
+              tag="Propuesta"
+              url={"/palcos_norte"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://i.imgur.com/EhPxwV0.jpg"
               altImage="Leo Simonutti en Aire de Santa Fe"
               title={`Simonutti: "Quiero ser presidente de Unión porque me veo reflejado en los hinchas"`}
@@ -63,7 +73,7 @@ export default function Homepage() {
               image="https://i.imgur.com/h4tVSMA.jpg"
               altImage="Proyecto futbolistico"
               title="¡Bienvenido Pepe!"
-              description={`José Antonio "Pepe" Castro se sumará a nuestro proyecto futbolistico en el puesto de Asesor Presidencial. El máximo goleador del inolvidable ascenso de 1989 e ídolo de la institución se suma a Gugnali, Roteta, Bottaniz y Magnín en la busqueda de un Unión más grande.`}
+              description={`José Antonio "Pepe" Castro se sumará a nuestro proyecto futbolistico en el puesto de Asesor Presidencial cumpliendo la función de Embajador deportivo en el mundo, nexo y voz en los medios de comunicación y también servirá de apoyo para el área de scouting. El máximo goleador del inolvidable ascenso de 1989 e ídolo de la institución se suma a Gugnali, Roteta, Bottaniz y Magnín en la busqueda de un Unión más grande.`}
               tag="Propuesta"
               url={"/propuestas_proyecto_futbolistico"}
             />
@@ -79,7 +89,6 @@ export default function Homepage() {
               url="/propuestas_estatuto"
             />
           </Grid>
-
           <Grid item>
             <Card
               image="https://i.imgur.com/0P53ZTR.jpg"
@@ -92,10 +101,10 @@ export default function Homepage() {
           </Grid>
           <Grid item>
             <Card
-              image="https://i.imgur.com/1g9YeuP.jpg"
+              image="https://i.imgur.com/0VE603J.jpg"
               altImage="Leo Simonutti"
               title={`"Unión necesita un proyecto a largo plazo"`}
-              description="Leonardo Simonutti juega a fondo para ser presidente de Unión. El esperancino, especialista en desarrollo y expansión de las energías renovables y convencionales, lidera la agrupación Triunfo Tatengue, y se anima a disputarle la hegemonía política a Luis Spahn. El futuro de la institución de Lopez y Planes es algo que lo obsesiona y lo deja en claro permanentemente."
+              description="Leonardo Simonutti juega a fondo para ser presidente de Unión. El esperancino, especialista en desarrollo y expansión de las energías renovables y convencionales, lidera la agrupación Triunfo Tatengue, y se anima a disputarle la hegemonía política a Luis Spahn."
               tag="Prensa"
               link="https://www.ellitoral.com/index.php/id_um/297992-simonutti-union-necesita-un-proyecto-a-largo-plazo-una-propuesta-diferente-actualidad-tatengue-una-propuesta-diferente.html"
             />
@@ -108,16 +117,6 @@ export default function Homepage() {
               description="Somos la generacion que va a cambiar las reglas de juego de nuestra institucion. Somos un equipo donde nadie es imprescindible y todos cumplimos roles específicos en nuestra propuesta de Comisión directiva. No somos súbditos ni levantamanos del poder de turno."
               tag="Nosotros"
               url="/Agrupacion"
-            />
-          </Grid>
-          <Grid item>
-            <Card
-              image="https://i.imgur.com/0VE603J.jpg"
-              altImage="Leonardo Simonutti"
-              title={`"Triunfo Tatengue desde hace un tiempo estamos proponiendo cosas que sean en beneficio del club."`}
-              description="Estamos siempre pensando para adelante sin dejar de mirar el presente que tiene la institución"
-              tag="Prensa"
-              link="https://soundcloud.com/triunfo-tatengue/simonutti-fm-sol-30-jul"
             />
           </Grid>
           <Grid item>
