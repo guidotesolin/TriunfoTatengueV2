@@ -53,6 +53,12 @@ import img52 from "../../assets/images/Prensa/id52.jpg";
 import img53 from "../../assets/images/Prensa/id53.jpg";
 import img54 from "../../assets/images/Prensa/id54.jpg";
 import img55 from "../../assets/images/Prensa/id55.jpg";
+import img56 from "../../assets/images/Prensa/id56.jpg";
+import img57 from "../../assets/images/Prensa/id57.jpg";
+import img58 from "../../assets/images/Prensa/id58.jpg";
+import img59 from "../../assets/images/Prensa/id59.jpg";
+import img60 from "../../assets/images/Prensa/id60.jpg";
+import img61 from "../../assets/images/Prensa/id61.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -762,9 +768,79 @@ const getPrensa = () => {
       imageAlt: "Nota en Aire de Santa Fe",
       date: "2021-10-12",
     },
+    {
+      id: 56,
+      title: `En París: Messi recibió a Gugnali y se sacó una foto con la 10 de Unión`,
+      epigraph: `Mientras se enfoca recuperarse de la dolencia que arrastra en la pierna izquierda, Leo cumple con los pedidos de los amigos.`,
+      text: [
+        `Acompañado por Leonardo Simonutti, Gugnali le llevó una camiseta del club santafesino con el dorsal número 10 y su apellido en la espalda para que el rosarino se sacara una foto con ella. La imagen, publicada en la cuenta oficial de Twitter de Triunfo Tatengue, causó un enorme revuelo de forma inmediata.
+      `,
+      ],
+      link: "https://www.ole.com.ar/messi/messi-gugnali-camiseta-union_0_FVQSAeax7.html",
+      image: img59,
+      imageAlt: "Messi",
+      date: "2021-11-04",
+    },
+    {
+      id: 57,
+      title: `Triunfo Tatengue dio detalles del viaje por Europa y su proyecto deportivo`,
+      epigraph: `En el evento participaron el presidente de Triunfo Tatengue, Leonardo Simonutti, el Manager Deportivo, Claudio Gugnali, y el asesor, José Antonio «Pepe» Castro.`,
+      text: [
+        `«Estamos muy contentos porque vamos a contar y le vamos a decir a todos los tatengues qué estuvimos preparando estos 15 días en Europa con Claudio Gugnali», dijo Simonutti a Veo Noticias.`,
+      ],
+      link: "https://deporfe.com/triunfo-tatengue-dio-detalles-del-viaje-por-europa-y-su-proyecto-deportivo/",
+      image: img56,
+      imageAlt: "Simonutti, Gugnali, Castro",
+      date: "2021-11-11",
+    },
+    {
+      id: 58,
+      title: `Triunfo Tatengue presentó su proyecto deportivo para Unión`,
+      epigraph: `Realizaron una conferencia de prensa para hablar sobre el proyecto para Unión y su recorrida por Europa.`,
+      text: [
+        `"Unión tiene que salir de esta situación, salir de estar en una cuestión en los últimos lugares del fútbol argentino. Unión tiene que estar en los primeros puestos, y nosotros para eso tenemos que empezar a mirar con nuestras divisiones inferiores lo que es Europa y cómo se maneja", señaló.`,
+      ],
+      link: "https://canalveo.com/triunfo-tatengue-presento-su-proyecto-deportivo-para-union/",
+      image: img57,
+      imageAlt: "Simonutti, Gugnali, Castro",
+      date: "2021-11-11",
+    },
+    {
+      id: 59,
+      title: `Conferencia de prensa: Proyecto futbolistico e información del viaje por Europa`,
+      epigraph: `Leonardo Simonutti, Claudio Gugnali y Pepe Castro brindaron una conferencia de prensa en nuestro local ubicado en Bv Pellegrini 2998`,
+      text: [`Conferencia de prensa completa mediante Instagram Live.`],
+      link: "https://www.instagram.com/tv/CWHPUlWq1ao/?utm_medium=copy_link&fbclid=IwAR1e3o3Oy-PDjQyVIuWzKB9SJ69EaSnPDM17E7CNzeI5eX2Hvs3q5icC2BA",
+      image: img58,
+      imageAlt: "Conferencia de prensa",
+      date: "2021-11-12",
+    },
+    {
+      id: 60,
+      title: `Leonardo Simonutti en Agenda Personal: Plan de obras y Proyecto Futbolistico`,
+      epigraph: `Nota completa realizada por Marcelo Garrido al presidente de nuestra Agrupación`,
+      link: "https://www.youtube.com/watch?v=oFqwfWTO0t8",
+      image: img60,
+      imageAlt: "Conferencia de prensa",
+      date: "2021-11-15",
+    },
+    {
+      id: 61,
+      title: `Triunfo Tatengue emprende la “ardua tarea” de levantar a Unión`,
+      epigraph: `Leonardo Simonutti, candidato a presidente del club de la avenida, alentó: “Para las elecciones hay que llegar preparados y con proyectos. Tenemos que hacer una alianza detrás de un proyecto con todos los unionistas”.`,
+      text: [
+        `Triunfo Tatengue afianza su actividad de cara a la contienda que pondrá en juego la renovación de las autoridades del Club Unión de Santa Fe. Al respecto, Claudio Cugnali, quien se perfila como mánager deportivo, remarcó: “Quiero mucho a la institución. Nunca la dejé de observar. Estudiantes es mi vieja y Unión es mi novia. Estudiantes me educó y Unión me enamoró. No podemos errar. La gente merece una verdadera respuesta”.`,
+      ],
+      link: "https://ruedadeprensa.com.ar/2021/11/19/triunfo-tatengue-emprende-la-ardua-tarea-de-levantar-a-union/",
+      image: img61,
+      imageAlt: "Simonutti, Castro, Gugnali y Villarreal",
+      date: "2021-11-19",
+    },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
   return prensa;
 };
 
 export default getPrensa;
+
+//

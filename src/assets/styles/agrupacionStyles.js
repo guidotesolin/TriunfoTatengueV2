@@ -10,19 +10,14 @@ const AgrupacionStyles = makeStyles((theme) => {
       fontSize: "30px",
       fontFamily: "Futura",
     },
-    carosuelGrid: { textAlign: "center" },
     carosuel: {
       marginBottom: "30px",
       width: "80vh",
-      [breakpoints.down(770)]: {
-        width: "70vh",
-      },
+      [breakpoints.down(770)]: { width: "70vh" },
     },
     carosuelImage: {
       maxWidth: "80vh",
-      [breakpoints.down(770)]: {
-        maxWidth: "50vh",
-      },
+      [breakpoints.down(770)]: { maxWidth: "50vh" },
     },
     text: {
       paddingLeft: "5px",

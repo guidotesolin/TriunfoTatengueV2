@@ -20,6 +20,7 @@ import Amnistia from "../components/Propuestas/amnistiaView";
 import PalcosNorte from "./Propuestas/palcosNorteView";
 // Opinion
 import EneasInferiores from "../components/Opinion/eneasInferioresView";
+import GiraEuropea from "../components/Opinion/giraEuropeaView";
 // Others
 import Asociate from "../components/Others/asociateView";
 
@@ -49,6 +50,7 @@ export default function BodyPage() {
             path="/opinion_las_inferiores_y_su_importancia"
             component={EneasInferiores}
           />
+          <Route path="/resumen_gira_europea" component={GiraEuropea} />
           {/*Others */}
           <Route path="/asociate" component={Asociate} />
           <Route component={NotFound} />

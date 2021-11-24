@@ -64,7 +64,13 @@ export default function Footer() {
       </div>
       <div id="local">
         <i style={{ color: "#ef233c" }} class="fas fa-map-marker-alt"></i>
-        <p className="ubication">Bv Pellegrini 2998, Santa Fe</p>
+        <a
+          rel="noopener noreferrer"
+          href="https://goo.gl/maps/i7RL1tzttUh8A6nL6"
+          target="_blank"
+        >
+          <p className="ubication">Bv Pellegrini 2998, Santa Fe</p>
+        </a>
       </div>
     </div>
   );

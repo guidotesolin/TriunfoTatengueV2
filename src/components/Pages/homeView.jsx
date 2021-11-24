@@ -40,6 +40,16 @@ export default function Homepage() {
         <Grid container direction="row" justify="center" spacing={2}>
           <Grid item>
             <Card
+              image="https://i.imgur.com/pgWzmKp.jpg"
+              altImage="Gira europea"
+              title="Marca UNIÓN en Europa: Resumen de la gira por España, Francia e Italia"
+              description={`Con el fin de relacionarnos con la elite del futbol mundial, además de capacitarnos, aprender y evolucionar personal e institucionalmente, visitamos Clubes, nos reunimos con dirigentes, ex futbolistas, periodistas y socios de nuestro Union de Santa Fe.`}
+              tag="Opinión"
+              url={"/resumen_gira_europea"}
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://i.imgur.com/6kTGGt0.jpg"
               altImage="Proyecto futbolistico"
               title="Palcos Norte"
@@ -58,14 +68,15 @@ export default function Homepage() {
               link="https://www.youtube.com/watch?v=MUAC7OQrKQ4"
             />
           </Grid>
+
           <Grid item>
             <Card
-              image="https://i.imgur.com/W59zMGO.jpg"
-              altImage="Socios"
-              title={`Triunfo Tatengue le pidió a Unión una anmistía de socios para regularizar su situación`}
-              description="En una nota presentada en Unión y que lleva la firma de su presidente, Leonardo Simonutti, Triunfo Tatengue solicita una anmistía a socios por la pandemia."
+              image="https://i.imgur.com/R6m4ClE.jpg"
+              altImage="Leopoldo Luque"
+              title="Tribuna Leopoldo Luque"
+              description="El día 17 de febrero presentamos una nota a la Comisión Directiva del Club solicitando que la tribuna conocida popularmente como Cándido Pujato sea rebautizada como Leopoldo Jacinto Luque en honor a uno de los campeones que más alto ha dejado plantada nuestra bandera en el mundo."
               tag="Propuesta"
-              link="https://www.unosantafe.com.ar/union/triunfo-tatengue-le-pidio-union-anmistia-socios-n2691963.html"
+              url="/propuestas_tribuna_leopoldo_luque"
             />
           </Grid>
           <Grid item>
@@ -94,7 +105,7 @@ export default function Homepage() {
               image="https://i.imgur.com/0P53ZTR.jpg"
               altImage="Leonardo Simonutti"
               title="La historia del otro ferretero que quiere ser presidente de Unión"
-              description="“Grondona tenía una ferretería y fue presidente de la Afa; yo tengo una ferretería y quiero ser presidente de Unión”, dice este esperancino que ya tiene designado el manager, el coordinador y el buscador de talentos si el socio lo elige. Su plan para entrar a Unión sin necesidad de una chequera pero con resto económico."
+              description="“Grondona tenía una ferretería y fue presidente de la Afa; yo tengo una ferretería y quiero ser presidente de Unión”, dice este esperancino que ya tiene designado el manager, el coordinador y el buscador de talentos si el socio lo elige."
               tag="Prensa"
               link="https://www.ellitoral.com/index.php/id_um/299476-la-historia-del-otro-ferretero-que-quiere-ser-presidente-de-union-leonardo-simonutti-quien-es-que-quiere-para-el-club-como-piensa-actualidad-tatengue-leonardo-simonutti.html"
             />
@@ -117,16 +128,6 @@ export default function Homepage() {
               description="Somos la generacion que va a cambiar las reglas de juego de nuestra institucion. Somos un equipo donde nadie es imprescindible y todos cumplimos roles específicos en nuestra propuesta de Comisión directiva. No somos súbditos ni levantamanos del poder de turno."
               tag="Nosotros"
               url="/Agrupacion"
-            />
-          </Grid>
-          <Grid item>
-            <Card
-              image="https://i.imgur.com/R6m4ClE.jpg"
-              altImage="Leopoldo Luque"
-              title="Tribuna Leopoldo Luque"
-              description="El día 17 de febrero presentamos una nota a la Comisión Directiva del Club solicitando que la tribuna conocida popularmente como Cándido Pujato sea rebautizada como Leopoldo Jacinto Luque en honor a uno de los campeones que más alto ha dejado plantada nuestra bandera en el mundo."
-              tag="Propuesta"
-              url="/propuestas_tribuna_leopoldo_luque"
             />
           </Grid>
         </Grid>

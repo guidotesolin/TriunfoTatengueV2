@@ -25,7 +25,7 @@ export default function PalcosNorte() {
 
   const tableRows = [
     createObject("Palcos", "14", "20.70", "289.80"),
-    createObject("Pacos VIP", "4", "40.50", "160.20"),
+    createObject("Palcos VIP", "4", "40.50", "160.20"),
     createObject("Sanitarios", "2", "20.70", "41.40"),
     createObject("Restaurant / bar", "1", "40.27", "40.27"),
     createObject("Ascensores", "1", "33.50", "33.50"),

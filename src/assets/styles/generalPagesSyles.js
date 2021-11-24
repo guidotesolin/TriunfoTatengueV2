@@ -1,6 +1,7 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-const GeneralPagesStyles = makeStyles(() => {
+const GeneralPagesStyles = makeStyles((theme) => {
+  const { breakpoints } = theme;
   const red = "#ef233c";
   //const white = "#FFFFFF";
   //const blue = "#085fb6";
@@ -15,7 +16,13 @@ const GeneralPagesStyles = makeStyles(() => {
       fontFamily: "Futura",
     },
     gridSeparation: { marginBottom: "10px" },
-    imageResponsive: { maxWidth: "60vh", marginBottom: "20px" },
+    imageResponsive: {
+      marginBottom: "20px",
+      maxWidth: "80vh",
+      [breakpoints.down(770)]: {
+        maxWidth: "50vh",
+      },
+    },
     textoDesarrollo: {
       fontSize: "20px",
       marginBottom: "10px",
@@ -34,6 +41,20 @@ const GeneralPagesStyles = makeStyles(() => {
     imageGrid: { width: "100%" },
     facebookVideo: { border: "none", overflow: "hidden" },
     table: { marginTop: "20px" },
+    carosuelGrid: { textAlign: "center" },
+    carosuel: {
+      marginBottom: "30px",
+      width: "80vh",
+      [breakpoints.down(770)]: {
+        width: "70vh",
+      },
+    },
+    carosuelImage: {
+      maxWidth: "80vh",
+      [breakpoints.down(770)]: {
+        maxWidth: "50vh",
+      },
+    },
   };
 });
 
