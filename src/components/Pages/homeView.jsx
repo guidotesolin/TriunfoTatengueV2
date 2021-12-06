@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import styles from "../../assets/styles/homeViewStyles";
 import "../body.css";
 import Card from "../utils/imageCardView";
-import AgrupacionImage from "../../assets/images/img02.jpg";
 import Asociate from "../../assets/images/asociate.jpg";
+import Cena from "../../assets/images/cena.jpeg";
 
 export default function Homepage() {
   const classes = styles();
@@ -37,7 +37,30 @@ export default function Homepage() {
         </div>
       </Grid>
       <Grid item className={classes.gridElement}>
-        <Grid container direction="row" justify="center" spacing={2}>
+        <img
+          src={Cena}
+          alt="Cena en piedras"
+          className={classes.imageResponsive}
+        />
+      </Grid>
+      <Grid item className={classes.gridElement}>
+        <Grid
+          container
+          direction="row"
+          justify="center"
+          spacing={2}
+          className={classes.cardsGrid}
+        >
+          <Grid item>
+            <Card
+              image="https://i.imgur.com/gX37PzX.jpg"
+              altImage="Proyecto futbolistico"
+              title="¡Bienvenido Loco!"
+              description={`El ultimo ídolo se suma a nuestro equipo de formativas liderado por Cacho Roteta. Darle el lugar que se merecen los ídolos que tantas alegrías nos dieron es una de nuestras premisas. Inculcar pertenencia desde las inferiores es algo fundamental.`}
+              tag="Propuesta"
+              url={"/propuestas_proyecto_futbolistico"}
+            />
+          </Grid>
           <Grid item>
             <Card
               image="https://i.imgur.com/pgWzmKp.jpg"
@@ -68,10 +91,9 @@ export default function Homepage() {
               link="https://www.youtube.com/watch?v=MUAC7OQrKQ4"
             />
           </Grid>
-
           <Grid item>
             <Card
-              image="https://i.imgur.com/R6m4ClE.jpg"
+              image="https://i.imgur.com/Pu5La9f.jpg"
               altImage="Leopoldo Luque"
               title="Tribuna Leopoldo Luque"
               description="El día 17 de febrero presentamos una nota a la Comisión Directiva del Club solicitando que la tribuna conocida popularmente como Cándido Pujato sea rebautizada como Leopoldo Jacinto Luque en honor a uno de los campeones que más alto ha dejado plantada nuestra bandera en el mundo."
@@ -81,18 +103,7 @@ export default function Homepage() {
           </Grid>
           <Grid item>
             <Card
-              image="https://i.imgur.com/h4tVSMA.jpg"
-              altImage="Proyecto futbolistico"
-              title="¡Bienvenido Pepe!"
-              description={`José Antonio "Pepe" Castro se sumará a nuestro proyecto futbolistico en el puesto de Asesor Presidencial cumpliendo la función de Embajador deportivo en el mundo, nexo y voz en los medios de comunicación y también servirá de apoyo para el área de scouting. El máximo goleador del inolvidable ascenso de 1989 e ídolo de la institución se suma a Gugnali, Roteta, Bottaniz y Magnín en la busqueda de un Unión más grande.`}
-              tag="Propuesta"
-              url={"/propuestas_proyecto_futbolistico"}
-            />
-          </Grid>
-
-          <Grid item>
-            <Card
-              image="https://i.imgur.com/rSDEWW9.jpg"
+              image="https://i.imgur.com/lPyhqIE.jpg"
               altImage="Reforma estatuto"
               title="Nuestro ante proyecto para la reforma del estatuto"
               description="Es un trabajo hecho a conciencia, con muchas horas de estudio, consultando a profesionales y observando los Estatutos de instituciones prestigiosas y exitosas. Mantenemos la identidad que caracteriza al Club social y deportivo más importante de la región. En total trabajamos en 154 Artículos que abarcan toda la vida social e institucional del Club."
@@ -102,7 +113,7 @@ export default function Homepage() {
           </Grid>
           <Grid item>
             <Card
-              image="https://i.imgur.com/0P53ZTR.jpg"
+              image="https://i.imgur.com/hugQsGc.jpg"
               altImage="Leonardo Simonutti"
               title="La historia del otro ferretero que quiere ser presidente de Unión"
               description="“Grondona tenía una ferretería y fue presidente de la Afa; yo tengo una ferretería y quiero ser presidente de Unión”, dice este esperancino que ya tiene designado el manager, el coordinador y el buscador de talentos si el socio lo elige."
@@ -122,7 +133,7 @@ export default function Homepage() {
           </Grid>
           <Grid item>
             <Card
-              image={AgrupacionImage}
+              image="https://i.imgur.com/kl8gC9m.jpg"
               altImage="Agrupacion Triunfo Tatengue"
               title="Quienes somos"
               description="Somos la generacion que va a cambiar las reglas de juego de nuestra institucion. Somos un equipo donde nadie es imprescindible y todos cumplimos roles específicos en nuestra propuesta de Comisión directiva. No somos súbditos ni levantamanos del poder de turno."

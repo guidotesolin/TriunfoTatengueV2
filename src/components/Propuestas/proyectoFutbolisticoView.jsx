@@ -10,6 +10,7 @@ import Renoleta from "../../assets/images/Propuestas/futbol/magnin.jpg";
 import Magnin from "../../assets/images/Propuestas/futbol/magninDt.jpg";
 import Castro from "../../assets/images/Propuestas/futbol/castroAsesor.jpg";
 import Predio from "../../assets/images/Propuestas/futbol/Predio.jpg";
+import Plantel from "../../assets/images/Propuestas/futbol/plantelCompleto.jpg";
 // Components
 // import ReactPlayer from "react-player";
 import ShareInSocialMedia from "../utils/shareInSocialMediaView";
@@ -82,6 +83,7 @@ export default function ProyectoFutbolistico() {
           className={classes.imageResponsive}
         />
       </Grid>
+      {/*Gugnali*/}
       <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>
           El mundo se define entre compradores y vendedores. Nosotros tenemos
@@ -114,6 +116,7 @@ export default function ProyectoFutbolistico() {
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         />
       </Grid>
+      {/*Botanniz*/}
       <Grid item className={classes.gridSeparation}>
         <ul>
           <li>
@@ -139,6 +142,7 @@ export default function ProyectoFutbolistico() {
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         />
       </Grid>
+      {/*Roteta*/}
       <Grid item className={classes.gridSeparation}>
         <ul>
           <li>
@@ -166,6 +170,7 @@ export default function ProyectoFutbolistico() {
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         />
       </Grid>
+      {/*Magnin*/}
       <Grid item className={classes.gridSeparation}>
         <ul>
           <li>
@@ -186,6 +191,7 @@ export default function ProyectoFutbolistico() {
           className={classes.imageResponsive}
         />
       </Grid>
+      {/*Pepe Castro*/}
       <Grid item className={classes.gridSeparation}>
         <ul>
           <li>
@@ -212,13 +218,55 @@ export default function ProyectoFutbolistico() {
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         />
       </Grid>
-      <Grid item className={classes.centerText}>
+      {/*Loco Marzo*/}
+      <Grid item className={classes.gridSeparation}>
+        <ul>
+          <li>
+            <Typography className={classes.textoDesarrollo}>
+              <strong>José Luis "Loco" Marzo</strong> se sumará al equipo de
+              formativas que lidera Roteta. Darle el lugar que se merecen los
+              ídolos que tantas alegrías nos dieron es una de nuestras premisas.
+              Inculcar pertenencia desde las inferiores es algo fundamental.
+            </Typography>
+          </li>
+        </ul>
+      </Grid>
+      <Grid item className={classes.centerGrid}>
+        <iframe
+          src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FTriunfoTatengue%2Fvideos%2F1014154125809139%2F&show_text=false&width=267&t=0"
+          width="267"
+          height="476"
+          title="Loco marzo"
+          className={classes.facebookVideo}
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen={true}
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"
+        ></iframe>
+      </Grid>
+      <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>
-          Estamos convencidos que estamos en el camino correcto.
+          Junto con el Loco también se sumarán esta estructura otros
+          ex-jugadores y profesionales de reconocida trayectoria como lo son
+          Marcelo Ramos, Martin Perezlindo, Miguel Sebastián "Pitu" García,
+          Sergio "Corcho" Lerman, entre otros.{" "}
+          <strong>Estamos convencidos que estamos en el camino correcto</strong>
+          .
         </Typography>
+      </Grid>
+      <Grid item>
+        <img
+          className={classes.imageResponsive}
+          src={Plantel}
+          alt="Plantel completo"
+        />
+      </Grid>
+      <Grid item className={classes.gridSeparation}>
         <Typography className={classes.textoDesarrollo}>
-          Compartimos un fragmento de la nota a nuestro presidente en SOL 91.5
-          comentando un poco sobre esta estructura:
+          Compartimos un fragmento de la nota a nuestro presidente realizada en
+          SOL 91.5 durante del mes de Mayo comentando un poco sobre esta
+          estructura:
         </Typography>
       </Grid>
       <Grid item className={classes.centerText}>
