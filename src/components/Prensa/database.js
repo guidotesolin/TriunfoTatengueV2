@@ -59,6 +59,9 @@ import img58 from "../../assets/images/Prensa/id58.jpg";
 import img59 from "../../assets/images/Prensa/id59.jpg";
 import img60 from "../../assets/images/Prensa/id60.jpg";
 import img61 from "../../assets/images/Prensa/id61.jpg";
+import img62 from "../../assets/images/Prensa/id62.jpg";
+import img63 from "../../assets/images/Prensa/id63.jpg";
+import img64 from "../../assets/images/Prensa/id64.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -836,11 +839,43 @@ const getPrensa = () => {
       imageAlt: "Simonutti, Castro, Gugnali y Villarreal",
       date: "2021-11-19",
     },
+    {
+      id: 62,
+      title: `Triunfo Tatengue cerró el 2021 con un gran festejo`,
+      epigraph: `La Agrupación Triunfo Tatengue, que tiene como máximo referente a Leonardo Simonutti y como su fundador a Rodrigo Villarreal, despidió el año con más de 400 personas en el complejo Piedras Blancas.`,
+      text: [
+        `En ese marco de festejos, presentaron al equipo que se encargará de definir el futuro del fútbol profesional, donde se destacan Claudio Gugnali, José "Pepe" Castro, Eduardo Magnín, "Lito" Bottaniz, José Luis "Loco" Marzo y "Cacho" Roteta.`,
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/332285-triunfo-tatengue-cerro-el-2021-con-un-gran-festejo-multitudinario-evento-actualidad-tatengue-multitudinario-evento.html",
+      image: img62,
+      imageAlt: "Fin de año",
+      date: "2021-12-10",
+    },
+    {
+      id: 64,
+      title: `Raúl Lozada se suma a la lista de Triunfo Tatengue`,
+      epigraph: `El director de actividades deportivas del Club Atlético Unión de Santa Fe suma su experiencia para formar parte del proyecto de Triunfo Tatengue.`,
+      text: [
+        `"Unión es el Club Social y Deportivo más importante de la Provincia y debe continuar creciendo en todos los deportes", decía Raúl tras su sumatoria a la agrupación.`,
+      ],
+      link: "https://www.radiogol.com.ar/deportes/union/raul-lozada-se-suma-a-la-lista-de-triunfo-tatengue-34477/",
+      image: img63,
+      imageAlt: "Raul Lozada",
+      date: "2021-12-16",
+    },
+    {
+      id: 63,
+      title: `Loco Marzo y Leo Simonutti en la previa al Clásico`,
+      epigraph: `Notas al ídolo tatengue y al referente de la agrupación "Triunfo Tatengue" en la previa al clásico`,
+      text: [],
+      link: "https://www.youtube.com/watch?v=sLU0AnuiIeM",
+      image: img64,
+      imageAlt: "Loco Marzo",
+      date: "2021-12-15",
+    },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
   return prensa;
 };
 
 export default getPrensa;
-
-//

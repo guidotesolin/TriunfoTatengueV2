@@ -63,6 +63,26 @@ export default function Homepage() {
           </Grid>
           <Grid item>
             <Card
+              image="https://i.imgur.com/LfJarLr.jpg"
+              altImage="Fiesta fin de año"
+              title="Triunfo Tatengue cerró el 2021 con un gran festejo"
+              description={`La Agrupación Triunfo Tatengue, que tiene como máximo referente a Leonardo Simonutti despidió el año con más de 400 personas en el complejo Piedras Blancas.`}
+              tag="Prensa"
+              link="https://www.ellitoral.com/index.php/id_um/332285-triunfo-tatengue-cerro-el-2021-con-un-gran-festejo-multitudinario-evento-actualidad-tatengue-multitudinario-evento.html"
+            />
+          </Grid>
+          <Grid item>
+            <Card
+              image="https://i.imgur.com/cQBxkCB.jpg"
+              altImage="Proyecto futbolistico"
+              title="¡Bienvenido Profe!"
+              description={`Raul Lozada se suma a nuestra Agrupación como Coordinador General de Disciplinas Deportivas. Un apellido con mucha historia y pertenencia Tatengue, valores claves para el Crecimiento Institucional.`}
+              tag="Propuesta"
+              link="https://twitter.com/TriunfoTatengue/status/1471623395536216066"
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://i.imgur.com/pgWzmKp.jpg"
               altImage="Gira europea"
               title="Marca UNIÓN en Europa: Resumen de la gira por España, Francia e Italia"
