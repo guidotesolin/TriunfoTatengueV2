@@ -53,6 +53,16 @@ export default function Homepage() {
         >
           <Grid item>
             <Card
+              image="https://i.imgur.com/9nxxprY.jpg"
+              altImage="Lito Bottaniz"
+              title="La figura del scouting profesional: un ítem fundamental en el fútbol de Unión"
+              description={`El ex-jugador de Unión dialogó con SOL 91.5 sobre su incorporación a la lista de Triunfo Tatengue que participará de las próximas elecciones del Club.`}
+              tag="Prensa"
+              link="https://www.sol915.com.ar/lito-bottaniz-hay-un-proyecto-con-una-reestructuracion-importante-en-la-tatenguita/"
+            />
+          </Grid>
+          <Grid item>
+            <Card
               image="https://i.imgur.com/gX37PzX.jpg"
               altImage="Proyecto futbolistico"
               title="¡Bienvenido Loco!"
@@ -63,12 +73,12 @@ export default function Homepage() {
           </Grid>
           <Grid item>
             <Card
-              image="https://i.imgur.com/LfJarLr.jpg"
-              altImage="Fiesta fin de año"
-              title="Triunfo Tatengue cerró el 2021 con un gran festejo"
-              description={`La Agrupación Triunfo Tatengue, que tiene como máximo referente a Leonardo Simonutti despidió el año con más de 400 personas en el complejo Piedras Blancas.`}
+              image="https://i.imgur.com/uIiayHU.jpg"
+              altImage="Simonutti"
+              title="Pensando el Unión de los próximos 30 años"
+              description={`Simonutti encabeza un proyecto planificado que busca el crecimiento integral de Unión sostenido en el tiempo. Trabajamos y nos capacitamos para ser un gobierno con un proyecto claro, transparente y por el bien del club.`}
               tag="Prensa"
-              link="https://www.ellitoral.com/index.php/id_um/332285-triunfo-tatengue-cerro-el-2021-con-un-gran-festejo-multitudinario-evento-actualidad-tatengue-multitudinario-evento.html"
+              link="https://www.ellitoral.com/index.php/id_um/335976-leo-simonutti-piensa-el-union-de-los-proximos-30-anos-2022-el-ano-en-que-el-club-debe-despegar-deportes-el-club-debe-despegar.html"
             />
           </Grid>
           <Grid item>

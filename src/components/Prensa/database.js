@@ -62,6 +62,9 @@ import img61 from "../../assets/images/Prensa/id61.jpg";
 import img62 from "../../assets/images/Prensa/id62.jpg";
 import img63 from "../../assets/images/Prensa/id63.jpg";
 import img64 from "../../assets/images/Prensa/id64.jpg";
+import img65 from "../../assets/images/Prensa/id65.jpg";
+import img66 from "../../assets/images/Prensa/id66.jpg";
+import img67 from "../../assets/images/Prensa/id67.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -872,6 +875,42 @@ const getPrensa = () => {
       image: img64,
       imageAlt: "Loco Marzo",
       date: "2021-12-15",
+    },
+    {
+      id: 65,
+      title: `Leo Simonutti piensa el Unión de los próximos 30 años`,
+      epigraph: `Este 2022 encuentra a Unión con muchas ilusiones, y uno de los tatengues con más esperanza es Leo Simonutti, el próximo candidato a presidente por la agrupación "Triunfo Tatengue" en las inminentes elecciones.`,
+      text: [
+        "Simonutti encabeza un proyecto planificado que busca el crecimiento integral de Unión sostenido en el tiempo",
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/335976-leo-simonutti-piensa-el-union-de-los-proximos-30-anos-2022-el-ano-en-que-el-club-debe-despegar-deportes-el-club-debe-despegar.html",
+      image: img65,
+      imageAlt: "Simonutti",
+      date: "2022-01-09",
+    },
+    {
+      id: 67,
+      title: `La figura del scouting profesional: un ítem fundamental en el fútbol de Unión`,
+      epigraph: `El ex defensor rojiblanco fue convocado por la agrupación que lidera Leo Simonutti, que se prepara para dar pelea en las próximas elecciones en la avenida. `,
+      text: [
+        "Experiencia y pertenencia. ¿Alguien puede dudar de que a Lito Bottaniz le sobran para cumplir la función de scouting de manera profesional en Unión? El ex defensor rojiblanco fue convocado por Leo Simonutti, quien además de liderar la Agrupación Triunfo Tatengue, se prepara para luchar por la presidencia de Unión en las próximas elecciones.",
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/337797-la-figura-del-scouting-profesional-un-item-fundamental-en-el-futbol-de-union-lito-bottaniz-y-su-trabajo-en-triunfo-tatengue-actualidad-tatengue-experiencia-fundamental.html",
+      image: img66,
+      imageAlt: "Lito",
+      date: "2022-01-23",
+    },
+    {
+      id: 66,
+      title: `Lito Bottaniz: “Hay un proyecto con una reestructuración importante en La Tatenguita”`,
+      epigraph: `El exjugador de Unión dialogó con SOL 91.5 sobre su incorporación al equipo de trabajo de Triunfo Tatengue que participará de las próximas elecciones del Club.`,
+      text: [
+        `Lito contó que trabajará como scouting y explicó que “al talento se los encuentra en los potreros, en los torneos juveniles. Después está el laburo que se hace en el Club. No hay muchos misterios”.`,
+      ],
+      link: "https://www.sol915.com.ar/lito-bottaniz-hay-un-proyecto-con-una-reestructuracion-importante-en-la-tatenguita/",
+      image: img67,
+      imageAlt: "Bottaniz",
+      date: "2022-01-21",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
