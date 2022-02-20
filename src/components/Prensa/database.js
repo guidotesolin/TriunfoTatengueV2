@@ -65,6 +65,7 @@ import img64 from "../../assets/images/Prensa/id64.jpg";
 import img65 from "../../assets/images/Prensa/id65.jpg";
 import img66 from "../../assets/images/Prensa/id66.jpg";
 import img67 from "../../assets/images/Prensa/id67.jpg";
+import img68 from "../../assets/images/Prensa/id68.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -911,6 +912,18 @@ const getPrensa = () => {
       image: img67,
       imageAlt: "Bottaniz",
       date: "2022-01-21",
+    },
+    {
+      id: 68,
+      title: `"Loco" Marzo: "Quiero volver a Unión con Simonutti presidente"`,
+      epigraph: `Hablar de José Luis "el Loco" Marzo, es hablar del jugador hincha fanático, de ese que da todo por los colores rojiblancos, del que va a la popular a alentar con su familia como un tatengue más, y del que erra goles para no lastimar al club que lo vio nacer y es su segunda casa.`,
+      text: [
+        `Fue Leo Simonutti el que lo contactó hace ya unos meses para contarle el Proyecto de Triunfo Tatengue, y convencerlo de que él es una pieza clave en el Unión que se viene. Se reunieron con Eduardo Magnin y Cachito Roteta para avanzar en la idea de trabajo, viajaron todos a Paraná, compartieron charlas y cenas, y lo que era un sueño para José Luis, comenzó a tomar forma y está más cerca que nunca.`,
+      ],
+      link: "https://www.ellitoral.com/index.php/id_um/340625-loco-marzo-quiero-volver-a-union-con-simonutti-presidente-el-idolo-que-habla-de-volver-a-su-gran-amor-con-un-gran-equipo-actualidad-tatengue.html",
+      image: img68,
+      imageAlt: "Marzo",
+      date: "2022-02-11",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
