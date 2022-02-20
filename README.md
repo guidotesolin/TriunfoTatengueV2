@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Triunfo Tatengue V2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pagina web diseñada con React JS y Material UI. Bases de datos simuladas con archivos js para mejorar la velocidad del sitio.
 
-## Available Scripts
+## Instalación
 
-In the project directory, you can run:
+#### `git clone https://github.com/guidotesolin/TriunfoTatengueV2.git`
 
-### `npm start`
+#### `cd TriunfoTatengueV2`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### `npm i`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### `npm start`
 
-### `npm test`
+## Configurar formulario de contacto.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El sitio utiliza https://www.emailjs.com/ para contactar a los usuarios con la Agrupación
 
-### `npm run build`
+Para obtener tu configuración obtenga los datos y reemplacelos en el archivo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### /src/components/utils/emailJsConfig.js 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Sitio web diseñado de manera completa por Guido Tesolín.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Triunfo Tatengue V2 - ENG
 
-### `npm run eject`
+Website designed with React JS and Material UI. Databases simulated with js files to improve site speed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### `git clone https://github.com/guidotesolin/TriunfoTatengueV2.git`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### `cd TriunfoTatengueV2`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### `npm i`
 
-## Learn More
+#### `npm start`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Configure contact form.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The site uses https://www.emailjs.com/ to contact users with us.
 
-### Code Splitting
+To get your configuration get the data and replace them in the archive
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### /src/components/utils/emailJsConfig.js 
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Website completely designed by Guido Tesolín.
