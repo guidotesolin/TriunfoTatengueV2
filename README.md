@@ -14,11 +14,13 @@ Pagina web diseñada con React JS y Material UI. Bases de datos simuladas con ar
 
 ## Configurar formulario de contacto.
 
-El sitio utiliza https://www.emailjs.com/ para contactar a los usuarios con la Agrupación
+El sitio utiliza https://www.emailjs.com/ para el formulario de contacto
 
-Para obtener tu configuración obtenga los datos y reemplacelos en el archivo
+Para que el formulario funcione debe modificar las credenciales que se encuentran en el archivo
 
-#### /src/components/utils/emailJsConfig.js 
+#### /src/components/utils/emailCredentials.example 
+
+Y renombrar el archivo como emailCredentials.js
 
 Sitio web diseñado de manera completa por Guido Tesolín.
 
@@ -38,10 +40,12 @@ Website designed with React JS and Material UI. Databases simulated with js file
 
 ## Configure contact form.
 
-The site uses https://www.emailjs.com/ to contact users with us.
+The site uses https://www.emailjs.com/ for the contact form.
 
-To get your configuration get the data and replace them in the archive
+In order to make the form work, you must modify the credentials found in the file
 
-#### /src/components/utils/emailJsConfig.js 
+#### /src/components/utils/emailCredentials.example 
+
+And rename the file as emailCredentials.js
 
 Website completely designed by Guido Tesolín.
