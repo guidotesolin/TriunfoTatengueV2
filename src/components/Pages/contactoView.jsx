@@ -9,7 +9,7 @@ import ValidateEmpty from "../utils/functions/validateEmpty";
 import ValidateMail from "../utils/functions/validateEmail";
 import ValidatePhone from "../utils/functions/validatePhone";
 // Configuration email js
-import ConfigFile from "../utils/emailJsConfig";
+import ConfigFile from "../utils/emailCredentials";
 
 export default function Contacto() {
   const classes = styles();
@@ -131,14 +131,6 @@ export default function Contacto() {
     setEmail("");
     setPhone("");
     setMessage("");
-  };
-
-  const closeSuccessSnackbar = () => {
-    setSnackbarSuccess(false);
-  };
-
-  const closeErrorSnackbar = () => {
-    setSnackbarError(false);
   };
 
   return (
@@ -304,18 +296,18 @@ export default function Contacto() {
       <Snackbar
         open={snackbarError}
         autoHideDuration={6000}
-        onClose={closeErrorSnackbar}
+        onClose={() => setSnackbarError(false)}
       >
-        <Alert onClose={closeErrorSnackbar} severity="error">
+        <Alert onClose={() => setSnackbarError(false)} severity="error">
           {snackbarErrorMsg}
         </Alert>
       </Snackbar>
       <Snackbar
         open={snackbarSuccess}
         autoHideDuration={6000}
-        onClose={closeSuccessSnackbar}
+        onClose={() => setSnackbarSuccess(false)}
       >
-        <Alert onClose={closeSuccessSnackbar} severity="success">
+        <Alert onClose={() => setSnackbarSuccess(false)} severity="success">
           ¡Gracias por ponerte en contacto! A la brevedad nos estaremos
           comunicando.
         </Alert>

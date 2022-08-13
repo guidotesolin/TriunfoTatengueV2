@@ -5,7 +5,7 @@ import styles from "../../assets/styles/homeViewStyles";
 import "../body.css";
 import Card from "../utils/imageCardView";
 import Asociate from "../../assets/images/asociate.jpg";
-import Cena from "../../assets/images/cena.jpeg";
+import Gracias from "../../assets/images/Gracias.jpg";
 
 export default function Homepage() {
   const classes = styles();
@@ -37,12 +37,19 @@ export default function Homepage() {
         </div>
       </Grid>
       <Grid item className={classes.gridElement}>
+        <Typography className={classes.bodyText}>Antes que nada, felicitar a la lista “Todos por Unión” por el triunfo eleccionario y que sea lo mejor para el Socio y la Institución.</Typography>
+        <Typography className={classes.bodyText}>Agradecimiento absoluto a los que nos eligieron en su sufragio y a las personas que integran este espacio por el tiempo y esfuerzo dedicado para ser una alternativa real para Unión </Typography>
+        <Typography className={classes.bodyText}>Estamos a plena disposición para que nuestros Proyectos se puedan llevar a cabo en el Club</Typography>
+        <Typography className={classes.bodyText}>¡Gracias, Unionistas!</Typography>
+      </Grid>
+      <Grid item className={classes.gridElement}>
         <img
-          src={Cena}
-          alt="Cena en piedras"
+          src={Gracias}
+          alt="Gracias"
           className={classes.imageResponsive}
         />
       </Grid>
+
       <Grid item className={classes.gridElement}>
         <Grid
           container
@@ -80,6 +87,7 @@ export default function Homepage() {
               tag="Prensa"
               link="https://www.ellitoral.com/index.php/id_um/335976-leo-simonutti-piensa-el-union-de-los-proximos-30-anos-2022-el-ano-en-que-el-club-debe-despegar-deportes-el-club-debe-despegar.html"
             />
+
           </Grid>
           <Grid item>
             <Card

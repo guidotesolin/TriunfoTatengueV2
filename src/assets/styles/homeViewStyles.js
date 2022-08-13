@@ -19,6 +19,13 @@ const HomeStyles = makeStyles(() => {
       color: red,
     },
     imageResponsive: { width: "100%" },
+    bodyText: {
+      paddingLeft: "5px",
+      paddingRight: "5px",
+      marginBottom: "12px",
+      fontFamily: "HelveticaNeueLight",
+      fontSize: "20px",
+    },
   };
 });
 

@@ -66,6 +66,16 @@ import img65 from "../../assets/images/Prensa/id65.jpg";
 import img66 from "../../assets/images/Prensa/id66.jpg";
 import img67 from "../../assets/images/Prensa/id67.jpg";
 import img68 from "../../assets/images/Prensa/id68.jpg";
+import img69 from "../../assets/images/Prensa/id69.jpg";
+import img70 from "../../assets/images/Prensa/id70.jpg";
+import img71 from "../../assets/images/Prensa/id71.jpg";
+import img72 from "../../assets/images/Prensa/id72.jpg";
+import img73 from "../../assets/images/Prensa/id73.jpg";
+import img74 from "../../assets/images/Prensa/id74.jpg";
+import img75 from "../../assets/images/Prensa/id75.jpg";
+import img76 from "../../assets/images/Prensa/id76.jpg";
+import img77 from "../../assets/images/Prensa/id77.jpg";
+import img78 from "../../assets/images/Prensa/id78.jpg";
 
 const getPrensa = () => {
   const prensa = [
@@ -924,6 +934,126 @@ const getPrensa = () => {
       image: img68,
       imageAlt: "Marzo",
       date: "2022-02-11",
+    },
+    {
+      id: 69,
+      title: `Simonutti: "Unión se tiene que dirigir y gestionar de cara al hincha"`,
+      epigraph: `El referente de la Agrupación Triunfo Tatengue, Leonardo Simonutti, detalló los puntos en los que vienen trabajando para ser gobierno en Unión`,
+      text: [
+        `Leonardo Simonutti viene trabajando con su grupo de trabajo que conforman la Agrupación Triunfo Tatengue, para ser gobierno en las próximas elecciones que se llevarán adelante este año en Unión.`,
+      ],
+      link: "https://www.unosantafe.com.ar/union/simonutti-union-se-tiene-que-dirigir-y-gestionar-cara-al-hincha-n2711293.html",
+      image: img69,
+      imageAlt: "Simonutti",
+      date: "2022-02-23",
+    },
+    {
+      id: 70,
+      title: `"Simonutti es el hombre del presente y futuro de Unión"`,
+      epigraph: `Ojeda Varela será el candidato a vicepresidente primero`,
+      text: [
+        `      El conocidísimo "Baby", ex dirigente, socio y plateista de siempre en Unión, es el hombre elegido por Leonardo Simonutti para que lo acompañe en un cargo vital. "Hay que terminar con el Unión del no se puede", dice.`,
+      ],
+      link: "https://www.ellitoral.com/actualidad-tatengue/simonutti-hombre-presente-futuro-union_0_9N7AYRd36s.html",
+      image: img70,
+      imageAlt: "Varela",
+      date: "2022-02-27",
+    },
+    {
+      id: 71,
+      title: `El elegido por Simonutti para las actividades deportivas`,
+      epigraph: `La trayectoria intachable de un unionista para las actividades deportivas de un "Club con Fútbol".`,
+      text: [
+        `Cuando la vida educativa, social y deportiva de una institución se vuelve bandera para una gran parte de la sociedad santafesina, es inevitable que se cambie para bien. Esto es obra de hombres y mujeres que ponen cuerpo, alma y mente para llevar a cabo dicha tarea. En el club Unión de Santa Fe, una de estas personas es el Profesor Raúl Lozada, un "flor de tipo", de familia Tatengue. Ese tipo de persona tan necesaria en la vida de instituciones que quieren tener esta visión y misión.`,
+      ],
+      link: "https://www.ellitoral.com/actualidad-tatengue/elegido-simonutti-actividades-deportivas_0_AbcxGyn0ne.html",
+      image: img71,
+      imageAlt: "Lozada",
+      date: "2022-03-06",
+    },
+    {
+      id: 72,
+      title: `Más Unión presentó la lista`,
+      epigraph: `Los vicepresidentes que acompañarán a Leonardo Simonutti, candidato a presidente, son los doctores Ojeda Varela y Rodríguez Peragallo, además del empresario Daniel Imhoff.`,
+      text: [
+        `Más Unión, la agrupación que lidera Leonardo Simonutti, presentó la lista para las próximas elecciones en el club Atlético Unión.`,
+      ],
+      link: "https://www.ellitoral.com/actualidad-tatengue/union-presento-lista_0_asVPWfQzw1.html",
+      image: img72,
+      imageAlt: "Lista MAS Union",
+      date: "2022-03-31",
+    },
+    {
+      id: 73,
+      title: `"Más Unión": Leonardo Simonutti exige un verdadero salto de calidad y no parches`,
+      epigraph: `Los primeros 100 días, 100 proyectos ejecutados`,
+      text: [
+        `Te cuento lo siguiente, sabiendo que voy a poder cumplir con mi palabra y hoy tan devaluada en la Administracion actual, en los primeros 100 días de nuestra gestión, ejecutaremos 100 items del proyecto deportivo e institucional, que recorrerá las diferentes áreas y pilares del Unión del futuro.`,
+      ],
+      link: "https://www.ellitoral.com/actualidad-tatengue/union-leonardo-simonutti-exige-verdadero-salto-calidad-parches_0_EXdMSvwDBn.html",
+      image: img73,
+      imageAlt: "Simonutti",
+      date: "2022-05-04",
+    },
+    {
+      id: 74,
+      title: `Simonutti convoca a una “mesa de de diálogo”`,
+      epigraph: `Cómo es hoy la postura de Leonardo Simonutti y “Mas Unión” sobre la cuestión en particular del acto eleccionario. El candidato ya gestiona, con el oficialismo y las otras agrupaciones, una mesa de diálogo para encontrar una forma ordenada y transparente para darle institucionalidad al Club.`,
+      text: [
+        `En Unión están a la víspera de un choque trascendental en tierras colombianas, se aproxima el comienzo de un extenso campeonato de la Liga de fútbol profesional y sumado a la finalización del mandato de la actual gestión el próximo 2 de junio, son semanas agitadas en la vida institucional y deportiva del Club Atlético Unión.`,
+      ],
+      link: "https://www.ellitoral.com/actualidad-tatengue/simonutti-convoca-solicita-mesa-dialogo_0_obCSHMLrbZ.html",
+      image: img74,
+      imageAlt: "Simonutti Leonardo",
+      date: "2022-05-24",
+    },
+    {
+      id: 75,
+      title: `Simonutti en Sol Play 91.5: “Nuestro proyecto es ampliar la cancha sobre la tribuna de Cándido Pujato”`,
+      epigraph: `Leonardo Simonutti de Más Unión y Triunfo Tatengue visitó Sol Play 91.5 de cara a las elecciones del 25 de junio. El candidato a presidente brindó precisiones de sus proyectos para el club.`,
+      text: [
+        `El próximo 25 de junio serán las elecciones ordinarias en Unión y, previo al desarrollo de los comicios, el candidato a presidente Leonardo Simonutti de Más Unión, visitó Sol Play 91.5 para contar los proyectos para el club.`,
+      ],
+      link: "https://www.sol915.com.ar/simonutti-en-sol-play-91-5-nuestro-proyecto-es-ampliar-la-cancha-sobre-la-tribuna-de-candido-pujato/",
+      image: img75,
+      imageAlt: "Simonutti en FM sol",
+      date: "2022-06-10",
+    },
+    {
+      id: 76,
+      title: `"Tenemos un plan y ese plan es hacer un Unión cada vez más grande"`,
+      epigraph: `Leonardo Simonutti, candidato a presidente por la Lista Más Unión dijo: "Debemos armar un Unión con sentido de pertenencia y buscar la gloria"`,
+      text: [
+        `"El sábado 25 de junio de 9 a 18 se va a votar en el club y estamos muy propensos y entusiasmados con las elecciones. Se llama a elecciones con un padrón que fue confeccionado con un sistema informático, que es una planilla excel y por ese motivo le presentamos la documentación al juez y a IGPJ", comenzó diciendo.`,
+      ],
+      link: "https://www.unosantafe.com.ar/union/tenemos-un-plan-y-ese-plan-es-hacer-un-union-cada-vez-mas-grande-n2724439.html",
+      image: img76,
+      imageAlt: "MAS Union",
+      date: "2022-06-14",
+    },
+    {
+      id: 77,
+      title: `Simonutti: "El hincha de Unión quiere y necesita un cambio"`,
+      epigraph: `Leonardo Simonutti, candidato a presidente por la Agrupación Más Unión, expuso sus ideas en la previa de las elecciones junto a Pepe Castro y Claudio Gugnali`,
+      text: [
+        `Se avecinan las elecciones en Unión y la Agrupación Más Unión, con Leonardo Simonutti a la cabeza, expuso sus proyectos e ideas en una rica charla que mantuvieron los referentes este miércoles en el programa Todo en UNO (FM La Radio de UNO 106.3)`,
+      ],
+      link: "https://www.unosantafe.com.ar/union/simonutti-el-hincha-union-quiere-y-necesita-un-cambio-n2725496.html",
+      image: img77,
+      imageAlt: "Simonutti",
+      date: "2022-06-22",
+    },
+    {
+      id: 78,
+      title: `Leonardo Simonutti: "Vamos a seguir trabajando por un club más grande"`,
+      epigraph: `La agrupación Triunfo Tatengue llevó adelante una cena donde se tocaron los temas donde se trabajará para el futuro y los pasos a seguir para una mejor institución.`,
+      text: [
+        `A pocos días de haberse llevado las elecciones a presidente en el club Atlético Unión la agrupación Triunfo Tatengue (Más Unión) decidió seguir trabajando para para lo que viene de cara a las elecciones del 2025. Este jueves por la noche, en el club Mayoraz, más de 100 hinchas de Unión dijeron presentes en la primer cena de la agrupación post comicios donde el 47% de los votantes eligió al continuidad del oficialismo.`,
+      ],
+      link: "https://sinmordaza.com/noticia/288523-leonardo-simonutti-vamos-a-seguir-trabajando-por-un-club-mas-grande.html",
+      image: img78,
+      imageAlt: "Cena",
+      date: "2022-07-08",
     },
   ];
   prensa.sort((a, b) => (b.id > a.id ? 1 : a.id > b.id ? -1 : 0));
